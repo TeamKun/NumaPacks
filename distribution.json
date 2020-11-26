@@ -11,7 +11,7 @@
       "id": "NumaCraft-1.12.2",
       "name": "NumaCraft (Minecraft 1.12.2)",
       "description": "NumaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/master/servers/NumaCraft-1.12.2/pack.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
