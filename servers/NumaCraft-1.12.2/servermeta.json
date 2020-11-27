@@ -2,15 +2,15 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "NumaCraft (Minecraft 1.12.2)",
-    "description": "NumaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-    "address": "localhost:25565",
+    "name": "沼クラフト (Minecraft 1.12.2)",
+    "description": "The Betweenlands Modを中心としたサバイバル企画です。",
+    "address": "",
     "discord": {
       "shortId": "425297966069317632",
-      "largeImageText": "沼ランチャー",
+      "largeImageText": "沼クラフト",
       "largeImageKey": "fruit_general"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "forge": {

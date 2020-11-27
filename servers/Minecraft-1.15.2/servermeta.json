@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "単発/NEO/列島クラフト (Minecraft 1.15.2)",
+    "description": "1.15.2 + 便利なModが導入されたおすすめのパックです。",
+    "address": "",
+    "discord": {
+      "shortId": "425297966069317632",
+      "largeImageText": "単発/NEO/列島クラフト",
+      "largeImageKey": "fruit_general"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.9"
+  },
+  "untrackedFiles": []
+}
