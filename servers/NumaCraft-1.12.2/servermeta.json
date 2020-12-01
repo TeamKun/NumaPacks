@@ -10,7 +10,7 @@
       "largeImageText": "沼クラフト",
       "largeImageKey": "fruit_general"
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false
   },
   "forge": {
