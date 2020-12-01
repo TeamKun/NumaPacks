@@ -236,16 +236,6 @@
           ]
         },
         {
-          "id": "com.gildedgames:aether:0.3.0@jar",
-          "name": "Aether II",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 38560383,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/required/aether_ii-1.12.2-0.3.0+build411-universal.jar",
-            "MD5": "08d280804a44da7c6bc637067d7c90bf"
-          }
-        },
-        {
           "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
           "name": "BetterFps",
           "type": "ForgeMod",
@@ -421,6 +411,17 @@
             "value": false,
             "def": false
           }
+        },
+        {
+          "id": "aether_ii-1.12.2-0.3.0+build411-universal.jar",
+          "name": "aether_ii-1.12.2-0.3.0+build411-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 38560383,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/files/mods/aether_ii-1.12.2-0.3.0+build411-universal.jar",
+            "MD5": "08d280804a44da7c6bc637067d7c90bf",
+            "path": "mods/aether_ii-1.12.2-0.3.0+build411-universal.jar"
+          }
         }
       ]
     },
@@ -488,7 +489,7 @@
               "type": "Library",
               "artifact": {
                 "size": 10344805,
-                "MD5": "0a47438cb0ba8756afaabeba0bc40b69",
+                "MD5": "a1c2fdc7897538e5c4b9039e806ff4a0",
                 "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/client/1.15.2-20200515.085601/client-1.15.2-20200515.085601-srg.jar"
               },
               "subModules": []
