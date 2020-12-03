@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "AetherCraft-1.12.2",
+      "id": "AetherCraft-1.7.10",
       "name": "天空クラフト (Minecraft 1.12.2)",
       "description": "The Aether II Modを中心としたサバイバル企画です。",
-      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/pack.png",
-      "version": "1.0.0",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/pack.png",
+      "version": "2.0.0",
       "address": "",
-      "minecraftVersion": "1.12.2",
+      "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "425297966069317632",
         "largeImageText": "天空クラフト",
@@ -24,35 +24,15 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4464068,
-            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+            "size": 3018833,
+            "MD5": "add0fba161c4652a96efb4264ec2d9ec",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
           },
           "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2854",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 10873,
-                "MD5": "814f52398b6ebf70d22571307d2298eb",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
             {
               "id": "net.minecraft:launchwrapper:1.12@jar",
               "name": "Minecraft Forge (launchwrapper)",
@@ -64,13 +44,13 @@
               }
             },
             {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
               "type": "Library",
               "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
               }
             },
             {
@@ -114,23 +94,23 @@
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
               "name": "Minecraft Forge (scala-continuations-library_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "size": 25364,
+                "MD5": "c7d01e5a88182df7f22b7418abb51085",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
               "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
               "type": "Library",
               "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "size": 206574,
+                "MD5": "daecef8fab296b764a8fb41fc07f2428",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
               }
             },
             {
@@ -194,55 +174,68 @@
               }
             },
             {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
               "name": "Minecraft Forge (jopt-simple)",
               "type": "Library",
               "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "size": 61311,
+                "MD5": "1372bd4823bb1ef61e7db6724f601150",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:17.0@jar",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 2243036,
+                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.3.2@jar",
+              "name": "Minecraft Forge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 412739,
+                "MD5": "3128bf75a2549ebe38663401191bacab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
               }
             }
           ]
         },
         {
-          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
-          "name": "BetterFps",
+          "id": "generated.forgemod:aether:1.7.10-1.6@jar",
+          "name": "Aether II",
           "type": "ForgeMod",
           "artifact": {
-            "size": 155196,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
-            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+            "size": 44630080,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/required/aether-1.7.10-1.6.jar",
+            "MD5": "cae727ed06154b5e8a9c648d87015845"
+          }
+        },
+        {
+          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.7.47-universal@jar",
+          "name": "CodeChickenCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 145782,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
+            "MD5": "07690caf86ecf79739852154f5e44750"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:controlling:1.7.10-1.0.0@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17486,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/Controlling-1.7.10-1.0.0.jar",
+            "MD5": "8589f6fa0a0f8f0b69fe88f9aa518e7f"
           },
           "required": {
             "value": false,
@@ -250,13 +243,23 @@
           }
         },
         {
-          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "id": "generated.forgemod:MineTweaker3:1.7.10-3.0.13@jar",
+          "name": "MineTweaker 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 911030,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/required/CraftTweaker-1.7.10-3.0.13.jar",
+            "MD5": "a925408e3bf0adb9f1a8ce3f1412836e"
+          }
+        },
+        {
+          "id": "net.teamfruit.emojicord.asm:emojicord:1.7.10-1.1.1.39-universal@jar",
           "name": "Emojicord",
           "type": "ForgeMod",
           "artifact": {
-            "size": 407314,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/Emojicord-1.12.2-1.1.1.39-universal.jar",
-            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+            "size": 419232,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/Emojicord-1.7.10-1.1.1.39-universal.jar",
+            "MD5": "e3cb1269beade121ffe83feb2252b221"
           },
           "required": {
             "value": false,
@@ -264,41 +267,23 @@
           }
         },
         {
-          "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
-          "name": "FoamFix",
+          "id": "com.gildedgames.util.threadedlighting:gilded-games-util:1.7.10-1.1@jar",
+          "name": "Gilded Games Utility",
           "type": "ForgeMod",
           "artifact": {
-            "size": 211210,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/foamfix-0.10.5-1.12.2.jar",
-            "MD5": "ec2829750206833af9ee098c5ddb8e32"
-          },
-          "required": {
-            "value": false,
-            "def": false
+            "size": 1685994,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/required/gilded-games-util-1.7.10-1.9.jar",
+            "MD5": "edbaa2684bad49474d2d3cd073fc5007"
           }
         },
         {
-          "id": "mcp.mobius:waila:1.8.26@jar",
-          "name": "Waila",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 453778,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/Hwyla-1.8.26-B41_1.12.2.jar",
-            "MD5": "bca1c069d9171d331d211d24e8a3b770"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "id": "invtweaks.forge.asm:inventorytweaks:1.59-dev-152-cf6e263@jar",
           "name": "Inventory Tweaks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 263258,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/InventoryTweaks-1.63.jar",
-            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+            "size": 224461,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/InventoryTweaks-1.59-dev-152.jar",
+            "MD5": "83f7ddcd5f5fd8d640aa15dc62acc6bf"
           },
           "required": {
             "value": false,
@@ -306,52 +291,26 @@
           }
         },
         {
-          "id": "mezz.jei:jei:4.15.0.285@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 650309,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionalon/jei_1.12.2-4.15.0.285.jar",
-            "MD5": "6863242ea1967af9cb562be7bae4a16a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.snowshock35:jeiintegration:1.5.1.36@jar",
-          "name": "JEI Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 54046,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionalon/jeiintegration_1.12.2-1.5.1.36.jar",
-            "MD5": "de73cdc5de95a2685e50d90f01c03a50"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "journeymap:journeymap:1.12.2-5.5.5b7@jar",
+          "id": "generated.forgemod:journeymap:1.7.10-5.1.4p2@jar",
           "name": "JourneyMap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1918911,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.5.5b7.jar",
-            "MD5": "c8aa57883c9a2ccc588920b482c9570c"
+            "size": 1731255,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/journeymap-1.7.10-5.1.4p2-unlimited.jar",
+            "MD5": "0c3daa19789a67da328437a8635c2cf3"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.optifine:optifine:1.12.2_HD_U_E3@jar",
-          "name": "OptiFine 1.12.2_HD_U_E3",
+          "id": "generated.forgemod:MouseTweaks:2.4.4@jar",
+          "name": "Mouse Tweaks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2444057,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/OptiFine_1.12.2_HD_U_E3.jar",
-            "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37"
+            "size": 51898,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/MouseTweaks-2.4.4-mc1.7.10.jar",
+            "MD5": "d4968eb0b513066313259fcd80bb8eb0"
           },
           "required": {
             "value": false,
@@ -359,39 +318,79 @@
           }
         },
         {
-          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "id": "generated.forgemod:NEIAddons:1.12.14.40@jar",
+          "name": "NEI Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101777,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/neiaddons-1.12.14.40-mc1.7.10.jar",
+            "MD5": "cd23917348ec450f022c13c24f196374"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.5.120-universal@jar",
+          "name": "NotEnoughItems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 513136,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+            "MD5": "742e865a9a80071e80976ffedc05700e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.7.10_HD_U_E7@jar",
+          "name": "OptiFine 1.7.10_HD_U_E7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1774165,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/OptiFine_1.7.10_HD_U_E7.jar",
+            "MD5": "445062f5aaf982c36c72d90530c26850"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:reauth:3.5.0@jar",
           "name": "ReAuth",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30446,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
-            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+            "size": 23838,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/ReAuth-3.5.0.jar",
+            "MD5": "beafeff38750066c499c4e044ac4b828"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.teamfruit:serverobserver:1.0.8.41@jar",
+          "id": "generated.forgemod:serverobserver:1.7.10-1.0.8.41-universal@jar",
           "name": "ServerObserver",
           "type": "ForgeMod",
           "artifact": {
-            "size": 90971,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionalon/ServerObserver-1.12.2-1.0.8.41-universal.jar",
-            "MD5": "38f20af9ebc7826602a7316c241332a1"
+            "size": 90541,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionalon/ServerObserver-1.7.10-1.0.8.41-universal.jar",
+            "MD5": "0d918c4060d4a9bca2630e4467829c91"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.kamesuta.mc:signpic:2.8.1@jar",
+          "id": "com.kamesuta.mc.signpic.asm:signpic:2.8.0@jar",
           "name": "SignPicture",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1086045,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/SignPicture-1.12.1-2.8.1-universal.jar",
-            "MD5": "194694802feeec670f11f40b36b2ec8a"
+            "size": 1064123,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/SignPicture-1.7.10-2.8.0-universal.jar",
+            "MD5": "a7269be31369f075d567bc01cf07be5b"
           },
           "required": {
             "value": false,
@@ -399,13 +398,27 @@
           }
         },
         {
-          "id": "squeek.wailaharvestability:wailaharvestability:1.1.12@jar",
+          "id": "generated.forgemod:waila:1.5.10_1.7.10@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544821,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/Waila-1.5.10_1.7.10.jar",
+            "MD5": "eeb36775188e70faa1c5ecd84f80076c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:WailaHarvestability:1.1.6@jar",
           "name": "Waila Harvestability",
           "type": "ForgeMod",
           "artifact": {
-            "size": 31462,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/forgemods/optionaloff/WailaHarvestability-mc1.12-1.1.12.jar",
-            "MD5": "0bd8765ff3064be336cb1b09208e410c"
+            "size": 28800,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/WailaHarvestability-mc1.7.10-1.1.6.jar",
+            "MD5": "e9d81089ddec3da20f0bb144e7beb4da"
           },
           "required": {
             "value": false,
@@ -413,14 +426,17 @@
           }
         },
         {
-          "id": "aether_ii-1.12.2-0.3.0+build411-universal.jar",
-          "name": "aether_ii-1.12.2-0.3.0+build411-universal.jar",
-          "type": "File",
+          "id": "generated.forgemod:wawla:1.3.1@jar",
+          "name": "What Are We Looking At",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 38560383,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.12.2/files/mods/aether_ii-1.12.2-0.3.0+build411-universal.jar",
-            "MD5": "08d280804a44da7c6bc637067d7c90bf",
-            "path": "mods/aether_ii-1.12.2-0.3.0+build411-universal.jar"
+            "size": 73037,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AetherCraft-1.7.10/forgemods/optionaloff/Wawla-1.0.5.120.jar",
+            "MD5": "dbdf14b087e645bece12d1cab750f397"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         }
       ]
