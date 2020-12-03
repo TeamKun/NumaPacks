@@ -884,7 +884,7 @@
         "largeImageText": "沼クラフト",
         "largeImageKey": "fruit_general"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -1284,6 +1284,472 @@
           "required": {
             "value": false,
             "def": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Vehicle-1.15.2",
+      "name": "マリカクラフト (Minecraft 1.15.2)",
+      "description": "Vehicle Modのパックです。",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "425297966069317632",
+        "largeImageText": "マリカクラフト",
+        "largeImageKey": "fruit_general"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.31",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 194572,
+            "MD5": "5f2ebf6aa07a893b3ff1bb5b418e0250",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.15.2-31.2.31",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10555,
+                "MD5": "441009902c683a054e585d0c27c61b66",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.15.2-forge-31.2.31/1.15.2-forge-31.2.31.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.2.31:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2235307,
+                "MD5": "124814b58864d69dd903c2b54420d312",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.2.31:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 3667170,
+                "MD5": "7f7d6ebb768ba183d331354edff7f61c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2-20200515.085601:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 10344805,
+                "MD5": "c94422e5d084944fc70c30fabf9bd7f4",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/client/1.15.2-20200515.085601/client-1.15.2-20200515.085601-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 8333902,
+                "MD5": "9ae10222f494ed1f09e2b5fc6d38c958",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 7197612,
+                "MD5": "93e99cf6eab4a25f5811f821a59646c9",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:7.2",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 114873,
+                "MD5": "26cf10dfd4729fd22fcae0694e041167",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm/7.2/asm-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:7.2",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 70051,
+                "MD5": "321121317a6c6221cc26e8f9ee97022f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:7.2",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 50283,
+                "MD5": "c7214695c379f25861500e576a1f8cea",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:5.1.0",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 115795,
+                "MD5": "ecbd0cf9eafb17ace92fb79b401c875d",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/cpw/mods/modlauncher/5.1.0/modlauncher-5.1.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.0",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 1921,
+                "MD5": "c5c05d52fcef5479e0ea069f30c6ceb5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:2.1.3-shadowed",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 444938,
+                "MD5": "18abd6bfeff3695c5a6b885a07b5b10b",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/accesstransformers/2.1.3/accesstransformers-2.1.3-shadowed.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:2.2.0-service",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 39776,
+                "MD5": "5b09da0315a6307c0bf25026fbff23ab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/eventbus/2.2.0/eventbus-2.2.0-service.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 19925,
+                "MD5": "05a3abf10e4a5c26557a7ce700cc50ff",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forgespi/3.0.0/forgespi-3.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:2.0.3",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 21802,
+                "MD5": "53aef4d28866ac1cc755b69e825d7878",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/coremods/2.0.3/coremods-2.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.2",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.2",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31152,
+                "MD5": "7b2339065e252b1c187d39351d84a09f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 55051,
+                "MD5": "89e95013b11f347e48c0525965600404",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.1",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15367,
+                "MD5": "0eb481e955b455e61bd5ea8f520f6009",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/jodah/typetools/0.8.1/typetools-0.8.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.teamfruit:chatpreset:1.15.2-1.0.3@jar",
+          "name": "ChatPreset",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47950,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/chatpreset-1.15.2-1.0.3.jar",
+            "MD5": "f8d665fa1115493c0d9d06c034fc4b45"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:${version}@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174787,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/Hwyla-forge-1.10.8-B72_1.15.2.jar",
+            "MD5": "637faaca8787a2de370be1b5dea4de54"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:6.0.0.4@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704093,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/jei-1.15.2-6.0.0.4.jar",
+            "MD5": "473ba25ef73ab3b11ccda473288ed344"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.7.0b3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6823032,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/journeymap-1.15.2-5.7.0b3.jar",
+            "MD5": "856568098ad0749eba62e15734e5be77"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mixinbootstrap:1.0.3@jar",
+          "name": "MixinBootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1061758,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/MixinBootstrap-1.0.3.jar",
+            "MD5": "b62d187f409ba65c5226b0d874a9be41"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.5.0@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 135624,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/required/obfuscate-0.5.0-1.15.2.jar",
+            "MD5": "15fdaefdc1d96df1380ac01f0b48b76d"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.15.2_HD_U_G5_pre1@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5688087,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/preview_OptiFine_1.15.2_HD_U_G5_pre1.jar",
+            "MD5": "264c332f9512c55b6bb8d93f5d6f9030"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ichttt.mods:sounddeviceoptions:1.3.0@jar",
+          "name": "Sound Device Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20867,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/sounddeviceoptions-1.3.0.jar",
+            "MD5": "49cbfc1db50581a65a6fbbec7c40726a"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.44.1@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3366814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/required/vehicle-mod-0.44.1-1.15.2.jar",
+            "MD5": "36154bf0f63dd226c136b96e6d1c37df"
+          }
+        },
+        {
+          "id": "squeek.wailaharvestability:wailaharvestability:1.1.12@jar",
+          "name": "Waila Harvestability",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28373,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/WailaHarvestability-mc1.15.2-1.1.12.jar",
+            "MD5": "3a6cf81de8b41fd090131300f9fd9008"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "wdl:wdl:4.0.7.0@jar",
+          "name": "World Downloader (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 564801,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/WorldDownloader-forge-4.0.7.0-mc1.15.2.jar",
+            "MD5": "61d04520fa83c14e54a7a3519e0bd814"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.github.hexomod:worldeditcuife3:3.0.6@jar",
+          "name": "WorldEdit CUI Forge Edition 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867417,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionaloff/WorldEdit-CUI-FE3-1.15.2-3.0.6.jar",
+            "MD5": "df0365875e99ad2875414f9efdfff02d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "wecui3.yml",
+          "name": "wecui3.yml",
+          "type": "File",
+          "artifact": {
+            "size": 2161,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/files/config/wecui3.yml",
+            "MD5": "6b5d99a008b778e7acd2133c263cfdc1",
+            "path": "config/wecui3.yml"
           }
         }
       ]

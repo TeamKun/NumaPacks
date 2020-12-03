@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "マリカクラフト (Minecraft 1.15.2)",
+    "description": "Vehicle Modのパックです。",
+    "address": "",
+    "discord": {
+      "shortId": "425297966069317632",
+      "largeImageText": "マリカクラフト",
+      "largeImageKey": "fruit_general"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.31"
+  },
+  "untrackedFiles": []
+}
