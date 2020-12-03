@@ -2,7 +2,7 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "2.0.0",
-    "name": "天空クラフト (Minecraft 1.12.2)",
+    "name": "天空クラフト (Minecraft 1.7.10)",
     "description": "The Aether II Modを中心としたサバイバル企画です。",
     "address": "",
     "discord": {
