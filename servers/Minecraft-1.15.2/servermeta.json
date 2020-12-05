@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "単発/NEO/列島クラフト (Minecraft 1.15.2)",
+    "name": "バニラ1.15.2 (Minecraft 1.15.2)",
     "description": "1.15.2 + 便利なModが導入されたおすすめのパックです。",
     "address": "",
     "discord": {
-      "shortId": "425297966069317632",
-      "largeImageText": "単発/NEO/列島クラフト",
-      "largeImageKey": "fruit_general"
+      "shortId": "バニラ1.15.2",
+      "largeImageText": "バニラ1.15.2",
+      "largeImageKey": "pack_15"
     },
     "mainServer": false,
     "autoconnect": false

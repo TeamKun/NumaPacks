@@ -6,9 +6,9 @@
     "description": "The Aether II Modを中心としたサバイバル企画です。",
     "address": "",
     "discord": {
-      "shortId": "425297966069317632",
+      "shortId": "天空クラフト",
       "largeImageText": "天空クラフト",
-      "largeImageKey": "fruit_general"
+      "largeImageKey": "numa_aether"
     },
     "mainServer": true,
     "autoconnect": false

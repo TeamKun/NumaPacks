@@ -6,9 +6,9 @@
     "description": "The Betweenlands Modを中心としたサバイバル企画です。",
     "address": "",
     "discord": {
-      "shortId": "425297966069317632",
+      "shortId": "沼クラフト",
       "largeImageText": "沼クラフト",
-      "largeImageKey": "fruit_general"
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false
