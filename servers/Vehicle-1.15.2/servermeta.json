@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "Twitterクラフト (Minecraft 1.15.2)",
-    "description": "Vehicle Modのパックです。",
+    "description": "Twitterフォロワー数に応じてサイズ変わる企画",
     "address": "",
     "discord": {
       "shortId": "Twitterクラフト",
