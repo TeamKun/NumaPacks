@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "マリカクラフト (Minecraft 1.15.2)",
+    "name": "Twitterクラフト (Minecraft 1.15.2)",
     "description": "Vehicle Modのパックです。",
     "address": "",
     "discord": {
-      "shortId": "マリカクラフト",
-      "largeImageText": "マリカクラフト",
-      "largeImageKey": "pack_vehicle"
+      "shortId": "Twitterクラフト",
+      "largeImageText": "Twitterクラフト",
+      "largeImageKey": "pack_twitter"
     },
     "mainServer": false,
     "autoconnect": false
