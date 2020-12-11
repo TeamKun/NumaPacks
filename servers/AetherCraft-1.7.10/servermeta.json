@@ -2,15 +2,15 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "2.0.0",
-    "name": "天空クラフト (Minecraft 1.7.10)",
-    "description": "The Aether II Modを中心としたサバイバル企画です。",
+    "name": "天空クラフトB (Minecraft 1.7.10)",
+    "description": "The Aether Modを中心としたサバイバル企画です。",
     "address": "",
     "discord": {
-      "shortId": "天空クラフト",
-      "largeImageText": "天空クラフト",
+      "shortId": "天空クラフトB",
+      "largeImageText": "天空クラフトB",
       "largeImageKey": "numa_aether"
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false
   },
   "forge": {
