@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Twitterクラフト (Minecraft 1.15.2)",
-    "description": "Twitterフォロワー数に応じてサイズ変わる企画",
+    "name": "参加勢格付けチェック (Minecraft 1.15.2)",
+    "description": "参加勢格付けチェック企画",
     "address": "",
     "discord": {
-      "shortId": "Twitterクラフト",
-      "largeImageText": "Twitterクラフト",
-      "largeImageKey": "pack_twitter"
+      "shortId": "参加勢格付けチェック",
+      "largeImageText": "参加勢格付けチェック",
+      "largeImageKey": "pack_kaku"
     },
     "mainServer": false,
     "autoconnect": false
