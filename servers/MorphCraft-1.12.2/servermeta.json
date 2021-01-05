@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "天空クラフトA (Minecraft 1.12.2)",
-    "description": "The Aether Legacy Modを中心としたサバイバル企画です。",
+    "name": "変身クラフト (Minecraft 1.12.2)",
+    "description": "Morph Modの単発企画",
     "address": "",
     "discord": {
-      "shortId": "天空クラフトA",
-      "largeImageText": "天空クラフトA",
-      "largeImageKey": "pack_aether"
+      "shortId": "変身クラフト",
+      "largeImageText": "変身クラフト",
+      "largeImageKey": "pack_morph"
     },
     "mainServer": true,
     "autoconnect": false
