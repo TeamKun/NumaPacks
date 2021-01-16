@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "沼クラフト (Minecraft 1.12.2)",
-    "description": "The Betweenlands Modを中心としたサバイバル企画です。",
+    "name": "ポータルクラフト (Minecraft 1.12.2)",
+    "description": "継ぎ目がないネザー/エンドポータル (単発)",
     "address": "",
     "discord": {
-      "shortId": "沼クラフト",
-      "largeImageText": "沼クラフト",
-      "largeImageKey": "pack_numa"
+      "shortId": "ポータルクラフト",
+      "largeImageText": "ポータルクラフト",
+      "largeImageKey": "pack_portal"
     },
     "mainServer": false,
     "autoconnect": false
