@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ポータルクラフト (Minecraft 1.12.2)",
-    "description": "継ぎ目がないネザー/エンドポータル (単発)",
+    "name": "コスプレクラフト (Minecraft 1.12.2)",
+    "description": "お出かけ前のおしゃれタイム (単発)",
     "address": "",
     "discord": {
-      "shortId": "ポータルクラフト",
-      "largeImageText": "ポータルクラフト",
-      "largeImageKey": "pack_portal"
+      "shortId": "コスプレクラフト",
+      "largeImageText": "コスプレクラフト",
+      "largeImageKey": "pack_dress"
     },
     "mainServer": false,
     "autoconnect": false
