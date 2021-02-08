@@ -458,16 +458,926 @@
       ]
     },
     {
+      "id": "AquaCraft-1.12.2",
+      "name": "海クラフトA (Minecraft 1.12.2)",
+      "description": "1.12.2の美しい海を中心としたサバイバル企画です。",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "海クラフトA",
+        "largeImageText": "海クラフトA",
+        "largeImageKey": "pack_aqua"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "chumbanotz.abyssaldepths:abyssaldepths:1.12.2-0.3.1@jar",
+          "name": "Abyssal Depths",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380427,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/AbyssalDepths-1.12.2-0.3.1.jar",
+            "MD5": "c1d1d058a7bf5e647b7440bdeee7c670"
+          }
+        },
+        {
+          "id": "nightkosh.advanced_fishing:advanced-fishing:1.3.3@jar",
+          "name": "Advanced Fishing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277112,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Advanced-Fishing-1.12.2-1.3.3.jar",
+            "MD5": "45d6f18d0ac8075b0cb65d2bde83ebdd"
+          }
+        },
+        {
+          "id": "noppes.animalbikes:animalbikes:1.11.2@jar",
+          "name": "Animal Bikes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2313226,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/AnimalBikes_1.12.2(13Jan19).jar",
+            "MD5": "4c41fba400329965af96d9ac411985b1"
+          }
+        },
+        {
+          "id": "animalium:animalium:0.3.8@jar",
+          "name": "Animalium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 318527,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Animalium-0.3.8.jar",
+            "MD5": "b106a3c301253788ebe922c95538643d"
+          }
+        },
+        {
+          "id": "squeek.applecore:applecore:3.4.0@jar",
+          "name": "AppleCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 89615,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/AppleCore-mc1.12.2-3.4.0.jar",
+            "MD5": "a8dd635a81fed59be0d18206fd383f6e"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:1.0.14@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33683,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/AppleSkin-mc1.12-1.0.14.jar",
+            "MD5": "b435860d5cfa23bc53d3b8e120be91d4"
+          }
+        },
+        {
+          "id": "aqua_creepers:aqua_creepers:1.2.3@jar",
+          "name": "Aqua_creepers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256083,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/AquaCreepers-1.2.3.jar",
+            "MD5": "3da27d4940aed2e1364468b51a4fa6be"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.12.2-1.6.8@jar",
+          "name": "Aquaculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186686,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
+            "MD5": "168ee7ded8fa21d49700b99e8617c79b"
+          }
+        },
+        {
+          "id": "com.github.teamrapture:aquatic:1.12.2-1.1.0b20180727043327-alpha@jar",
+          "name": "Aquatic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 549713,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/aquatic-1.12.2-1.1.0b20180727043327-alpha.jar",
+            "MD5": "19cec7bf8f5d51d11387909293926d2c"
+          }
+        },
+        {
+          "id": "dev.itsmeow:betteranimals:5.3.1@jar",
+          "name": "Cyber's Better Animal Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 949008,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/betteranimals-1.12.2-5.3.1.jar",
+            "MD5": "9661131359360d7bbf73ff11c94d3575"
+          }
+        },
+        {
+          "id": "its_meow.betteranimalsplus:betteranimalsplus:1.12.2-9.0.1@jar",
+          "name": "Better Animals Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8211365,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/betteranimalsplus-1.12.2-9.0.1.jar",
+            "MD5": "154144d50500329125deac9304c4c23f"
+          }
+        },
+        {
+          "id": "meldexun.better_diving:better_diving:1.5.8@jar",
+          "name": "Better Diving",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8228221,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/BetterDiving-1.12.2-1.5.8.jar",
+            "MD5": "9cfc52cf147079ec00bf96b91ab0af5c"
+          }
+        },
+        {
+          "id": "net.theawesomegem:betterfishing:2.0@jar",
+          "name": "Better Fishing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 296890,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/BetterFishing-1.12.2-2.0.jar",
+            "MD5": "85c54a4036119d1ea9b0ec5951189ae6"
+          }
+        },
+        {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.darkhax:biomespecificdungeons:1.0.3@jar",
+          "name": "Biome Specific Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38171,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/BiomeSpecificDungeons-1.12.2-1.0.3.jar",
+            "MD5": "51716ce3d7e5abda4bb966d19e7788cf"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:2.3.590@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 266636,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Bookshelf-1.12.2-2.3.590.jar",
+            "MD5": "85a44d3299449545e435f5ec55fc914b"
+          }
+        },
+        {
+          "id": "team.cqr:cqrepoured:2.2.4B@jar",
+          "name": "Chocolate_Quest_Repoured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4738584,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Chocolate_Quest_Repoured-1.12.2-2.2.4B.jar",
+            "MD5": "3b033e376ba4df8885357e98d0d642f6"
+          }
+        },
+        {
+          "id": "koala.clearwater:clearwater:1.2@jar",
+          "name": "Clear Water",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4038,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/clearwater-1.2.jar",
+            "MD5": "a31e273b97bfe408d9a5995bd73a8b1e"
+          }
+        },
+        {
+          "id": "com.natamus:collective:1.58@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98968,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/collective-1.12.2-1.58.jar",
+            "MD5": "4960b29de7e4bc6e1cb1d8ed492cc7e9"
+          }
+        },
+        {
+          "id": "com.elytradev:davincisvessels:1.12-6.340-full@jar",
+          "name": "Davinci's Vessels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 538295,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/davincisvessels-1.12-6.340-full.jar",
+            "MD5": "fd744ba7fbc7647a062ffdd3b3f86bf5"
+          }
+        },
+        {
+          "id": "com.dainxt:dungeonsmod:1.12.2-1.0.6@jar",
+          "name": "Dungeons Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 896402,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/DungeonsMod-1.12.2-1.0.6.jar",
+            "MD5": "28d77e6993319b40df45bf5270c664e9"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:1.12.2-3.6.1.0@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15929762,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/DynamicSurroundings-1.12.2-3.6.1.0.jar",
+            "MD5": "1a0d50a34941865ff091a492e0612502"
+          }
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407314,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/Emojicord-1.12.2-1.1.1.39-universal.jar",
+            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.theawesomegem:fishingmadebetter:1.1.3@jar",
+          "name": "Fishing Made Better",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237388,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/FishingMadeBetter-1.12.2-1.1.3.jar",
+            "MD5": "3eed33ebc335cca81972d4850734fb2b"
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 211210,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/foamfix-0.10.5-1.12.2.jar",
+            "MD5": "ec2829750206833af9ee098c5ddb8e32"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.shadowfacts:forgelin:1.8.4@jar",
+          "name": "Shadowfacts' Forgelin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d"
+          }
+        },
+        {
+          "id": "de.maxhenkel:gravestone:1.10.3@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129433,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/gravestone-1.10.3.jar",
+            "MD5": "44c8e473abb93250df0f51fc0b050041"
+          }
+        },
+        {
+          "id": "tehnut.harvest:Harvest:1.12-1.2.8-25@jar",
+          "name": "Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16993,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Harvest-1.12-1.2.8-25.jar",
+            "MD5": "fcd5665ecb7d1f673302cbd2217af2bd"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "xyz.kaydax:ido:1.1.0@jar",
+          "name": "Ido - 1.12 movement enhancement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20516,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/ido-1.12.2-1.1.0.jar",
+            "MD5": "103522249c0fe86372d6bfede026d35d"
+          }
+        },
+        {
+          "id": "atomicstryker.infernalmobs:InfernalMobs:1.7.6@jar",
+          "name": "Infernal Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183579,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/InfernalMobs-1.12.2.jar",
+            "MD5": "490f29a18ad3445f4dbd0616e9c06b0d"
+          }
+        },
+        {
+          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263258,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/InventoryTweaks-1.63.jar",
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.snowshock35:jeiintegration:1.5.1.36@jar",
+          "name": "JEI Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54046,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/jeiintegration_1.12.2-1.5.1.36.jar",
+            "MD5": "de73cdc5de95a2685e50d90f01c03a50"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.tmtravlr:jaff:1.7_for_1.12@jar",
+          "name": "Just a Few Fish",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 238863,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/JustAFewFish-1.7_for_1.12.jar",
+            "MD5": "7db981b35345514431b01025e4ab6cae"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.9.2@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222270,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/JustEnoughResources-1.12.2-0.9.2.60.jar",
+            "MD5": "87a4666549a60d8fb423883dd4ee6232"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.ilexiconn:llibrary:1.7.20-1.12.2@jar",
+          "name": "LLibrary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 884550,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/llibrary-1.7.20-1.12.2.jar",
+            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d"
+          }
+        },
+        {
+          "id": "org.jglrxavpok:moarboats:1.12.2-4.1.2.1@jar",
+          "name": "Moar Boats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2032246,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/moarboats-1.12.2-4.1.2.1.jar",
+            "MD5": "9aa5a8cacae90547daad94dfcb7e6382"
+          }
+        },
+        {
+          "id": "com.natamus:moveboats:1.4@jar",
+          "name": "Move Boats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7041,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/moveboats_1.12.2-1.4.jar",
+            "MD5": "6b4b14e0062f86e6acdb533ed5bc7cfd"
+          }
+        },
+        {
+          "id": "com.elytradev:MovingWorld:1.12-6.353@jar",
+          "name": "Moving World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1198794,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/movingworld-1.12-6.353-full.jar",
+            "MD5": "7a30c2638cbf3761c1a2797097a9505d"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib Support Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341728,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a"
+          }
+        },
+        {
+          "id": "net.pirates.mod:pirates:0.0.5@jar",
+          "name": "Pirates Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 474247,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/pirates-0.0.6B.jar",
+            "MD5": "e249b935504f157c8320b73bcf70f5fb"
+          }
+        },
+        {
+          "id": "net.insane96mcp:progressivebosses:1.5.4-mc1.12.x@jar",
+          "name": "Progressive Bosses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69818,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/ProgressiveBosses-1.5.4-mc1.12.x.jar",
+            "MD5": "89b1d4876a4523ca61692a874f34284c"
+          }
+        },
+        {
+          "id": "com.therandomlabs.randompatches.core:randompatches:1.12.2-1.22.1.10@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293231,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/randompatches-1.12.2-1.22.1.10.jar",
+            "MD5": "dfbb30ff396e6426ba9a284b04c7bcf3"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.builtbroken:merpig:1.12.2-0.0.1b20190504132456@jar",
+          "name": "[SBM] Merpig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31457,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/SBM-Merpig-1.12.2-0.0.1b20190504132456.jar",
+            "MD5": "f4265a5febb002af92291bab5fad2893"
+          }
+        },
+        {
+          "id": "net.teamfruit:serverobserver:1.0.8.41@jar",
+          "name": "ServerObserver",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90971,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/ServerObserver-1.12.2-1.0.8.41-universal.jar",
+            "MD5": "38f20af9ebc7826602a7316c241332a1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.kamesuta.mc:signpic:2.8.1@jar",
+          "name": "SignPicture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1086045,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/SignPicture-1.12.1-2.8.1-universal.jar",
+            "MD5": "194694802feeec670f11f40b36b2ec8a"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.cazsius:solcarrot:1.8.4@jar",
+          "name": "Spice of Life: Carrot Edition",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 641217,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/solcarrot-1.12.2-1.8.4.jar",
+            "MD5": "644c0f7f51a19fd1dce0cf4bdadfc52c"
+          }
+        },
+        {
+          "id": "net.soggymustache:swanboat:1.0.1@jar",
+          "name": "Swan Boats!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 103859,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/swanboat%20-%201.0.1%20(1.12.2).jar",
+            "MD5": "1e2b3dff0d665ce49d4b8761375b3b96"
+          }
+        },
+        {
+          "id": "tfa:tfa:1.1@jar",
+          "name": "The Fauna Amplification",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 436088,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/TFA_1.1.jar",
+            "MD5": "f51d708d11b64e6acfc8d740d006e19f"
+          }
+        },
+        {
+          "id": "tterrag.treesimulator:treegrowingsimulator:1.0.1@jar",
+          "name": "Tree Growing Simulator 2016",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27005,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/TreeGrowingSimulator2017-1.0.1.jar",
+            "MD5": "7bceac1d0c247203ead7b0ee723c4ecb"
+          }
+        },
+        {
+          "id": "com.underwater:underwater:0.9.3.1@jar",
+          "name": "Underwater World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 191151,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/underwater-0.9.3.1.jar",
+            "MD5": "fa9b0157c3d16e9242978159cd685c98"
+          }
+        },
+        {
+          "id": "com.girafi:waddles:0.6.0@jar",
+          "name": "Waddles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234934,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Waddles-1.12.2-0.6.0.jar",
+            "MD5": "3ec84aac5bf45959934669bf1c1548a9"
+          }
+        },
+        {
+          "id": "squeek.wailaharvestability:wailaharvestability:1.1.12@jar",
+          "name": "Waila Harvestability",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31462,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/WailaHarvestability-mc1.12-1.1.12.jar",
+            "MD5": "0bd8765ff3064be336cb1b09208e410c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.darkhax:wawla:2.6.275@jar",
+          "name": "What Are We Looking At",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94115,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/Wawla-1.12.2-2.6.275.jar",
+            "MD5": "3762f87395a87af86e9552c6d7ca7e06"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
+          "name": "WorldEdit CUI Forge Edition 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 862363,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/WorldEdit-CUI-FE3-1.12.2-3.0.9.jar",
+            "MD5": "fead5cc137b1e0ac94c06a5638ac59e3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1479535,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
+            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          }
+        },
+        {
+          "id": "better_diving.cfg",
+          "name": "better_diving.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 24408,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/better_diving.cfg",
+            "MD5": "4ab38b0a8eda713859ff9bc92a620b6f",
+            "path": "config/better_diving.cfg"
+          }
+        },
+        {
+          "id": "wecui3.yml",
+          "name": "wecui3.yml",
+          "type": "File",
+          "artifact": {
+            "size": 2143,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/wecui3.yml",
+            "MD5": "5c2f3330f78586b10a97621086979eef",
+            "path": "config/wecui3.yml"
+          }
+        }
+      ]
+    },
+    {
       "id": "AquaCraft-1.15.2",
-      "name": "海クラフト (Minecraft 1.15.2)",
+      "name": "海クラフトB (Minecraft 1.15.2)",
       "description": "1.15.2の美しい海を中心としたサバイバル企画です。",
       "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.15.2/pack.png",
       "version": "1.0.0",
       "address": "",
       "minecraftVersion": "1.15.2",
       "discord": {
-        "shortId": "海クラフト",
-        "largeImageText": "海クラフト",
+        "shortId": "海クラフトB",
+        "largeImageText": "海クラフトB",
         "largeImageKey": "pack_aqua"
       },
       "mainServer": false,
@@ -942,6 +1852,16 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "net.mcreator.ohcantyousea:oh_cant_you_sea:1.0.0@jar",
+          "name": "Oh can't you sea",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150771,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.15.2/forgemods/required/OCYA_1.15.2_V1.jar",
+            "MD5": "be4d824e7a6fdfbfa4400657e93ab178"
           }
         },
         {
@@ -1428,6 +2348,20 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:gtawanteddisplaymod:2.1@jar",
+          "name": "Gtawanteddisplaymod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.15.2/forgemods/optionaloff/GTAWantedDisplayMod-2.1.jar",
+            "MD5": "b4a15362556a1ecb717ab825ac11db2f"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
