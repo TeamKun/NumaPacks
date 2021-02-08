@@ -2,12 +2,12 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "海クラフト (Minecraft 1.15.2)",
+    "name": "海クラフトB (Minecraft 1.15.2)",
     "description": "1.15.2の美しい海を中心としたサバイバル企画です。",
     "address": "",
     "discord": {
-      "shortId": "海クラフト",
-      "largeImageText": "海クラフト",
+      "shortId": "海クラフトB",
+      "largeImageText": "海クラフトB",
       "largeImageKey": "pack_aqua"
     },
     "mainServer": false,
