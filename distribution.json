@@ -706,6 +706,16 @@
           }
         },
         {
+          "id": "net.shadowmage.ancientwarfare.automation:ancientwarfare:1.12.2-2.7.0.unstable@jar",
+          "name": "Ancient Warfare Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 74790108,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/ancientwarfare-1.12.2-2.7.0.1027.jar",
+            "MD5": "2bf173bba39ea886709299dce28a524b"
+          }
+        },
+        {
           "id": "noppes.animalbikes:animalbikes:1.11.2@jar",
           "name": "Animal Bikes",
           "type": "ForgeMod",
@@ -850,6 +860,16 @@
           }
         },
         {
+          "id": "com.jaquadro.minecraft:chameleon:1.12-4.1.3@jar",
+          "name": "Chameleon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96859,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Chameleon-1.12-4.1.3.jar",
+            "MD5": "e42efa8f4fd42d2918128a826b740e98"
+          }
+        },
+        {
           "id": "team.cqr:cqrepoured:2.2.4B@jar",
           "name": "Chocolate_Quest_Repoured",
           "type": "ForgeMod",
@@ -870,6 +890,16 @@
           }
         },
         {
+          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704330,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+          }
+        },
+        {
           "id": "com.natamus:collective:1.58@jar",
           "name": "Collective",
           "type": "ForgeMod",
@@ -877,6 +907,16 @@
             "size": 98968,
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/collective-1.12.2-1.58.jar",
             "MD5": "4960b29de7e4bc6e1cb1d8ed492cc7e9"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:1.12-4.1.20.616@jar",
+          "name": "CraftTweaker2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1522722,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.616.jar",
+            "MD5": "34db810e2c95761490311499958e3201"
           }
         },
         {
@@ -905,8 +945,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15929762,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/DynamicSurroundings-1.12.2-3.6.1.0.jar",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionalon/DynamicSurroundings-1.12.2-3.6.1.0.jar",
             "MD5": "1a0d50a34941865ff091a492e0612502"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -921,6 +964,16 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "mchorse.emoticons:emoticons:0.7-1.12.2@jar",
+          "name": "Emoticons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1973211,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/emoticons-0.7-1.12.2-dist.jar",
+            "MD5": "1a59abc0789a74c6de7a3ba7b4a32303"
           }
         },
         {
@@ -955,6 +1008,16 @@
             "size": 6278399,
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
             "MD5": "2da79fce72265eab0541e565636d389d"
+          }
+        },
+        {
+          "id": "com.feed_the_beast.mods:ftbbackups:1.1.0.1@jar",
+          "name": "FTB Backups",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43764,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/FTBBackups-1.1.0.1.jar",
+            "MD5": "932a6981ff08c35bbdf83bb9f7af8d17"
           }
         },
         {
@@ -1088,6 +1151,20 @@
           }
         },
         {
+          "id": "com.github.terminatornl:laggoggles:1.12.2-5.8-132@jar",
+          "name": "LagGoggles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182688,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/LagGoggles-1.12.2-5.8-132.jar",
+            "MD5": "02d6e4135058e41d65af8a3b4710a581"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "net.ilexiconn:llibrary:1.7.20-1.12.2@jar",
           "name": "LLibrary",
           "type": "ForgeMod",
@@ -1098,6 +1175,16 @@
           }
         },
         {
+          "id": "mchorse.mclib:mclib:2.2.1-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 485399,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/mclib-2.2.1-1.12.2.jar",
+            "MD5": "de18b87ab322ef6baaf31394e51849a4"
+          }
+        },
+        {
           "id": "org.jglrxavpok:moarboats:1.12.2-4.1.2.1@jar",
           "name": "Moar Boats",
           "type": "ForgeMod",
@@ -1105,6 +1192,16 @@
             "size": 2032246,
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/moarboats-1.12.2-4.1.2.1.jar",
             "MD5": "9aa5a8cacae90547daad94dfcb7e6382"
+          }
+        },
+        {
+          "id": "com.blamejared:modtweaker:4.0.18@jar",
+          "name": "Mod Tweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 488016,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/modtweaker-4.0.18.jar",
+            "MD5": "d117e26e6b578b18d25848f578e86c3b"
           }
         },
         {
@@ -1125,6 +1222,16 @@
             "size": 1198794,
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/movingworld-1.12-6.353-full.jar",
             "MD5": "7a30c2638cbf3761c1a2797097a9505d"
+          }
+        },
+        {
+          "id": "com.blamejared:mtlib:3.0.6@jar",
+          "name": "MTLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30002,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/MTLib-3.0.6.jar",
+            "MD5": "b46748362c046d70b821121331246aa5"
           }
         },
         {
@@ -1195,6 +1302,26 @@
           }
         },
         {
+          "id": "com.raoulvdberge:refinedstorage:1.6.16@jar",
+          "name": "Refined Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1912377,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/refinedstorage-1.6.16.jar",
+            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2"
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
           "id": "com.builtbroken:merpig:1.12.2-0.0.1b20190504132456@jar",
           "name": "[SBM] Merpig",
           "type": "ForgeMod",
@@ -1202,6 +1329,16 @@
             "size": 31457,
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/SBM-Merpig-1.12.2-0.0.1b20190504132456.jar",
             "MD5": "f4265a5febb002af92291bab5fad2893"
+          }
+        },
+        {
+          "id": "li.cil:scannable:1.6.3.26@jar",
+          "name": "Scannable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252718,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/Scannable-MC1.12.2-1.6.3.26.jar",
+            "MD5": "47f919498bd29961f62b6655b8d76f2e"
           }
         },
         {
@@ -1252,23 +1389,31 @@
           }
         },
         {
-          "id": "tfa:tfa:1.1@jar",
-          "name": "The Fauna Amplification",
+          "id": "com.github.terminatornl.tickcentral:TickCentral:3.2@jar",
+          "name": "TickCentral",
           "type": "ForgeMod",
           "artifact": {
-            "size": 436088,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/TFA_1.1.jar",
-            "MD5": "f51d708d11b64e6acfc8d740d006e19f"
+            "size": 53554,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/TickCentral-3.2.jar",
+            "MD5": "3d92957c560795cf2107c491dc1eb2ed"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
-          "id": "tterrag.treesimulator:treegrowingsimulator:1.0.1@jar",
-          "name": "Tree Growing Simulator 2016",
+          "id": "com.github.terminatornl:tiquality:FAT-1.12.2-GAMMA-1.8.1-124@jar",
+          "name": "Tiquality",
           "type": "ForgeMod",
           "artifact": {
-            "size": 27005,
-            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/TreeGrowingSimulator2017-1.0.1.jar",
-            "MD5": "7bceac1d0c247203ead7b0ee723c4ecb"
+            "size": 1240869,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/optionaloff/Tiquality-FAT-1.12.2-GAMMA-1.8.1-124.jar",
+            "MD5": "0eda71a0c3bab2338ac5081c6c7888c9"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1303,6 +1448,16 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "xfra.watermechanics:113_water_mechanics:1.0.3-1.12.2-NETHERFIX@jar",
+          "name": "1.13 Water Mechanics Backport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18954,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/forgemods/required/WaterMechanicsBackport-1.0.3-1.12.2-NETHERFIX.jar",
+            "MD5": "85084e0326bbd10fec69f4e38896b40f"
           }
         },
         {
@@ -1344,6 +1499,28 @@
           }
         },
         {
+          "id": "animalium.cfg",
+          "name": "animalium.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1864,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/animalium.cfg",
+            "MD5": "4fa98032f1a4af216e1b9519c4db04f0",
+            "path": "config/animalium.cfg"
+          }
+        },
+        {
+          "id": "aqua_creepers.cfg",
+          "name": "aqua_creepers.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 166,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/aqua_creepers.cfg",
+            "MD5": "abfeeb342ed309bbc17acd90ab94a424",
+            "path": "config/aqua_creepers.cfg"
+          }
+        },
+        {
           "id": "better_diving.cfg",
           "name": "better_diving.cfg",
           "type": "File",
@@ -1355,6 +1532,105 @@
           }
         },
         {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 244,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/config.json",
+            "MD5": "f5f3284d75c2c6339559c04e076437ab",
+            "path": "config/emoticons/config.json"
+          }
+        },
+        {
+          "id": "Gibraltar1.bobj",
+          "name": "Gibraltar1.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 28701,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/Gibraltar1.bobj",
+            "MD5": "9226522dfcea6430b01527cc5a3ec8de",
+            "path": "config/emoticons/emotes/Gibraltar1.bobj"
+          }
+        },
+        {
+          "id": "Gibraltar1.json",
+          "name": "Gibraltar1.json",
+          "type": "File",
+          "artifact": {
+            "size": 109,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/Gibraltar1.json",
+            "MD5": "6243e37133196c876a893628df3e54d6",
+            "path": "config/emoticons/emotes/Gibraltar1.json"
+          }
+        },
+        {
+          "id": "nagatuki.bobj",
+          "name": "nagatuki.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 10180,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/nagatuki.bobj",
+            "MD5": "0f3612f86d8e0c42ad816c3be5ec518e",
+            "path": "config/emoticons/emotes/nagatuki.bobj"
+          }
+        },
+        {
+          "id": "nagatuki.json",
+          "name": "nagatuki.json",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/nagatuki.json",
+            "MD5": "9a23797814e98ebfe8cf453d55e80684",
+            "path": "config/emoticons/emotes/nagatuki.json"
+          }
+        },
+        {
+          "id": "wdrd_DOGEZA.bobj",
+          "name": "wdrd_DOGEZA.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 5853,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/wdrd_DOGEZA.bobj",
+            "MD5": "783399b8e3e387d7bd6113307ef601b4",
+            "path": "config/emoticons/emotes/wdrd_DOGEZA.bobj"
+          }
+        },
+        {
+          "id": "wdrd_DOGEZA.json",
+          "name": "wdrd_DOGEZA.json",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/emoticons/emotes/wdrd_DOGEZA.json",
+            "MD5": "e29e8e334f39bd714fe01f6718a877f1",
+            "path": "config/emoticons/emotes/wdrd_DOGEZA.json"
+          }
+        },
+        {
+          "id": "refinedstorage.cfg",
+          "name": "refinedstorage.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 7998,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/refinedstorage.cfg",
+            "MD5": "0c4c253b8e70c4972af183c087c978c3",
+            "path": "config/refinedstorage.cfg"
+          }
+        },
+        {
+          "id": "scannable.cfg",
+          "name": "scannable.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 7034,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/scannable.cfg",
+            "MD5": "6f75e535cb7812641f9b7f9da18c8c61",
+            "path": "config/scannable.cfg"
+          }
+        },
+        {
           "id": "wecui3.yml",
           "name": "wecui3.yml",
           "type": "File",
@@ -1363,6 +1639,50 @@
             "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/config/wecui3.yml",
             "MD5": "5c2f3330f78586b10a97621086979eef",
             "path": "config/wecui3.yml"
+          }
+        },
+        {
+          "id": "ja_JP.lang",
+          "name": "ja_JP.lang",
+          "type": "File",
+          "artifact": {
+            "size": 4757,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/resources/davincisvessels/lang/ja_JP.lang",
+            "MD5": "0504ba14bf8c89bf5d62bc585c741b52",
+            "path": "resources/davincisvessels/lang/ja_JP.lang"
+          }
+        },
+        {
+          "id": "betterdiving.zs",
+          "name": "betterdiving.zs",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/scripts/betterdiving.zs",
+            "MD5": "8ce258a58f8f7109fe0877e2c68d0b38",
+            "path": "scripts/betterdiving.zs"
+          }
+        },
+        {
+          "id": "chocolatequest.zs",
+          "name": "chocolatequest.zs",
+          "type": "File",
+          "artifact": {
+            "size": 1087,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/scripts/chocolatequest.zs",
+            "MD5": "6e12c08a30a0c38577ccbb17026754ae",
+            "path": "scripts/chocolatequest.zs"
+          }
+        },
+        {
+          "id": "seamoth.zs",
+          "name": "seamoth.zs",
+          "type": "File",
+          "artifact": {
+            "size": 1402,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/AquaCraft-1.12.2/files/scripts/seamoth.zs",
+            "MD5": "2629ec18829a18ea42d8e3e24b308e0f",
+            "path": "scripts/seamoth.zs"
           }
         }
       ]
