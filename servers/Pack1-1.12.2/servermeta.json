@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "色盲クラフト (Minecraft 1.12.2)",
-    "description": "色盲クラフト (単発)",
+    "name": "TNTクラフト (Minecraft 1.12.2)",
+    "description": "TNTクラフト (単発)",
     "address": "",
     "discord": {
-      "shortId": "色盲クラフト",
-      "largeImageText": "色盲クラフト",
-      "largeImageKey": "pack_color"
+      "shortId": "TNTクラフト",
+      "largeImageText": "TNTクラフト",
+      "largeImageKey": "pack_tnt"
     },
     "mainServer": false,
     "autoconnect": false
