@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "変身クラフト (Minecraft 1.12.2)",
+    "description": "1分間で別の姿に変身します。",
+    "address": "",
+    "discord": {
+      "shortId": "変身クラフト",
+      "largeImageText": "変身クラフト",
+      "largeImageKey": "pack_4"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2855"
+  },
+  "untrackedFiles": []
+}
