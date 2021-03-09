@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Twitterフォロワー数クラフト(Minecraft 1.12.2)",
+    "description": "フォロワー数でチャットのサイズが変わるクラフト(単発)",
+    "address": "",
+    "discord": {
+      "shortId": "Twitterフォロワー数クラフト",
+      "largeImageText": "Twitterフォロワー数クラフト",
+      "largeImageKey": "pack_5"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.9"
+  },
+  "untrackedFiles": []
+}
