@@ -2,7 +2,7 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Twitterフォロワー数クラフト(Minecraft 1.12.2)",
+    "name": "Twitterフォロワー数クラフト(Minecraft 1.15.2)",
     "description": "フォロワー数でチャットのサイズが変わるクラフト(単発)",
     "address": "",
     "discord": {
