@@ -2,19 +2,19 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "バニラ1.16.4 (Minecraft 1.16.4)",
-    "description": "1.16.4 + 便利なModが導入されたおすすめのパックです。",
+    "name": "バニラ1.16.4 (Minecraft 1.16.5)",
+    "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
     "address": "",
     "discord": {
-      "shortId": "バニラ1.16.4",
-      "largeImageText": "バニラ1.16.4",
+      "shortId": "バニラ1.16.5",
+      "largeImageText": "バニラ1.16.5",
       "largeImageKey": "pack_16"
     },
     "mainServer": false,
     "autoconnect": false
   },
   "forge": {
-    "version": "35.1.29"
+    "version": "36.1.0"
   },
   "untrackedFiles": []
 }
