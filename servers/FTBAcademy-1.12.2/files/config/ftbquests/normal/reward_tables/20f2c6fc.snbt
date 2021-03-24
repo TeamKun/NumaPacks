@@ -1,0 +1,32 @@
+{
+	title: "{academy.coloredlenses.rewards}",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.orangelens.reward}",
+		item: "astralsorcery:itemcoloredlens"
+	},
+	{
+		title: "{academy.yellowlens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 1"
+	},
+	{
+		title: "{academy.greenlens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 2"
+	},
+	{
+		title: "{academy.redlens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 3"
+	},
+	{
+		title: "{academy.pinklens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 4"
+	},
+	{
+		title: "{academy.bluelens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 5"
+	},
+	{
+		title: "{academy.purplelens.reward}",
+		item: "astralsorcery:itemcoloredlens 1 6"
+	}]
+}

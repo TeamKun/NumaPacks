@@ -1,0 +1,26 @@
+{
+	title: "Any Generator",
+	icon: {
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"This quest checks if you've made a generator"
+	],
+	dependencies: [
+		"73dd9c34",
+		"abdec497",
+		"ccc20b30",
+		"737178c4",
+		"68fd7a7b"
+	],
+	hide: true,
+	dependency_requirement: "one_completed"
+}

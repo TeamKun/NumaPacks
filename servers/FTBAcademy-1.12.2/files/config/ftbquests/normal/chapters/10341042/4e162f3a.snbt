@@ -1,0 +1,32 @@
+{
+	title: "{academy.castle.title}",
+	icon: "twilightforest:castle_rune_brick 1 2",
+	x: 12.0d,
+	y: 0.0d,
+	description: "{academy.castle.desc}",
+	text: [
+		"{academy.castle.text1}",
+		"",
+		"{academy.castle.text2}"
+	],
+	guide_page: "/modpack/magic/twilight_forest/bosses/end/",
+	dependencies: [
+		"28068f40"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "dec50a65",
+		type: "checkmark",
+		title: "{academy.clickthis.task}"
+	}],
+	rewards: [{
+		uid: "56312f4e",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "7418f950",
+		type: "choice",
+		table: 7
+	}]
+}

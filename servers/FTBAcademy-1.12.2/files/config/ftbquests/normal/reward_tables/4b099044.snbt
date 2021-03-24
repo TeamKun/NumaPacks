@@ -1,0 +1,25 @@
+{
+	title: "{academy.ingots.rewards}",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		item: "thermalfoundation:material 1 128",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 129",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 131",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 133",
+		count: 16
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "{academy.craftmanager.desc}",
+	text: [
+		"{academy.craftmanager.text1}",
+		"",
+		"{academy.craftmanager.text2}"
+	],
+	guide_page: "/modpack/storage/refined_storage/autocrafting/",
+	dependencies: [
+		"091025ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56cda665",
+		type: "item",
+		items: [{
+			item: "refinedstorage:crafter_manager"
+		}]
+	}]
+}

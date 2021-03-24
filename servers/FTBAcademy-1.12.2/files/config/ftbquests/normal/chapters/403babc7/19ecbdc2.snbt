@@ -1,0 +1,54 @@
+{
+	title: "{academy.manatablet.title}",
+	x: -5.0d,
+	y: -2.0d,
+	description: "{academy.manatablet.desc}",
+	text: [
+		"{academy.manatablet.text1}",
+		"",
+		"{academy.manatablet.text2}"
+	],
+	dependencies: [
+		"b0b303d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4dd334d6",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1b
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "690424f2",
+		type: "item",
+		item: {
+			id: "botania:blacklotus",
+			tag: {
+				display: {
+					Lore: [
+						"Throw into a Mana Pool to give it Mana"
+					]
+				}
+			},
+			Damage: 1s
+		},
+		count: 6
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{academy.sextant.title}",
+	x: 2.0d,
+	y: -2.0d,
+	description: "{academy.sextant.desc}",
+	text: [
+		"{academy.sextant.text1}",
+		"",
+		"{academy.sextant.text2}"
+	],
+	dependencies: [
+		"71629876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0386d10b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3005e726",
+		type: "choice",
+		table: 14
+	}]
+}

@@ -1,0 +1,50 @@
+# Configuration file
+
+general {
+    # Displays in console what mods are documented
+    B:"Debug - Mod Documented"=false
+
+    # Displays in console what items in documented mods aren't documented
+    B:"Debug - Not Documented Items"=false
+
+    # Document Iron Chest
+    B:"Iron Chest info"=true
+
+    # Document Nature's Compass?
+    B:"Nature's Compass info"=true
+
+    # Document Refined Storage
+    B:"Refined Storage info"=true
+
+    # Document Tinkers' Construct?
+    B:"Tinkers' Construct info"=true
+
+    # Document Twilight Forest?
+    B:"Twilight Forest info"=true
+
+    # Document Waystones?
+    B:"Waystones info"=true
+
+    ##########################################################################################################
+    # quark
+    #--------------------------------------------------------------------------------------------------------#
+    # All Quark settings
+    ##########################################################################################################
+
+    quark {
+        # Add information tabs to items added by Quark?
+        B:"Quark Info"=true
+
+        # Add information to Quark's decorative blocks?
+        B:"Quark's Decorative Blocks"=true
+
+        # Add information about Quark's UI elements?
+        B:"Quark's GUI Elements"=true
+
+        # Add information tabs to vanilla items that Quark changes?
+        B:"Quark's Vanilla Info"=true
+    }
+
+}
+
+

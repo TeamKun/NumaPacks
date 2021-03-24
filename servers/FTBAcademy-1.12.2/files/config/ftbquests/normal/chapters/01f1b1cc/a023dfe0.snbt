@@ -1,0 +1,32 @@
+{
+	title: "{academy.itemducts.title}",
+	icon: "thermaldynamics:duct_32",
+	x: 0.0d,
+	y: -5.0d,
+	description: "{academy.itemducts.desc}",
+	text: [
+		"{academy.itemducts.text1}",
+		"",
+		"{academy.itemducts.text2}"
+	],
+	guide_page: "/modpack/technology/transportation/item/itemducts/",
+	dependencies: [
+		"1458e6a2"
+	],
+	tasks: [{
+		uid: "3516bff0",
+		type: "item",
+		title: "{academy.itemducts.task}",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		},
+		{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2936fc5d",
+		type: "choice",
+		table: 13
+	}]
+}

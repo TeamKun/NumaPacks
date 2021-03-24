@@ -1,0 +1,43 @@
+{
+	title: "{academy.ifconveyorbelts.title}",
+	icon: "industrialforegoing:conveyor",
+	x: 4.0d,
+	y: -7.0d,
+	description: "{academy.ifconveyorbelts.desc}",
+	text: [
+		"{academy.ifconveyorbelts.text1}",
+		"",
+		"{academy.ifconveyorbelts.text2}",
+		"",
+		"{academy.ifconveyorbelts.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/other/if_conveyors/",
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "99225543",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}]
+	},
+	{
+		uid: "4d22f86e",
+		type: "item",
+		title: "{academy.ifconveyorbelts.task2}",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 1"
+		},
+		{
+			item: "industrialforegoing:conveyor_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "134ede2c",
+		type: "item",
+		item: "industrialforegoing:conveyor",
+		count: 60
+	}]
+}

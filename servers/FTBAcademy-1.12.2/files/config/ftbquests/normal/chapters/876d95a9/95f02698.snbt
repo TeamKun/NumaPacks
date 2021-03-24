@@ -1,0 +1,41 @@
+{
+	title: "{academy.canola1.title}",
+	icon: "actuallyadditions:block_oil_generator",
+	x: 0.0d,
+	y: 2.0d,
+	description: "{academy.canola1.desc}",
+	text: [
+		"{academy.canola1.text1}",
+		"{academy.canola1.text2}",
+		"",
+		"{academy.canola1.text3}"
+	],
+	guide_page: "/modpack/technology/generators/actually_additions/canola/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e235b5c5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_canola_press"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40827910",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_oil_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c6671af",
+		type: "item",
+		item: "actuallyadditions:item_canola_seed",
+		count: 9
+	}]
+}

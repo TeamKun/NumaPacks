@@ -1,0 +1,30 @@
+{
+	title: "{academy.compactingdrawer.title}",
+	x: -3.0d,
+	y: 1.0d,
+	description: "{academy.compactingdrawer.desc}",
+	text: [
+		"{academy.compactingdrawer.text1}",
+		"",
+		"{academy.compactingdrawer.text2}"
+	],
+	guide_page: "/modpack/storage/storage_drawers/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1af7adf",
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88a5cf14",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "1910e515",
+		type: "item",
+		item: "storagedrawers:quantify_key"
+	}]
+}

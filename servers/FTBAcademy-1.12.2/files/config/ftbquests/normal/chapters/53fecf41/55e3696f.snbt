@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"b3fc7bec"
+	],
+	tasks: [{
+		uid: "fe1a92c5",
+		type: "interaction",
+		icon: "minecraft:chest",
+		match_type: "block_entity_id",
+		match: "minecraft:chest"
+	}],
+	rewards: [{
+		uid: "92f5b692",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_3",
+		remove: true
+	}]
+}

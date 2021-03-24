@@ -1,0 +1,27 @@
+{
+	title: "{academy.basicenergytess.title}",
+	x: 2.0d,
+	y: 4.0d,
+	description: "{academy.basicenergytess.desc}",
+	text: [
+		"{academy.basicenergytess.text1}",
+		"",
+		"{academy.basicenergytess.text2}"
+	],
+	guide_page: "/modpack/technology/transportation/energy/tesslocators/",
+	dependencies: [
+		"d6a735c1"
+	],
+	tasks: [{
+		uid: "80eb9c9b",
+		type: "item",
+		items: [{
+			item: "tesslocator:basic_energy_tesslocator"
+		}]
+	}],
+	rewards: [{
+		uid: "c18586f6",
+		type: "item",
+		item: "tesslocator:basic_energy_tesslocator"
+	}]
+}

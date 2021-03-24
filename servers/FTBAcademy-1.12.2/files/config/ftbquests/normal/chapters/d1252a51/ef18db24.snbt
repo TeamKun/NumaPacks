@@ -1,0 +1,22 @@
+{
+	title: "{academy.blackholelabel.title}",
+	x: 3.0d,
+	y: 0.0d,
+	description: "{academy.blackholelabel.desc}",
+	text: [
+		"{academy.blackholelabel.text}"
+	],
+	guide_page: "/modpack/storage/other/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d78d188"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a7985b47",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_label"
+		}]
+	}]
+}

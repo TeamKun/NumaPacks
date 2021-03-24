@@ -1,0 +1,38 @@
+{
+	title: "{academy.passivespawning.title}",
+	icon: "industrialforegoing:animal_stock_increaser",
+	x: 8.5d,
+	y: 0.0d,
+	description: "{academy.passivespawning.desc}",
+	text: [
+		"{academy.passivespawning.text1}",
+		"{academy.passivespawning.text2}",
+		"",
+		"{academy.passivespawning.text3}",
+		"",
+		"{academy.passivespawning.text4}"
+	],
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fff8bd70",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	},
+	{
+		uid: "86b20403",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	}],
+	rewards: [{
+		uid: "044aa453",
+		type: "item",
+		item: "industrialforegoing:adult_filter"
+	}]
+}

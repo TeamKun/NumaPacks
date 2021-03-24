@@ -1,0 +1,47 @@
+{
+	title: "{academy.terrasteel.title}",
+	icon: "botania:manaresource 1 4",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{academy.terrasteel.desc}",
+	text: [
+		"{academy.terrasteel.text1}",
+		"",
+		"{academy.terrasteel.text2}",
+		"",
+		"{academy.terrasteel.text3}"
+	],
+	dependencies: [
+		"6984fc85"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5d48dde",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "9991df6f",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a140bb5c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "61f9c05c",
+		type: "item",
+		item: "botania:thornchakram",
+		count: 2
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	icon: "minecraft:iron_nugget",
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"0fd9853c",
+		"82bdbb9e"
+	],
+	tasks: [{
+		uid: "268c7f7f",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		},
+		{
+			item: "minecraft:planks"
+		},
+		{
+			item: "minecraft:log"
+		}]
+	}],
+	rewards: [{
+		uid: "903328c8",
+		type: "item",
+		team_reward: true,
+		auto: "enabled",
+		item: "minecraft:iron_nugget"
+	},
+	{
+		uid: "497acf2c",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "bulk_iron"
+	}]
+}

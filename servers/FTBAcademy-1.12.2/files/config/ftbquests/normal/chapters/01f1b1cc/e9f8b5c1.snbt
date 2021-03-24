@@ -1,0 +1,41 @@
+{
+	icon: "xpt:teleporter",
+	x: 2.0d,
+	y: -7.0d,
+	description: "{academy.xpteleporter.desc}",
+	text: [
+		"{academy.xpteleporter.text1}",
+		"",
+		"{academy.xpteleporter.text2}",
+		"",
+		"{academy.xpteleporter.text3}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "64e48d7a",
+		type: "item",
+		items: [{
+			item: "xpt:teleporter"
+		}]
+	},
+	{
+		uid: "b4d15b4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xpt:link_card"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ba5eb28",
+		type: "item",
+		item: "xpt:teleporter"
+	}]
+}

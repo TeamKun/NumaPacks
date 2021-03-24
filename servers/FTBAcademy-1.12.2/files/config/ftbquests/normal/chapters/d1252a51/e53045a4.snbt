@@ -1,0 +1,49 @@
+{
+	title: "{academy.portabletank.title}",
+	x: -2.5d,
+	y: -3.5d,
+	description: "{academy.portabletank.desc}",
+	text: [
+		"{academy.portabletank.text1}",
+		"",
+		"{academy.portabletank.text2}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9f6845d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2dcc2f1",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				display: {
+					Lore: [
+						"You can craft more of me!",
+						"Hit R while hovering over me"
+					]
+				},
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 14s
+				}]
+			}
+		}
+	}]
+}

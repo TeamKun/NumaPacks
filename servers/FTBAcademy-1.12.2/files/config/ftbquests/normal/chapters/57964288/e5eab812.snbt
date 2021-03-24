@@ -1,0 +1,55 @@
+{
+	title: "{academy.controller.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:controller",
+		tag: {
+			Energy: 32000
+		},
+		Damage: 1s
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "{academy.controller.desc}",
+	text: [
+		"{academy.controller.text1}",
+		"{academy.controller.text2}",
+		"{academy.controller.text3}",
+		"{academy.controller.text4}"
+	],
+	guide_page: "/modpack/storage/refined_storage/",
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "8199bd39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23950f07",
+		type: "item",
+		item: "refinedstorage:quartz_enriched_iron",
+		count: 48
+	},
+	{
+		uid: "517b082a",
+		type: "item",
+		item: "refinedstorage:silicon",
+		count: 32
+	}]
+}

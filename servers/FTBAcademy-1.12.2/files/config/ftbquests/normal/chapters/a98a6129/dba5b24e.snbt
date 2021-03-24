@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 7.0d,
+	description: "{academy.aaenergylaser3.desc}",
+	text: [
+		"{academy.aaenergylaser3.text}"
+	],
+	guide_page: "/modpack/technology/transportation/energy/aa_relays/",
+	dependencies: [
+		"56a29927"
+	],
+	hide: true,
+	tasks: [{
+		uid: "840fc078",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_extreme"
+		}]
+	}],
+	rewards: [{
+		uid: "5e1de862",
+		type: "item",
+		item: "actuallyadditions:block_laser_relay_extreme",
+		count: 3
+	}]
+}

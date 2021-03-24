@@ -1,0 +1,86 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 2s
+	},
+	x: 6.0d,
+	y: 0.0d,
+	description: "{academy.celestialaltar.desc}",
+	text: [
+		"{academy.celestialaltar.text1}",
+		"",
+		"{academy.celestialaltar.text2}",
+		"",
+		"{academy.celestialaltar.text3}"
+	],
+	dependencies: [
+		"ba5b0327"
+	],
+	hide: true,
+	tasks: [{
+		uid: "379f1a0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "063a1dab",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				RepairCost: 0,
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0b,
+						id: "astralsorcery:blockmarble",
+						Count: 40b,
+						Damage: 1s
+					},
+					{
+						Slot: 1b,
+						id: "astralsorcery:blockmarble",
+						Count: 8b,
+						Damage: 2s
+					},
+					{
+						Slot: 2b,
+						id: "astralsorcery:blockmarble",
+						Count: 4b,
+						Damage: 4s
+					},
+					{
+						Slot: 3b,
+						id: "astralsorcery:blockmarble",
+						Count: 4b,
+						Damage: 6s
+					},
+					{
+						Slot: 4b,
+						id: "astralsorcery:blockblackmarble",
+						Count: 49b,
+						Damage: 0s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "Celestial Altar construction blocks"
+				}
+			}
+		}
+	}]
+}

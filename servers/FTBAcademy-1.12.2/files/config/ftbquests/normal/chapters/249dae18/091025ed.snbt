@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.crafter.desc}",
+	text: [
+		"{academy.crafter.text1}",
+		"",
+		"{academy.crafter.text2}",
+		"",
+		"{academy.crafter.text3}"
+	],
+	guide_page: "/modpack/storage/refined_storage/autocrafting/",
+	dependencies: [
+		"b354d9c2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06073d37",
+		type: "item",
+		items: [{
+			item: "refinedstorage:crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "f61c65ee",
+		type: "item",
+		item: "refinedstorage:crafter",
+		count: 3
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{academy.observatory.title}",
+	x: 9.0d,
+	y: 2.0d,
+	description: "{academy.observatory.desc}",
+	text: [
+		"{academy.observatory.text1}",
+		"",
+		"{academy.observatory.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2f962c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e469a32",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}]
+	}],
+	rewards: [{
+		uid: "2e1882e0",
+		type: "choice",
+		table: 39
+	}]
+}

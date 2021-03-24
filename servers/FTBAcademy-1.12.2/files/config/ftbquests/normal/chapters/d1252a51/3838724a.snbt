@@ -1,0 +1,31 @@
+{
+	title: "{academy.drawercontroller.title}",
+	x: -3.0d,
+	y: 0.0d,
+	description: "{academy.drawercontroller.desc}",
+	text: [
+		"{academy.drawercontroller.text1}",
+		"",
+		"{academy.drawercontroller.text2}"
+	],
+	guide_page: "/modpack/storage/storage_drawers/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1af7adf",
+		"c55402d2"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3a8f2cf5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "fbbd2d1a",
+		type: "item",
+		item: "storagedrawers:upgrade_status 1 1"
+	}]
+}

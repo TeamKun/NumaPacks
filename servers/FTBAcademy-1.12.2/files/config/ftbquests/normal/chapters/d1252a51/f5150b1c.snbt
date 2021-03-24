@@ -1,0 +1,29 @@
+{
+	title: "{academy.storagecrate2.title}",
+	x: 1.0d,
+	y: -2.0d,
+	description: "{academy.storagecrate2.desc}",
+	text: [
+		"{academy.storagecrate2.text1}",
+		"",
+		"{academy.storagecrate2.text2}"
+	],
+	guide_page: "/modpack/storage/other/",
+	dependencies: [
+		"082e9e66",
+		"1ec99e63"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a1f59204",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_medium"
+		}]
+	}],
+	rewards: [{
+		uid: "93f42058",
+		type: "item",
+		item: "actuallyadditions:item_small_to_medium_crate_upgrade"
+	}]
+}

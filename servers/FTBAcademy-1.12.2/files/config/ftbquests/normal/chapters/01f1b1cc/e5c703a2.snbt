@@ -1,0 +1,30 @@
+{
+	title: "{academy.phantomblocks.title}",
+	icon: "actuallyadditions:block_phantom_energyface",
+	x: -4.0d,
+	y: -3.0d,
+	description: "{academy.phantomblocks.desc}",
+	text: [
+		"{academy.phantomblocks.text1}",
+		"",
+		"{academy.phantomblocks.text2}"
+	],
+	dependencies: [
+		"91a6ce0d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f33cc9b4",
+		type: "item",
+		title: "{academy.phantomblocks.task}",
+		items: [{
+			item: "actuallyadditions:block_phantom_energyface"
+		},
+		{
+			item: "actuallyadditions:block_phantom_liquiface"
+		},
+		{
+			item: "actuallyadditions:block_phantom_redstoneface"
+		}]
+	}]
+}

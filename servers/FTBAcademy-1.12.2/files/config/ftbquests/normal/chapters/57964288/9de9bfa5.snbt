@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	description: "{academy.fluidgrid.desc}",
+	text: [
+		"{academy.fluidgrid.text1}",
+		"{academy.fluidgrid.text2}",
+		"{academy.fluidgrid.text3}"
+	],
+	guide_page: "/modpack/storage/refined_storage/",
+	dependencies: [
+		"40daeec9"
+	],
+	tasks: [{
+		uid: "ba5186e1",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 3"
+		}]
+	}]
+}

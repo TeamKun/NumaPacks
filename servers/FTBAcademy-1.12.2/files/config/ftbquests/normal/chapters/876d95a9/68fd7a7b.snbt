@@ -1,0 +1,29 @@
+{
+	title: "{academy.pitifulgen.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{academy.pitifulgen.desc}",
+	text: [
+		"{academy.pitifulgen.text1}",
+		"",
+		"{academy.pitifulgen.text2}"
+	],
+	guide_page: "/modpack/technology/generators/industrial_foregoing/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d9c6fe9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pitiful_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c0bdc190",
+		type: "item",
+		item: "minecraft:stick",
+		count: 127
+	}]
+}

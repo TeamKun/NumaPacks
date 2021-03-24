@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: 5.0d,
+	description: "{academy.ifspeed1.desc}",
+	text: [
+		"{academy.ifspeed1.text}"
+	],
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d7ac4486",
+		type: "item",
+		items: [{
+			item: "teslacorelib:speed_tier1"
+		}]
+	}],
+	rewards: [{
+		uid: "d647413c",
+		type: "item",
+		item: "teslacorelib:speed_tier1"
+	}]
+}

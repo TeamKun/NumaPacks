@@ -1,0 +1,33 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"3116ef17"
+	],
+	tasks: [{
+		uid: "8c51ffa2",
+		type: "custom",
+		title: "lct",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}
+	}],
+	rewards: [{
+		uid: "26c067d4",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "a2",
+		remove: true
+	},
+	{
+		uid: "406ca7d8",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "a3"
+	}]
+}

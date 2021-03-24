@@ -1,0 +1,46 @@
+{
+	title: "{academy.introilumpowder.title}",
+	x: 6.0d,
+	y: -4.0d,
+	description: "{academy.introilumpowder.desc}",
+	text: [
+		"{academy.introilumpowder.text1}",
+		"",
+		"{academy.introilumpowder.text2}"
+	],
+	dependencies: [
+		"885bcc51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dedacf10",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "daaf90fe",
+		type: "advancement",
+		team_reward: true,
+		auto: "invisible",
+		advancement: "ftbacademymod:as",
+		criterion: ""
+	},
+	{
+		uid: "431eb529",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "a3",
+		remove: true
+	},
+	{
+		uid: "37ee0a37",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "as_done"
+	}]
+}

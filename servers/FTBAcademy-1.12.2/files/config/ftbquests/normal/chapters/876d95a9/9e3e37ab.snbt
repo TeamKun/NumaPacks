@@ -1,0 +1,23 @@
+{
+	title: "{academy.rangedcollector.title}",
+	x: 8.0d,
+	y: 5.0d,
+	description: "{academy.rangedcollector.desc}",
+	text: [
+		"{academy.rangedcollector.text1}",
+		"",
+		"{academy.rangedcollector.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ba145791",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_ranged_collector"
+		}]
+	}]
+}

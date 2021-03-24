@@ -1,0 +1,41 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	description: "{academy.mobcrusher.desc}",
+	text: [
+		"{academy.mobcrusher.text1}",
+		"",
+		"{academy.mobcrusher.text2}"
+	],
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e7a22d2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "c2f5e1a8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Fluid: {
+					FluidName: "essence",
+					Amount: 20000
+				},
+				Level: 0b,
+				Lock: 0b
+			}
+		}
+	}]
+}

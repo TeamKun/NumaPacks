@@ -1,0 +1,30 @@
+{
+	title: "{academy.fysallidic.title}",
+	x: 9.0d,
+	y: 4.0d,
+	description: "{academy.fysallidic.desc}",
+	text: [
+		"{academy.fysallidic.text}"
+	],
+	dependencies: [
+		"80eb5301"
+	],
+	tasks: [{
+		uid: "77a0fcc9",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7a266e81",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "astralsorcery.liquidstarlight"
+			}
+		},
+		count: 4
+	}]
+}

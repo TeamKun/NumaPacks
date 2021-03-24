@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "{academy.cable.desc}",
+	text: [
+		"{academy.cable.text}"
+	],
+	guide_page: "/modpack/storage/refined_storage/cables/",
+	dependencies: [
+		"9de9bfa5",
+		"2dbc5ad5"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c3928b0a",
+		type: "item",
+		items: [{
+			item: "refinedstorage:cable"
+		}]
+	}],
+	rewards: [{
+		uid: "2ee04450",
+		type: "item",
+		item: "refinedstorage:cable",
+		count: 52
+	}]
+}

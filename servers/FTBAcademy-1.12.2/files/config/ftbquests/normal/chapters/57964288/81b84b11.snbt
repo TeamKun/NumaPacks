@@ -1,0 +1,35 @@
+{
+	title: "{academy.io.title}",
+	icon: "refinedstorage:exporter",
+	x: 6.0d,
+	y: 0.0d,
+	description: "{academy.io.desc}",
+	text: [
+		"{academy.io.text1}",
+		"{academy.io.text2}"
+	],
+	guide_page: "/modpack/storage/refined_storage/cables/",
+	dependencies: [
+		"5ef69d97"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0327f0c9",
+		type: "item",
+		items: [{
+			item: "refinedstorage:importer"
+		}]
+	},
+	{
+		uid: "4d1ccd22",
+		type: "item",
+		items: [{
+			item: "refinedstorage:exporter"
+		}]
+	}],
+	rewards: [{
+		uid: "17893afd",
+		type: "item",
+		item: "refinedstorage:upgrade 1 4"
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "{academy.energycell.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.energycell.desc}",
+	text: [
+		"{academy.energycell.text1}",
+		"",
+		"{academy.energycell.text2}",
+		"",
+		"{academy.energycell.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/energy/storage/",
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "468f55dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba3bd65a",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 33"
+	}]
+}

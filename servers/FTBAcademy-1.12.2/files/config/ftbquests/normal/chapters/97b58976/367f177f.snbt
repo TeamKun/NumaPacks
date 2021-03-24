@@ -1,0 +1,41 @@
+{
+	title: "{academy.collectorcrystal.title}",
+	x: 6.0d,
+	y: -3.0d,
+	description: "{academy.collectorcrystal.desc}",
+	text: [
+		"{academy.collectorcrystal.text1}",
+		"",
+		"{academy.collectorcrystal.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c88c78d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "002e3888",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

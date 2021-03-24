@@ -1,0 +1,32 @@
+{
+	title: "{academy.magicmap.title}",
+	x: 0.0d,
+	y: -2.0d,
+	description: "{academy.magicmap.desc}",
+	text: [
+		"{academy.magicmap.text1}",
+		"",
+		"{academy.magicmap.text2}"
+	],
+	dependencies: [
+		"e10140a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ed9b795",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "55bd451a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:moonworm_queen"
+		}
+	}]
+}

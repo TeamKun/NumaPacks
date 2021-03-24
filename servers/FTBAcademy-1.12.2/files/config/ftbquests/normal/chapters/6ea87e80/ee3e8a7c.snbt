@@ -1,0 +1,133 @@
+{
+	title: "{academy.slimesling.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:slimesling"
+	},
+	x: 2.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "{academy.slimesling.desc}",
+	text: [
+		"{academy.slimesling.text1}",
+		"",
+		"{academy.slimesling.text2}",
+		"",
+		"{academy.slimesling.text3}"
+	],
+	guide_page: "/modpack/gear/tinkers_construct/misc/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71e56329",
+		type: "item",
+		title: "{academy.slimesling.task1}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb9e8995",
+		type: "item",
+		title: "{academy.slimesling.task2}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7086d81b",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "{academy.intropowertransfer.title}",
+	x: 0.0d,
+	y: -6.0d,
+	description: "{academy.intropowertransfer.desc}",
+	text: [
+		"{academy.intropowertransfer.text1}",
+		"",
+		"{academy.intropowertransfer.text2}",
+		"",
+		"{academy.intropowertransfer.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/energy/",
+	dependencies: [
+		"61f5dd41",
+		"c14e2308"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e515901",
+		type: "custom",
+		title: "{academy.intropowertransfer.task}",
+		icon: "thermaldynamics:duct_0",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "e41567b5",
+		type: "item",
+		team_reward: true,
+		auto: "no_toast",
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}
+	},
+	{
+		uid: "8610b038",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "tech_4"
+	},
+	{
+		uid: "425f0e0c",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "tech_3",
+		remove: true
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "b4f78046",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "991b16d3",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "finished_school"
+	}]
+}

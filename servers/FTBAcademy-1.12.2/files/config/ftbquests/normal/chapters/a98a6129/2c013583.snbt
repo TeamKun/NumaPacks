@@ -1,0 +1,35 @@
+{
+	title: "{academy.numismatic.title}",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{academy.numismatic.desc}",
+	text: [
+		"{academy.numismatic.text1}",
+		"",
+		"{academy.numismatic.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4035023e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "977496a5",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "85daf920",
+		type: "loot",
+		table: 43
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "{academy.leadstonejetpack.title}",
+	x: 1.0d,
+	y: 6.5d,
+	description: "{academy.leadstonejetpack.desc}",
+	text: [
+		"{academy.leadstonejetpack.text1}",
+		"",
+		"{academy.leadstonejetpack.text2}",
+		"",
+		"{academy.leadstonejetpack.text3}",
+		"",
+		"{academy.leadstonejetpack.text4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"112b2887"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09d17895",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91743654",
+		type: "choice",
+		table: 44
+	}]
+}

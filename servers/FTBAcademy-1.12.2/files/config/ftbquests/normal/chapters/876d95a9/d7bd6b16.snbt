@@ -1,0 +1,30 @@
+{
+	title: "{academy.doublecrusher.title}",
+	x: 7.0d,
+	y: 7.0d,
+	description: "{academy.doublecrusher.desc}",
+	text: [
+		"{academy.doublecrusher.text1}",
+		"",
+		"{academy.doublecrusher.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/ores/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"1ab71733"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0d73699",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_grinder_double"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8f74d20",
+		type: "random",
+		table: 1
+	}]
+}

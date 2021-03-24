@@ -1,0 +1,17 @@
+{
+	title: "exit tech",
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"205a65f8"
+	],
+	tasks: [{
+		uid: "440bf14a",
+		type: "custom",
+		title: "exit tech",
+		icon: "minecraft:wooden_door",
+		tags: [
+			"clear"
+		]
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "{academy.atmagnet.title}",
+	x: 0.0d,
+	y: -7.0d,
+	description: "{academy.atmagnet.desc}",
+	text: [
+		"{academy.atmagnet.text1}",
+		"",
+		"{academy.atmagnet.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b5b4b953",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_suction_ring",
+			tag: {
+				Energy: 0,
+				IsEnabled: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6aa09269",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.bow_gold",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 51s
+				},
+				{
+					lvl: 1,
+					id: 24s
+				}],
+				RepairCost: 3
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{academy.phantombooster.title}",
+	x: -4.0d,
+	y: -5.0d,
+	description: "{academy.phantombooster.desc}",
+	text: [
+		"{academy.phantombooster.text}"
+	],
+	dependencies: [
+		"91a6ce0d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87c45482",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_phantom_booster"
+		}]
+	}],
+	rewards: [{
+		uid: "2e30fb47",
+		type: "item",
+		item: "actuallyadditions:block_phantom_booster",
+		count: 2
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "{academy.ichosic.title}",
+	x: 7.0d,
+	y: 5.0d,
+	description: "{academy.ichosic.desc}",
+	text: [
+		"{academy.ichosic.text1}",
+		"",
+		"{academy.ichosic.text2}"
+	],
+	dependencies: [
+		"c68157a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50d3051c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					selected_upgrade: 1,
+					upgrades: [
+						0,
+						1,
+						2
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80a94d3a",
+		type: "choice",
+		table: 39
+	}]
+}

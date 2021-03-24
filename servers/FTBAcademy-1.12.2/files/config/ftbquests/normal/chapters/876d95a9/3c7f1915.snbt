@@ -1,0 +1,51 @@
+{
+	title: "{academy.DEsouls.title}",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "twilightforest:giant_miner"
+		}
+	},
+	x: 12.0d,
+	y: 5.0d,
+	description: "{academy.DEsouls.desc}",
+	text: [
+		"{academy.DEsouls.text1}",
+		"",
+		"{academy.DEsouls.text2}"
+	],
+	guide_page: "/modpack/technology/machines/resource_gathering/mob_grinding/spawning/",
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"d6a735c1",
+		"2e6d4426"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02858c49",
+		type: "item",
+		title: "{academy.DEsouls.task}",
+		items: [{
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "[Random-Display]"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "969ebde7",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 11s
+				}]
+			}
+		}
+	}]
+}

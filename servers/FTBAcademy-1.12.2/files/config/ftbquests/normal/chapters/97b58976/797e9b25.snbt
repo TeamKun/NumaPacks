@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	description: "{academy.caveilluminator.desc}",
+	text: [
+		"{academy.caveilluminator.text}"
+	],
+	dependencies: [
+		"4008daee"
+	],
+	tasks: [{
+		uid: "86dfd4d2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockworldilluminator"
+		}]
+	}],
+	rewards: [{
+		uid: "55e1d9f2",
+		type: "item",
+		item: "astralsorcery:blockcustomore",
+		count: 4
+	}]
+}

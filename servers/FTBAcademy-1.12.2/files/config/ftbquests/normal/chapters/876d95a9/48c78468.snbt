@@ -1,0 +1,28 @@
+{
+	title: "{academy.celestialmanipulator.title}",
+	x: 12.0d,
+	y: 7.0d,
+	description: "{academy.celestialmanipulator.desc}",
+	text: [
+		"{academy.celestialmanipulator.text}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"d6a735c1",
+		"2e6d4426"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61b60429",
+		type: "item",
+		items: [{
+			item: "draconicevolution:celestial_manipulator"
+		}]
+	}],
+	rewards: [{
+		uid: "95687fcb",
+		type: "item",
+		item: "quark:rain_detector"
+	}]
+}

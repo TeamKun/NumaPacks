@@ -1,0 +1,57 @@
+{
+	title: "{academy.builderswands.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "betterbuilderswands:wandstone"
+	},
+	x: 1.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "{academy.builderswands.desc}",
+	text: [
+		"{academy.builderswands.text1}",
+		"{academy.builderswands.text2}",
+		"",
+		"{academy.builderswands.text3}"
+	],
+	guide_page: "/modpack/gear/better_builders_wands/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7f4ccabc",
+		type: "item",
+		title: "{academy.builderswands.task}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandstone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandiron"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wanddiamond"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandunbreakable",
+			Damage: 12s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

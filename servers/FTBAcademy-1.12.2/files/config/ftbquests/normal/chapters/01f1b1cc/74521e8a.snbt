@@ -1,0 +1,33 @@
+{
+	title: "{academy.itemlaser.title}",
+	icon: "actuallyadditions:block_laser_relay_item",
+	x: 4.0d,
+	y: -3.0d,
+	description: "{academy.itemlaser.desc}",
+	text: [
+		"{academy.itemlaser.text1}",
+		"",
+		"{academy.itemlaser.text2}",
+		"",
+		"{academy.itemlaser.text3}",
+		"",
+		"{academy.itemlaser.text4}"
+	],
+	guide_page: "/modpack/technology/transportation/item/aa/",
+	dependencies: [
+		"0683db21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5dc811b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item"
+		}]
+	}],
+	rewards: [{
+		uid: "206e8624",
+		type: "item",
+		item: "actuallyadditions:block_laser_relay_item"
+	}]
+}

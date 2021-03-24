@@ -1,0 +1,43 @@
+{
+	icon: "thermalexpansion:augment 1 129",
+	x: 4.0d,
+	y: 4.0d,
+	description: "{academy.regularaugments.desc}",
+	text: [
+		"{academy.regularaugments.text1}",
+		"",
+		"{academy.regularaugments.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa48dbd1",
+		"a50abcbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e56f5f0",
+		type: "item",
+		title: "{academy.regularaugments.task}",
+		items: [{
+			item: "thermalexpansion:augment 1 128"
+		},
+		{
+			item: "thermalexpansion:augment 1 129"
+		},
+		{
+			item: "thermalexpansion:augment 1 130"
+		},
+		{
+			item: "thermalexpansion:augment 1 512"
+		},
+		{
+			item: "thermalexpansion:augment 1 513"
+		},
+		{
+			item: "thermalexpansion:augment 1 514"
+		},
+		{
+			item: "thermalexpansion:augment 1 515"
+		}]
+	}]
+}

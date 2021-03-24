@@ -1,0 +1,33 @@
+{
+	title: "{academy.advdislocator.title}",
+	x: -6.0d,
+	y: -5.0d,
+	description: "{academy.advdislocator.desc}",
+	text: [
+		"{academy.advdislocator.text1}",
+		"",
+		"{academy.advdislocator.text2}",
+		"",
+		"{academy.advdislocator.text3}"
+	],
+	dependencies: [
+		"ae709363"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ead1946a",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "124ba71f",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "{academy.spectralrelay.title}",
+	x: 1.0d,
+	y: -2.0d,
+	description: "{academy.spectralrelay.desc}",
+	text: [
+		"{academy.spectralrelay.text1}",
+		"",
+		"{academy.spectralrelay.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"71629876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5302c05d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "a820fc22",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 4",
+		count: 4
+	},
+	{
+		uid: "9e250af3",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 3",
+		count: 4
+	},
+	{
+		uid: "8e66219e",
+		type: "item",
+		item: "astralsorcery:blockblackmarble"
+	}]
+}

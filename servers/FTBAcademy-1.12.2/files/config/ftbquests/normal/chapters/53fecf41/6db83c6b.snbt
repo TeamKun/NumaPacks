@@ -1,0 +1,112 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	dependencies: [
+		"87961214"
+	],
+	tasks: [{
+		uid: "d5ad481e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "0dc0bc93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3aa442bd",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "fe7c6ece",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "dd7e819e",
+		type: "item",
+		items: [{
+			item: "botania:flower 1 12"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "718ac496",
+		type: "item",
+		items: [{
+			item: "botania:flower 1 14"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "7328f854",
+		type: "item",
+		items: [{
+			item: "botania:flower 1 8"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "856ef3f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d7378ef",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b_items",
+		remove: true
+	},
+	{
+		uid: "2c36e7bd",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b1",
+		remove: true
+	},
+	{
+		uid: "3f48d36c",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b_petal"
+	}]
+}

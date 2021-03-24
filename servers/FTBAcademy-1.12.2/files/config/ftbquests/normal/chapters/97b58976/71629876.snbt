@@ -1,0 +1,35 @@
+{
+	title: "{academy.luminouscraftingtable.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.luminouscraftingtable.desc}",
+	text: [
+		"{academy.luminouscraftingtable.text1}",
+		"",
+		"{academy.luminouscraftingtable.text2}",
+		"",
+		"{academy.luminouscraftingtable.text3}",
+		"",
+		"{academy.luminouscraftingtable.text4}"
+	],
+	dependencies: [
+		"37fef956"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5843c6cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6a0cdf2",
+		type: "choice",
+		table: 14
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "{academy.mobgrindingutils.title}",
+	icon: "mob_grinding_utils:saw",
+	x: -2.0d,
+	y: -5.0d,
+	description: "{academy.mobgrindingutils.desc}",
+	text: [
+		"{academy.mobgrindingutils.text1}",
+		"",
+		"{academy.mobgrindingutils.text2}",
+		"",
+		"{academy.mobgrindingutils.text3}"
+	],
+	guide_page: "/modpack/technology/machines/resource_gathering/mob_grinding/mobgrindingutils/",
+	dependencies: [
+		"f2776b55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6608b253",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:fan"
+		}]
+	},
+	{
+		uid: "d76657c8",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:saw"
+		}]
+	}],
+	rewards: [{
+		uid: "e3513bf4",
+		type: "choice",
+		table: 3
+	}]
+}

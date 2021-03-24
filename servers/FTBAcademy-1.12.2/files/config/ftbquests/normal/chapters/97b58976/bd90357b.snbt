@@ -1,0 +1,38 @@
+{
+	title: "{academy.illuminationwand.title}",
+	x: 5.0d,
+	y: -2.0d,
+	description: "{academy.illuminationwand.desc}",
+	text: [
+		"{academy.illuminationwand.text1}",
+		"",
+		"{academy.illuminationwand.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4008daee",
+		"d38d8ad2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "244abcc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4af11f0e",
+		type: "item",
+		item: "astralsorcery:itemusabledust",
+		count: 64
+	}]
+}

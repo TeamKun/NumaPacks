@@ -1,0 +1,28 @@
+{
+	title: "{academy.advanceditemlaser.title}",
+	x: 4.0d,
+	y: -1.0d,
+	description: "{academy.advanceditemlaser.desc}",
+	text: [
+		"{academy.advanceditemlaser.text1}",
+		"",
+		"{academy.advanceditemlaser.text2}"
+	],
+	guide_page: "/modpack/technology/transportation/item/aa/",
+	dependencies: [
+		"74521e8a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5bea9f1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item_whitelist"
+		}]
+	}],
+	rewards: [{
+		uid: "44735a3d",
+		type: "item",
+		item: "actuallyadditions:block_laser_relay_item_whitelist"
+	}]
+}

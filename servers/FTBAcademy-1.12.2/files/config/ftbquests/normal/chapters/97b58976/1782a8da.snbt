@@ -1,0 +1,26 @@
+{
+	title: "{academy.telescope.title}",
+	x: 3.0d,
+	y: 2.0d,
+	description: "{academy.telescope.desc}",
+	text: [
+		"{academy.telescope.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba5b0327"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b726323",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "dd60a42f",
+		type: "choice",
+		table: 38
+	}]
+}

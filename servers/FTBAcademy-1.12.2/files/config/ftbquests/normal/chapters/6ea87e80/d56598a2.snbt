@@ -1,0 +1,38 @@
+{
+	title: "{academy.toolforge.title}",
+	x: 1.0d,
+	y: -4.0d,
+	shape: "hexagon",
+	description: "{academy.toolforge.desc}",
+	text: [
+		"{academy.toolforge.text1}",
+		"",
+		"{academy.toolforge.text2}"
+	],
+	dependencies: [
+		"ab9f1f59"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7966033c",
+		type: "item",
+		title: "{academy.toolforge.task}",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59f4c9dd",
+		type: "choice",
+		table: 0
+	}]
+}

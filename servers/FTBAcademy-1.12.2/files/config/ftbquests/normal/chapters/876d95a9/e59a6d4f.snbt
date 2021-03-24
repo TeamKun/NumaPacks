@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	description: "{academy.autoplacer.desc}",
+	text: [
+		"{academy.autoplacer.text1}",
+		"",
+		"{academy.autoplacer.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "39657906",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_placer"
+		}],
+		ignore_nbt: 1b
+	}]
+}

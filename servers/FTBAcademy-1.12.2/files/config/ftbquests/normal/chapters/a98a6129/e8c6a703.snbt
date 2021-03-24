@@ -1,0 +1,26 @@
+{
+	title: "{academy.awakeneddraconium.title}",
+	x: 11.0d,
+	y: 6.0d,
+	description: "{academy.awakeneddraconium.desc}",
+	text: [
+		"{academy.awakeneddraconium.text}"
+	],
+	dependencies: [
+		"eecb98c3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a329310",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}],
+	rewards: [{
+		uid: "9b3985fb",
+		type: "item",
+		item: "draconicevolution:draconium_block",
+		count: 8
+	}]
+}

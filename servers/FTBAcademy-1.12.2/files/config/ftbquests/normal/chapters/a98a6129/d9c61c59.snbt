@@ -1,0 +1,87 @@
+{
+	title: "{academy.armoredjetpacks.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 14s
+	},
+	x: 1.0d,
+	y: 7.5d,
+	description: "{academy.armoredjetpacks.desc}",
+	text: [
+		"{academy.armoredjetpacks.text}"
+	],
+	dependencies: [
+		"f2d232de"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "4015aebe",
+		type: "item",
+		title: "{academy.armoredjetpacks.task}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 14s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 15s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 16s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 17s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bfc338a0",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}
+	}]
+}

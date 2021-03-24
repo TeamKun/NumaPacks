@@ -1,0 +1,24 @@
+{
+	title: "{academy.technology2.title}",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 6s
+	},
+	always_invisible: false,
+	group: -1801471787,
+	default_quest_shape: ""
+}

@@ -1,0 +1,17 @@
+{
+	title: "{academy.elfmats.rewards}",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		item: "botania:manaresource 1 7",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 9",
+		count: 8
+	},
+	{
+		item: "botania:manaresource 1 8",
+		count: 6
+	}]
+}

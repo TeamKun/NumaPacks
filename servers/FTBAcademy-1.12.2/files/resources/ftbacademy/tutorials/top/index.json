@@ -1,0 +1,108 @@
+{
+	"title": {"translate": "academy.tutorial.top.title"},
+	"icon": "item:minecraft:sign",
+	"pages": [
+		{
+			"description": {"translate": "academy.tutorial.top.1"},
+			"width": 1920,
+			"height": 1033,
+			"layers": [
+				{
+					"type": "image",
+					"image": "wall.png"
+				},
+				{
+					"type": "text",
+					"x": 600,
+					"y": 180,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.top.2"},
+						"",
+						{"translate": "academy.tutorial.top.3"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.top.4"},
+			"width": 1920,
+			"height": 1033,
+			"layers": [
+				{
+					"type": "image",
+					"image": "crate_sneak.png"
+				},
+				{
+					"type": "text",
+					"x": 600,
+					"y": 325,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.top.5"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.top.6"},
+			"width": 1920,
+			"height": 1033,
+			"layers": [
+				{
+					"type": "image",
+					"image": "tank.png"
+				},
+				{
+					"type": "text",
+					"x": 600,
+					"y": 250,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.top.7"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.top.8"},
+			"width": 1920,
+			"height": 1033,
+			"layers": [
+				{
+					"type": "image",
+					"image": "generator.png"
+				},
+				{
+					"type": "text",
+					"x": 600,
+					"y": 250,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.top.9"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.top.10"},
+			"width": 1920,
+			"height": 1033,
+			"layers": [
+				{
+					"type": "image",
+					"image": "machine.png"
+				},
+				{
+					"type": "text",
+					"x": 600,
+					"y": 300,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.top.11"}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"35304ee6"
+	],
+	tasks: [{
+		uid: "1d64b9d5",
+		type: "interaction",
+		icon: "refinedstorage:disk_drive",
+		match_type: "block_id",
+		match: "refinedstorage:disk_drive"
+	}],
+	rewards: [{
+		uid: "23c8845c",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_10",
+		remove: true
+	},
+	{
+		uid: "703d17e6",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_11"
+	}]
+}

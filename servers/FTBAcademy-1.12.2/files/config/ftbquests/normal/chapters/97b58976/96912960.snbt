@@ -1,0 +1,39 @@
+{
+	title: "{academy.astralsorcerylens.title}",
+	x: 5.0d,
+	y: 2.0d,
+	description: "{academy.astralsorcerylens.desc}",
+	text: [
+		"{academy.astralsorcerylens.text1}",
+		"",
+		"{academy.astralsorcerylens.text2}"
+	],
+	dependencies: [
+		"f533c338"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be0c92d0",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26b047ca",
+		type: "choice",
+		table: 40
+	}]
+}

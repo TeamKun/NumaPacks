@@ -1,0 +1,30 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"6ddd153f"
+	],
+	tasks: [{
+		uid: "ce0e3a81",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "50536c05",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_12",
+		remove: true
+	},
+	{
+		uid: "2b34e670",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_13"
+	}]
+}

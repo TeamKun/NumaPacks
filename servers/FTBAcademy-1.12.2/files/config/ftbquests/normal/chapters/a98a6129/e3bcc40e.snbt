@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	description: "{academy.fluxducts6.desc}",
+	text: [
+		"{academy.fluxducts6.text}"
+	],
+	guide_page: "/modpack/technology/transportation/energy/fluxducts/",
+	dependencies: [
+		"90f927dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07634ff3",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "338e0bca",
+		type: "item",
+		item: "thermaldynamics:duct_0 1 5",
+		count: 16
+	}]
+}

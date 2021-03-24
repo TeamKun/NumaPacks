@@ -1,0 +1,64 @@
+{
+	"title": {"translate": "academy.tutorial.school.title"},
+	"icon": "item:minecraft:command_block",
+	"pages": [
+		{
+			"description": {"translate": "academy.tutorial.school.1"},
+			"width": 500,
+			"height": 269,
+			"layers": [
+				{
+					"type": "image",
+					"image": "buttons.png"
+				},
+				{
+					"type": "text",
+					"x": 13,
+					"y": 108,
+					"width": 277,
+					"text": [
+						{"translate": "academy.tutorial.school.2"}
+					]
+				},
+				{
+					"type": "border",
+					"x": 6,
+					"y": 54,
+					"width": 46,
+					"height": 47,
+					"color": "#00FFFF",
+					"pulse": "true"
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.school.3"},
+			"width": 500,
+			"height": 269,
+			"layers": [
+				{
+					"type": "image",
+					"image": "buttons.png"
+				},
+				{
+					"type": "text",
+					"x": 13,
+					"y": 108,
+					"width": 277,
+					"text": [
+						{"translate": "academy.tutorial.school.4"}
+					]
+				},
+				{
+					"type": "border",
+					"x": 55,
+					"y": 54,
+					"width": 46,
+					"height": 47,
+					"color": "#00FFFF",
+					"pulse": "true"
+				}
+			]
+		}
+	]
+}

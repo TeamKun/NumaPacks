@@ -1,0 +1,13 @@
+{
+	title: "{academy.refinedstorage3.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:wireless_grid",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 134102092,
+	default_quest_shape: ""
+}

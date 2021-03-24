@@ -1,0 +1,42 @@
+{
+	title: "{academy.swordenchants2.rewards}",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.looting2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				RepairCost: 0,
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 21s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.sharpness2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				RepairCost: 0,
+				StoredEnchantments: [{
+					lvl: 6s,
+					id: 16s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.reaper2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 11s
+				}]
+			}
+		}
+	}]
+}

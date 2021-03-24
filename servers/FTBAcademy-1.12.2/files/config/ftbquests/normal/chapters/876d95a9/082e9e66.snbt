@@ -1,0 +1,26 @@
+{
+	title: "{academy.atomicreconstructor.title}",
+	x: 7.0d,
+	y: 2.0d,
+	description: "{academy.atomicreconstructor.desc}",
+	text: [
+		"{academy.atomicreconstructor.text1}",
+		"",
+		"{academy.atomicreconstructor.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/creation/atomic_reconstructor/",
+	min_required_dependencies: 1,
+	dependencies: [
+		"d32f339b",
+		"d6a735c1"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "14e4655c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}],
+		ignore_nbt: 1b
+	}]
+}

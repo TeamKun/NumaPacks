@@ -1,0 +1,32 @@
+{
+	title: "{academy.neromantic.title}",
+	x: 7.0d,
+	y: 4.0d,
+	description: "{academy.neromantic.desc}",
+	text: [
+		"{academy.neromantic.text1}",
+		"",
+		"{academy.neromantic.text2}"
+	],
+	dependencies: [
+		"80eb5301"
+	],
+	tasks: [{
+		uid: "a4e4c515",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		}]
+	}],
+	rewards: [{
+		uid: "334d0502",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "astralsorcery.liquidstarlight"
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Backend - School",
+	icon: "minecraft:command_block",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

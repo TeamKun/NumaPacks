@@ -1,0 +1,28 @@
+{
+	title: "{academy.runicaltar.title}",
+	x: 1.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{academy.runicaltar.desc}",
+	text: [
+		"{academy.runicaltar.text1}",
+		"",
+		"{academy.runicaltar.text2}"
+	],
+	dependencies: [
+		"8eb7fa39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "567cbf21",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "91521bc1",
+		type: "item",
+		item: "botania:grassseeds 1 5"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{academy.solidifiedxp.title}",
+	x: -6.0d,
+	y: -6.0d,
+	description: "{academy.solidifiedxp.desc}",
+	text: [
+		"{academy.solidifiedxp.text1}",
+		"",
+		"{academy.solidifiedxp.text2}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79ca1630",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_solidified_experience"
+		}]
+	}],
+	rewards: [{
+		uid: "1245cbd3",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 64
+	}]
+}

@@ -1,0 +1,102 @@
+{
+	title: "{academy.dimconstellations.rewards}",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.bootes.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.bootes"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.fornax.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.fornax"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.horologium.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.lucerna.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.lucerna"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.mineralis.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.mineralis"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.octans.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.octans"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.pelotrio.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.pelotrio"
+				}
+			}
+		}
+	}]
+}

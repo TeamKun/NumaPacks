@@ -1,0 +1,62 @@
+{
+	title: "{academy.elven.title}",
+	icon: "botania:pylon 1 1",
+	x: 5.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{academy.elven.desc}",
+	text: [
+		"{academy.elven.text1}",
+		"",
+		"{academy.elven.text2}"
+	],
+	dependencies: [
+		"332e6024"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e028a074",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9eed3469",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "cde0d567",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "d7420127",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f64a22da",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "bba109ff",
+		type: "choice",
+		icon: "botania:manaresource 1 8",
+		table: 5
+	}]
+}

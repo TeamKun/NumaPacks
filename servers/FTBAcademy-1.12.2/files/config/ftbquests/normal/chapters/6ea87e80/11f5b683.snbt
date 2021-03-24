@@ -1,0 +1,32 @@
+{
+	title: "{academy.beesandbats.title}",
+	icon: "minecraft:porkchop",
+	x: 3.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	description: "{academy.beesandbats.desc}",
+	text: [
+		"{academy.beesandbats.text1}",
+		"",
+		"{academy.beesandbats.text2}",
+		"",
+		"{academy.beesandbats.text3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e9c79b7",
+		type: "advancement",
+		title: "{academy.beesandbats.task}",
+		advancement: "minecraft:husbandry/breed_an_animal",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "7c5bf235",
+		type: "random",
+		table: 16
+	}]
+}

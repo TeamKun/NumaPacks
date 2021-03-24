@@ -1,0 +1,28 @@
+{
+	title: "{academy.attunementaltar.title}",
+	x: 4.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "{academy.attunementaltar.desc}",
+	text: [
+		"{academy.attunementaltar.text1}",
+		"",
+		"{academy.attunementaltar.text2}"
+	],
+	dependencies: [
+		"dd8316e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "285438f8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "c3a52760",
+		type: "choice",
+		table: 38
+	}]
+}

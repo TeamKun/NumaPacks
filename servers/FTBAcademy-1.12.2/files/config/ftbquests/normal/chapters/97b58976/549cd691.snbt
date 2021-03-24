@@ -1,0 +1,42 @@
+{
+	title: "{academy.grindstone.title}",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{academy.grindstone.desc}",
+	text: [
+		"{academy.grindstone.text1}",
+		"",
+		"{academy.grindstone.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"71629876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14c1b7ca",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "98deb989",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcrystalsword",
+			tag: {
+				astralsorcery: {
+					size: 800,
+					fract: 0,
+					purity: 100,
+					sizeOverride: -1,
+					collect: 100
+				}
+			}
+		}
+	}]
+}

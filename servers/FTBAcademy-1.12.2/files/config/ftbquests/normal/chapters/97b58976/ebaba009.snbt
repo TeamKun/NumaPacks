@@ -1,0 +1,25 @@
+{
+	title: "{academy.impulsionwand.title}",
+	x: 5.0d,
+	y: 3.0d,
+	description: "{academy.impulsionwand.desc}",
+	text: [
+		"{academy.impulsionwand.text}"
+	],
+	dependencies: [
+		"dd8316e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aaf24358",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemgrapplewand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

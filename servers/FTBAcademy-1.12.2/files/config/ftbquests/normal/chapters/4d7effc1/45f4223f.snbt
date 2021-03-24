@@ -1,0 +1,40 @@
+{
+	title: "{academy.craftingtableonastick.title}",
+	x: -4.0d,
+	y: -7.0d,
+	description: "{academy.craftingtableonastick.desc}",
+	text: [
+		"{academy.craftingtableonastick.text}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5374aee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_crafter_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "246559d8",
+		type: "item",
+		title: "{item.diamond.name}",
+		icon: "minecraft:diamond",
+		item: {
+			id: "twilightforest:giant_cobblestone",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "jk lol"
+				}
+			}
+		}
+	}]
+}

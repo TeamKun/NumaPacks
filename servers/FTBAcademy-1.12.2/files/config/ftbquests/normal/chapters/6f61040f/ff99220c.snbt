@@ -1,0 +1,53 @@
+{
+	title: "{academy.introfluidtransfer.title}",
+	icon: {
+		id: "thermaldynamics:duct_16",
+		tag: {}
+	},
+	x: 6.0d,
+	y: -8.0d,
+	description: "{academy.introfluidtransfer.desc}",
+	text: [
+		"{academy.introfluidtransfer.text1}",
+		"",
+		"{academy.introfluidtransfer.text2}",
+		"",
+		"{academy.introfluidtransfer.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/fluid/fluiducts/",
+	dependencies: [
+		"4cff3c4f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9150c48",
+		type: "custom",
+		title: "Move water to the other tank",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}
+	}],
+	rewards: [{
+		uid: "9d175547",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "auto_6",
+		remove: true
+	},
+	{
+		uid: "044fac73",
+		type: "advancement",
+		team_reward: true,
+		auto: "invisible",
+		advancement: "ftbacademymod:automation",
+		criterion: ""
+	}]
+}

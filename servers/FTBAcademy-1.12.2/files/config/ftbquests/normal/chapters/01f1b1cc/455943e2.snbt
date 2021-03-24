@@ -1,0 +1,30 @@
+{
+	title: "{academy.viaducts.title}",
+	x: 0.0d,
+	y: -1.0d,
+	description: "{academy.viaducts.desc}",
+	text: [
+		"{academy.viaducts.text1}",
+		"",
+		"{academy.viaducts.text2}"
+	],
+	guide_page: "/modpack/technology/transportation/other/viaducts/",
+	dependencies: [
+		"fe3841a4",
+		"10dca046"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33eef142",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_64"
+		}]
+	}],
+	rewards: [{
+		uid: "0cdc17f4",
+		type: "item",
+		item: "thermaldynamics:duct_64",
+		count: 32
+	}]
+}

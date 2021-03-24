@@ -1,0 +1,7 @@
+{
+	title: "{academy.storage1.title}",
+	icon: "minecraft:chest",
+	always_invisible: false,
+	group: 134102092,
+	default_quest_shape: ""
+}

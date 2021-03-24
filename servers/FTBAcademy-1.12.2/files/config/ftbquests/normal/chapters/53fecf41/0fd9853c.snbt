@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "5ae57558",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:planks"
+		}]
+	}],
+	rewards: [{
+		uid: "04ee8cd0",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "bulk_wood",
+		remove: true
+	}]
+}

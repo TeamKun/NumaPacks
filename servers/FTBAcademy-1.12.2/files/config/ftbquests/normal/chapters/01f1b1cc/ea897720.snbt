@@ -1,0 +1,32 @@
+{
+	title: "{academy.basicfluiducts.title}",
+	icon: "thermaldynamics:duct_16",
+	x: -2.0d,
+	y: -5.0d,
+	description: "{academy.basicfluiducts.desc}",
+	text: [
+		"{academy.basicfluiducts.text1}",
+		"",
+		"{academy.basicfluiducts.text2}"
+	],
+	guide_page: "/modpack/technology/transportation/fluid/fluiducts/",
+	dependencies: [
+		"1458e6a2"
+	],
+	tasks: [{
+		uid: "89f69257",
+		type: "item",
+		title: "{academy.basicfluiducts.task}",
+		items: [{
+			item: "thermaldynamics:duct_16"
+		},
+		{
+			item: "thermaldynamics:duct_16 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "729b63bd",
+		type: "choice",
+		table: 12
+	}]
+}

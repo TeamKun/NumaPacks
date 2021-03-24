@@ -1,0 +1,35 @@
+{
+	title: "{academy.atgrowth.title}",
+	x: 0.0d,
+	y: -6.0d,
+	description: "{academy.atgrowth.desc}",
+	text: [
+		"{academy.atgrowth.text}",
+		"",
+		"{academy.atmagnet.text2}"
+	],
+	dependencies: [
+		"481ecef4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c7976e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_growth_ring",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "581e5ecd",
+		type: "item",
+		item: "actuallyadditions:item_fertilizer",
+		count: 64
+	}]
+}

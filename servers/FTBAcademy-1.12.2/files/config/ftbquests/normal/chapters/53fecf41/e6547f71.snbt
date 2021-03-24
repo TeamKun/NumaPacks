@@ -1,0 +1,8 @@
+{
+	title: "Backend 32 iron ingots",
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"205a65f8"
+	]
+}

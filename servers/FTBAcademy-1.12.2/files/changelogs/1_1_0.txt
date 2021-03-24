@@ -1,0 +1,85 @@
+1.1.0 UPDATE
+
+Mods Updated:
+ActuallyAdditions-1.12.2-r150.jar
+Botania r1.10-362.jar
+BuildingGadgets-2.7.3.jar
+CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+DocumentYourModMod-1.2.0.jar
+ElevatorMod-1.12.2-1.3.12.jar
+Forgelin-1.8.4.jar
+FTBAcademyMod-1.0.3.59.jar
+FTBBanners-1.1.0.12.jar
+FTBGuides-2.0.0.50.jar
+FTBLib-5.4.3.138.jar
+FTBQuests-1.7.2.218.jar #31
+FTBTutorialMod-1.0.0.11.jar
+FTBUtilities-5.4.0.106.jar
+Instrumental-Mobs-1.2.jar #12
+jei_1.12.2-4.15.0.289.jar
+minetogether-1.10.2-2.2.0-RC6.jar
+ProjectIntelligence-1.12.2-1.0.8.25-universal.jar
+randompatches-1.12.2-1.18.1.1.jar
+RebornCore-1.12.2-3.16.0.473-universal.jar
+Rex's-Additional-Structures-1.12.2-(v.2.2.3).jar
+SmoothFont-mc1.12.2-2.1.1.jar
+StorageDrawers-1.12.2-5.4.0.jar
+
+
+Mods Added:
+jetif-1.12.2-1.5.1.jar #2
+KubeJS-forge-1.12.2-1.0.0.45.jar
+VanillaFix-1.0.10-99.jar #39
+
+
+Mods Removed:
+
+
+Changes:
+Disabled Dynamic Trees world gen. MOD WILL BE REMOVED IN FUTURE UPDATE -aaronhowser1, Sunekaer, LatvianModder
+Reworked a lot of the school -aaronhowser1, Sunekaer, LatvianModder
+Changed quest tutorial a bit -aaronhowser1
+Changed first images of tutorials to reduce confusion #17 -aaronhowser1
+Added "Tutorial:" to the beginning of tutorial names -aaronhowser1
+Renamed Slimesling tasks #23 -aaronhowser1
+Draconic Chest quest now requires DE Infusion quest #10 -aaronhowser1
+Fixed Basic Tesslocator quests aren't hidden by default #1 -Sunekaer
+Fixed it saying "My Quests" instead of "My Team" on first page of guide #3 -Sunekaer
+Changed Extradimensional and Water-Safe quests to ignore damage false #25 -Sunekaer
+Fixed misspell in Specialization Augments quest #29 -Sunekaer
+Added Congealed Blood items to Slimesling quest #33 -aaronhowser1
+Unhid Cave Illuminator quest, so the whole 3x3 block of quests are showing when that tier unlocks #50 -aaronhowser1
+Illumination Wand quest now requires Celestial Altar #51 -aaronhowser1
+Hid DE Energy Crystal quests until unlocked #51 -aaronhowser1
+Hid Tech - Expert quests until unlocked #56 -aaronhowser1
+Fixed Energy Tesslocator quest text #57 -aaronhowser1
+Disabled AA's update tracker #60 -aaronhowser1
+Nerfed Gold Bow reward to Multishot I instead of III #55 -aaronhowser
+Set tech quests to not need manuals #37 -aaronhowser1
+Tweaked DE rewards a bit -aaronhowser1
+Minimap shows caves #35 -aaronhowser1
+Mentioned in Lich quest that the Guide has the strategy for each boss in TF -aaronhowser1
+Added TE Reservoir to BackTools blacklist #38 -Sunekaer
+Changed Building Gadgets default key #71 -Sunekaer
+Disabled ActuallyAdditions "Version Specific Update Checker" -Sunekaer
+Changed Lens in "Starlight Redirection Lens" to NBT Ignore #70 -Sunekaer
+Swapped Ghostly light and Trecon quest placement #69 -Sunekaer
+Enabled localization for Astral Sorcery and Transportation quest chapter titles #92 -aaronhowser1
+Added some more Easter Eggs to the school -aaronhowser1
+Drill Augments moved to being rewards instead of a task -aaronhowser1
+Created quests for claiming and chunkloading chunks #104 -aaronhowser1
+Created quest for getting a Creeper to explode in a claimed chunk -aaronhowser1
+Technological Transmutation, Two for One Special, Factory Farming, The Crushinator, More of the Same, Old King Coal set to ignore NBT #96 -LatvianModder
+Wyvern Boots added to Penultimate Armor quest -LatvianModder
+Moved files in resources/assets directory to resources -LatvianModder
+Added advancement rewards to Twlight Forest quests, once one team member completes quest, others can now do next boss -LatvianModder
+Saving for Later, Virtute Reparavit, A Certain Scientific Infusion Altar, Player Interface set to ignore NBT -LatvianModder
+Disabled iChunUtil version check -LatvianModder
+Disabled inventory lists from Tomb Many Graves -Sunekaer
+Changed TiCon quest text to explain why you'd use the mod -aaronhowser1
+Disabled "Lush Caves" from Actually Additions -Sunekaer
+Moved Draconium Chest quest to Tech - Advanced -aaronhowser1
+Disabled foxhounds -Sunekaer
+Made tutorials more brief -aaronhowser1
+Greenhouse Glass quest no longer mentions that it stacks, as this was removed #126 -aaronhowser1
+Changed barrier to have a texture instead of particles -LatvianModder

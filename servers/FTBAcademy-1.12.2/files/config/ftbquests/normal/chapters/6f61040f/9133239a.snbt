@@ -1,0 +1,44 @@
+{
+	title: "{academy.introtech.title}",
+	icon: "teslacorelib:energy_tier2",
+	x: -6.0d,
+	y: -6.0d,
+	description: "{academy.introtech.desc}",
+	text: [
+		"{academy.introtech.text1}"
+	],
+	guide_page: "/modpack/technology/",
+	dependencies: [
+		"2b559218",
+		"940c713f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "92c0fc10",
+		type: "custom",
+		title: "{academy.introtech.task}",
+		icon: "teslacorelib:energy_tier1"
+	}],
+	rewards: [{
+		uid: "7eb02bfa",
+		type: "item",
+		team_reward: true,
+		auto: "no_toast",
+		item: "actuallyadditions:block_coal_generator"
+	},
+	{
+		uid: "be2d18e6",
+		type: "item",
+		team_reward: true,
+		auto: "no_toast",
+		item: "minecraft:coal",
+		count: 64
+	},
+	{
+		uid: "8af0b432",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "tech_1"
+	}]
+}

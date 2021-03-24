@@ -1,0 +1,32 @@
+{
+	title: "{academy.endoflame.title}",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{academy.endoflame.desc}",
+	text: [
+		"{academy.endoflame.text1}",
+		"",
+		"{academy.endoflame.text2}"
+	],
+	dependencies: [
+		"d6c2a91e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c061534b",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7c4e0743",
+		type: "item",
+		item: "thermalfoundation:material 1 802",
+		count: 8
+	}]
+}

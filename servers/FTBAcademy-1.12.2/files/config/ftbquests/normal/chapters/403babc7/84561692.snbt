@@ -1,0 +1,27 @@
+{
+	title: "{academy.farreach.title}",
+	x: 6.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "{academy.farreach.desc}",
+	text: [
+		"{academy.farreach.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62a3b41c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8cd013e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:reachring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

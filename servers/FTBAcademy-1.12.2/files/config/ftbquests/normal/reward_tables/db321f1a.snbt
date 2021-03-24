@@ -1,0 +1,15 @@
+{
+	title: "{academy.ticonmodifiers.rewards}",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.ticonmodifiers.redstonereward}",
+		item: "minecraft:redstone",
+		count: 50
+	},
+	{
+		title: "{academy.ticonmodifiers.lapisreward}",
+		item: "minecraft:dye 1 4",
+		count: 60
+	}]
+}

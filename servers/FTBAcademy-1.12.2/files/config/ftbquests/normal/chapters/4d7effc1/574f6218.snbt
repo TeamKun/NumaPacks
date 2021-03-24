@@ -1,0 +1,33 @@
+{
+	title: "{academy.exchanging.title}",
+	x: 2.0d,
+	y: -5.0d,
+	description: "{academy.exchanging.desc}",
+	text: [
+		"{academy.exchanging.text}"
+	],
+	guide_page: "/modpack/gear/building_gadgets/exchanging/",
+	dependencies: [
+		"112b2887"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1920e615",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				mode: "Surface",
+				range: 1,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

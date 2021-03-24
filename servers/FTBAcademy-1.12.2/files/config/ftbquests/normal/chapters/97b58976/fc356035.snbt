@@ -1,0 +1,37 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "{academy.constellationpaper.desc}",
+	text: [
+		"{academy.constellationpaper.text1}",
+		"",
+		"{academy.constellationpaper.text2}"
+	],
+	dependencies: [
+		"70040598"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b43bcec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84c7b8aa",
+		type: "choice",
+		table: 14
+	}]
+}

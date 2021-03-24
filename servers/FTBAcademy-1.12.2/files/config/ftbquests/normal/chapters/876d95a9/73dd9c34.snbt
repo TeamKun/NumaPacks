@@ -1,0 +1,29 @@
+{
+	title: "{academy.coalgen.title}",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{academy.coalgen.desc}",
+	text: [
+		"{academy.coalgen.text1}",
+		"",
+		"{academy.coalgen.text2}"
+	],
+	guide_page: "/modpack/technology/generators/actually_additions/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fb9a681f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "877291e3",
+		type: "item",
+		item: "thermalfoundation:material 1 802",
+		count: 16
+	}]
+}

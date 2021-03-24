@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "{academy.conjuration.desc}",
+	text: [
+		"{academy.conjuration.text1}",
+		"",
+		"{academy.conjuration.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"909e415c",
+		"62a3b41c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b755df5",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	}]
+}

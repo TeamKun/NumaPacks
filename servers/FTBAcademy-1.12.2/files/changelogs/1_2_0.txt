@@ -1,0 +1,117 @@
+1.2.0 UPDATE
+
+Mods Updated:
+ActuallyAdditions-1.12.2-r151-2.jar -Sunekaer
+Bookshelf-1.12.2-2.3.590.jar -Sunekaer
+Botania r1.10-363.jar -Sunekaer
+BrandonsCore-1.12.2-2.4.18.210-universal.jar -Sunekaer
+BuildingGadgets-2.9.2.jar -Sunekaer
+CTM-MC1.12.2-1.0.2.31.jar -Sunekaer
+Chisel-MC1.12.2-1.0.2.45.jar -Sunekaer
+Controlling-3.0.8.jar -Sunekaer
+CraftPresence-1.12.2-1.6.1.jar -Sunekaer
+CraftTweaker2-1.12-4.1.20.jar -Sunekaer
+CustomMainMenu-MC1.12.2-2.0.9.1.jar -Sunekaer
+Draconic-Evolution-1.12.2-2.3.25.351-universal.jar -Sunekaer
+DynamicSurroundings-1.12.2-3.6.0.2.jar -Sunekaer
+ElevatorMod-1.12.2-1.3.14.jar -Sunekaer
+FastWorkbench-1.12.2-1.7.3 -aaronhowser1
+FTBAcademyMod-1.0.3.63.jar -Sunekaer
+FTBBackups-1.1.0.1.jar -Sunekaer
+FTBGuides-2.0.0.52.jar -aaronhowser1
+FTBLib-5.4.4.5.jar -Sunekaer
+FTBLib-5.4.7.0.jar -Sunekaer
+FTBQuests-1.8.0.237.jar -Sunekaer
+FTBUtilities-5.4.0.124.jar -Sunekaer
+Hats-1.12.2-7.1.0.jar -Sunekaer
+KubeJS-forge-1.12.2-1.1.0.63.jar -aaronhowser1
+MineTogether-1.10.2-2.2.1.jar -Sunekaer
+NaturesCompass-1.12.2-1.8.5.jar -Sunekaer
+OreLib-1.12.2-3.6.0.1.jar -Sunekaer
+Quark-r.16-178.jar -Sunekaer
+RebornCore-1.12.2-3.19.2.522-universal.jar -Sunekaer
+Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar -Sunekaer
+StorageDrawers-1.12.2-5.4.1.jar -Sunekaer
+TConstruct-1.12.2-2.13.0.183.jar -Sunekaer
+VanillaFix-1.0.10-99.jar -Sunekaer
+XPTeleporters-1.12.2-2.0.2.jar -Sunekaer
+astralsorcery-1.12.2-1.10.22.jar -Sunekaer
+bonsaitrees-1.1.4-b170.jar -Sunekaer
+foamfix-0.10.10-1.12.2.jar -Sunekaer
+jei_1.12.2-4.15.0.293.jar -Sunekaer
+journeymap-1.12.2-5.7.0.jar -Sunekaer
+modtweaker-4.0.18.jar -Sunekaer
+randompatches-1.12.2-1.20.1.0.jar -Sunekaer
+simplybackpacks-1.2.3.jar -Sunekaer
+tesla-core-lib-1.12.2-1.0.17.jar -Sunekaer
+topaddons-1.12.2-1.13.0.jar -Sunekaer
+twilightforest-1.12.2-3.10.1013-universal.jar -Sunekaer
+
+
+Mods Added:
+justthetips-1.12-1.0.1.1.jar -aaronhowser1
+SimplyJetpacks2-1.12.2-2.2.14.67.jar- Sunekaer
+Placebo-1.12.21.6.0.jar -Sunekaer
+FTBUltimine_1.12-1.0.1.jar -Sunekaer
+
+Mods Removed:
+dttraverse-1.5.jar -Sunekaer
+DynamicTrees-1.12.2-0.9.5.jar -Sunekaer
+OreExcavation-1.4.150.jar -Sunekaer
+
+Changes:
+Added a bunch of tips to loading screens -aaronhowser1
+Added an overlay at the end of the school that tells you how to leave -aaronhowser1
+Astral Sorcery construction block rewards are now in one reward, using a Chest with NBT -aaronhowser1
+Changed if_laser.png in Guide -aaronhowser1
+Changed school quest to only require 1 iron ingot -aaronhowser1
+Created more quest rewards -aaronhowser1
+Disabled backpacks from being able to store Iron Chests' Shulker Boxes -aaronhowser1
+Draconic Bow quest depends on Filled With Power, not Infusion Altar #149 -aaronhowser1
+Edited the lang keys of the Hiking Boots perk from Astral Sorcery to say that it's broken and not to take it #61-aaronhowser1
+FTB Quests changed to a darker theme -LatvianModder
+Fixed Platinum Ore not generating #228 -aaronhowser1
+Fixed broken image in Hydra guide -aaronhowser1
+Fixed typo in Draconic Reactor quest #274 -aaronhowser1
+Fixed typo in Portable Grid quest #178 -aaronhowser1
+Fixed typo in Teleport Rod quest -aaronhowser1
+Fixed typo in Flugel Tiara quest #276 -aaronhowser1
+Fixed missing lang key for Botania rods quest #275 -aaronhowser1
+Illumination Powder tutorial overlay now shows in inventory -aaronhowser1
+Made Naga and Hydra guides a bit more descriptive #242 -aaronhowser1
+Made a EULA quest saying Dynamos don't output power unless they can make power -aaronhowser1
+Made a Guide page for wirelessly transferring RF using Placers, Breakers, and Ender Chests -aaronhowser1
+Made a quest explaining Smooth Font -aaronhowser1
+Made a quest for Auxiliary Coil Augments -aaronhowser1
+Made a quest for Dense and Vacuum Itemducts -aaronhowser1
+Made a quest for Detector -aaronhowser1
+Made a quest for IF Biofuel -aaronhowser1
+Made a quest for IF Protein -aaronhowser1
+Made a quest for Interface -aaronhowser1
+Made a quest for Mob Spawn Eggs using Mob Grinding Utilities -aaronhowser1
+Made a quest for TiCon Casts -aaronhowser1
+Made a quest for Vertical Digger -aaronhowser1
+Made a quest for passive mob farms -aaronhowser1
+Made a quest for the Compactor -aaronhowser1
+Made a quest for the Compression Dynamo -aaronhowser1
+Made a quest for the Numismatic Dynamo -aaronhowser1
+Made a quest for the Portable Tank -aaronhowser1
+Made a quest for the Reactant Dynamo -aaronhowser1
+Made a quest linking to the wireless transfer Guide -aaronhowser1
+Made quests for Canola Oil -aaronhowser1
+Made quests for Simply Jetpacks 2 -aaronhowser1
+Made quests for Storage and Voiding Drawer Upgrades -aaronhowser1
+Made it more clear on the first page of the Guide that the screenshot of the buttons aren't the actual buttons -aaronhowser1
+Mentioned Dense and Vacuum Itemducts in the Guide -aaronhowser1
+Mentioned Vertical Digger in Guide -aaronhowser1
+Mentioned that only Souls can change Stabilized Spawners in the Guide #218 -aaronhowser1
+Mentioned that you can stack Crafters in its quest -aaronhowser1
+Mentioned that certain Astral Sorcery items can't be registered with FTB Quests and changed the tasks accordingly #192 #189 -aaronhowser1
+Moved Upgrade Key quest and made it smaller -aaronhowser1
+Petals can no longer be placed on ground in tutorial -LatvianModder
+Removed warning for Dynamic Trees -aaronhowser1
+Rewrote Energy Cell quest to be more descriptive #243 -aaronhowser1
+The Wood to Iron Chest Upgrade in the school is now given via quest instead of in the chest, which made it possible to sequence break and softlock #175 -aaronhowser1
+Translated (hopefully) all quest text into Russian. HUGE thanks to DrCrazy!!! -aaronhowser1
+Unhid Mob Duplicator and Meat Feeder quests -aaronhowser1
+Wand of the Forest's mode can no longer be changed in tutorial -LatvianModder

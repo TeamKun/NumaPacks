@@ -1,0 +1,180 @@
+{
+	"title": {"translate": "academy.tutorial.quests.title"},
+	"icon": "item:ftbquests:book",
+	"post_action": "ftbquests:open_gui",
+	"pages": [
+		{
+			"description": {"translate": "academy.tutorial.quests.1"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "main_inventory.png"
+				},
+				{
+					"type": "text",
+					"pos": [26, 376, 850, 0],
+					"text": [
+						{"translate": "academy.tutorial.quests.2"},
+						"",
+						{"translate": "academy.tutorial.quests.3"}
+					]
+				},
+				{
+					"type": "button",
+					"pos": [950, 918, 86, 86],
+					"color": "#FF00FF",
+					"hover": [
+						{"translate": "academy.tutorial.quests.4"}
+					],
+					"click": "next_page"
+				},
+				{
+					"type": "button",
+					"pos": [70, 0, 74, 74],
+					"color": "#FF00FF",
+					"hover": [
+						{"translate": "academy.tutorial.quests.5"}
+					],
+					"click": "next_page"
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.quests.6"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "quest_page.png"
+				},
+				{
+					"type": "text",
+					"pos": [100, 613, 1100, 0],
+					"text": [
+						{"translate": "academy.tutorial.quests.7"},
+						"",
+						{"translate": "academy.tutorial.quests.8"}
+					]
+				},
+				{
+					"type": "button",
+					"pos": [1215, 630, 125, 125],
+					"color": "#FF00FF",
+					"hover": [
+						{"translate": "academy.tutorial.quests.5"}
+					],
+					"click": "next_page"
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.quests.14"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "open_quest.png"
+				},
+				{
+					"type": "image",
+					"image": "task.png"
+				},
+				{
+					"type": "text",
+					"x": 90,
+					"y": 395,
+					"width": 800,
+					"text": [
+						{"translate": "academy.tutorial.quests.15"},
+						"",
+						{"translate": "academy.tutorial.quests.16"}
+					]
+				},
+				{
+					"type": "text",
+					"x": 1720,
+					"y": 374,
+					"width": 700,
+					"text": [
+						{"translate": "academy.tutorial.quests.17"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.quests.18"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "quest_page.png"
+				},
+				{
+					"type": "image",
+					"image": "quest_line.png"
+				},
+				{
+					"type": "text",
+					"x": 90,
+					"y": 613,
+					"width": 1140,
+					"text": [
+						{"translate": "academy.tutorial.quests.19"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.quests.20"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "second_quest_page.png"
+				},
+				{
+					"type": "text",
+					"x": 105,
+					"y": 628,
+					"width": 969,
+					"text": [
+						{"translate": "academy.tutorial.quests.21"},
+						{"translate": "academy.tutorial.quests.22"}
+					]
+				}
+			]
+		},
+		{
+			"description": {"translate": "academy.tutorial.quests.23"},
+			"width": 2560,
+			"height": 1377,
+			"layers": [
+				{
+					"type": "image",
+					"image": "second_quest_page.png"
+				},
+				{
+					"type": "image",
+					"image": "subchapters.png"
+				},
+				{
+					"type": "text",
+					"x": 105,
+					"y": 628,
+					"width": 942,
+					"text": [
+						{"translate": "academy.tutorial.quests.24"},
+						"",
+						{"translate": "academy.tutorial.quests.25"}
+					]
+				}
+			]
+		}
+	]
+}

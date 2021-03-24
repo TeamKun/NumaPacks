@@ -1,0 +1,64 @@
+{
+	title: "{academy.powerfiller.title}",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 9s
+	},
+	x: 3.0d,
+	y: 0.0d,
+	description: "{academy.powerfiller.desc}",
+	text: [
+		"{academy.powerfiller.text1}",
+		"",
+		"{academy.powerfiller.text2}",
+		"",
+		"{academy.powerfiller.text3}"
+	],
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "082c0965",
+		type: "item",
+		title: "{academy.powerfiller.task}",
+		items: [{
+			item: "actuallyadditions:block_energizer"
+		},
+		{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		},
+		{
+			item: "draconicevolution:energy_infuser"
+		}]
+	}]
+}

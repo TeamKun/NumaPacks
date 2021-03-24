@@ -1,0 +1,34 @@
+{
+	title: "{academy.astraltome.title}",
+	x: -2.0d,
+	y: 0.0d,
+	description: "{academy.astraltome.desc}",
+	text: [
+		"{academy.astraltome.text1}",
+		"",
+		"{academy.astraltome.text2}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "30ef859a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e87a691",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 16
+	}]
+}

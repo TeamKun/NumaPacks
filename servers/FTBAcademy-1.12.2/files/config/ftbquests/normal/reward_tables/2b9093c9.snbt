@@ -1,0 +1,25 @@
+{
+	title: "{academy.meats.rewards}",
+	loot_size: 9,
+	rewards: [{
+		item: "minecraft:porkchop"
+	},
+	{
+		item: "minecraft:fish"
+	},
+	{
+		item: "minecraft:fish 1 1"
+	},
+	{
+		item: "minecraft:beef"
+	},
+	{
+		item: "minecraft:chicken"
+	},
+	{
+		item: "minecraft:rabbit"
+	},
+	{
+		item: "minecraft:mutton"
+	}]
+}

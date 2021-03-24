@@ -1,0 +1,89 @@
+{
+	title: "{academy.tinkering.title}",
+	icon: "tconstruct:tooltables",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	description: "{academy.tinkering.desc}",
+	text: [
+		"{academy.tinkering.text}",
+		"",
+		"{academy.tinkering.text2}"
+	],
+	guide_page: "/modpack/gear/tinkers_construct/making_tools/",
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "97d7637c",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "d93aa500",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22b87f9d",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54dc4b0d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e46a76e",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a14e8618",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 14
+	},
+	{
+		uid: "ee69ea66",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:book"
+		}
+	}]
+}

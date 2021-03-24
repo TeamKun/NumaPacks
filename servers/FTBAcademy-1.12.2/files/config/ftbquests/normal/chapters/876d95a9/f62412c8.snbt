@@ -1,0 +1,20 @@
+{
+	title: "{academy.IFbook.title}",
+	x: 10.0d,
+	y: 0.0d,
+	description: "{academy.IFbook.desc}",
+	text: [
+		"{academy.IFbook.text}"
+	],
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab5d1d3a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:book_manual"
+		}]
+	}]
+}

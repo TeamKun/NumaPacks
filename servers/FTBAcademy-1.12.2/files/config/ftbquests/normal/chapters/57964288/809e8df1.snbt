@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.diskdrive.desc}",
+	text: [
+		"{academy.diskdrive.text}"
+	],
+	guide_page: "/modpack/storage/refined_storage/",
+	dependencies: [
+		"e5eab812"
+	],
+	hide: true,
+	tasks: [{
+		uid: "465b11e0",
+		type: "item",
+		items: [{
+			item: "refinedstorage:disk_drive"
+		}]
+	}],
+	rewards: [{
+		uid: "eb9e1292",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:wrench"
+		}
+	}]
+}

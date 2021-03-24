@@ -1,0 +1,35 @@
+{
+	title: "{academy.halo.title}",
+	x: -4.0d,
+	y: -4.0d,
+	description: "{academy.halo.desc}",
+	text: [
+		"{academy.halo.text1}",
+		"",
+		"{academy.halo.text2}"
+	],
+	dependencies: [
+		"b0b303d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b4066e44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:autocraftinghalo",
+			tag: {
+				rotationBase: 671.1843f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11a22d28",
+		type: "choice",
+		table: 6
+	}]
+}

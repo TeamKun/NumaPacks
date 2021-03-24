@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	description: "{academy.draconicbow.desc}",
+	text: [
+		"{academy.draconicbow.text1}",
+		"",
+		"{academy.draconicbow.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e4162f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47158b35",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_bow",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "043e0136",
+		type: "choice",
+		table: 26
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "{academy.transportation.title}",
+	icon: "minecraft:hopper",
+	always_invisible: false,
+	group: 134102092,
+	default_quest_shape: ""
+}

@@ -1,0 +1,26 @@
+{
+	title: "{academy.verticaldigger.title}",
+	x: 6.0d,
+	y: 1.0d,
+	description: "{academy.verticaldigger.desc}",
+	text: [
+		"{academy.verticaldigger.text1}",
+		"",
+		"{academy.verticaldigger.text2}"
+	],
+	dependencies: [
+		"481ecef4"
+	],
+	tasks: [{
+		uid: "d3800228",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_miner"
+		}]
+	}],
+	rewards: [{
+		uid: "c6323c6f",
+		type: "random",
+		table: 1
+	}]
+}

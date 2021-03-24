@@ -1,0 +1,41 @@
+{
+	title: "{academy.introautomation.title}",
+	icon: "thermaldynamics:duct_32",
+	x: -6.0d,
+	y: -8.0d,
+	description: "{academy.introautomation.desc}",
+	text: [
+		"{academy.introautomation.text1}",
+		"",
+		"{academy.introautomation.text2}",
+		"",
+		"{academy.introautomation.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/",
+	dependencies: [
+		"940c713f",
+		"d29dd3aa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a1c7767",
+		type: "custom",
+		title: "{academy.introautomation.task}",
+		icon: "thermaldynamics:duct_32"
+	}],
+	rewards: [{
+		uid: "276ce046",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "auto_1"
+	},
+	{
+		uid: "dee6c367",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_room_done",
+		remove: true
+	}]
+}

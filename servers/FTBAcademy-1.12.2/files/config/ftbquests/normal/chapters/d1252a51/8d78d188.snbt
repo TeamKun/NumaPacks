@@ -1,0 +1,26 @@
+{
+	title: "{academy.blackholeunit.title}",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{academy.blackholeunit.desc}",
+	text: [
+		"{academy.blackholeunit.text}"
+	],
+	guide_page: "/modpack/storage/other/",
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93739715",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:black_hole_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

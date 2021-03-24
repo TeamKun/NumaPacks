@@ -1,0 +1,67 @@
+{
+	title: "{academy.inventorybatteries.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thermalexpansion:capacitor",
+		tag: {
+			Energy: 1000000
+		}
+	},
+	x: 3.0d,
+	y: 2.0d,
+	description: "{academy.inventorybatteries.desc}",
+	text: [
+		"{academy.inventorybatteries.text1}",
+		"",
+		"{academy.inventorybatteries.text2}",
+		"",
+		"{academy.inventorybatteries.text3}"
+	],
+	dependencies: [
+		"112b2887"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fb9fa1ea",
+		type: "item",
+		title: "{academy.inventorybatteries.task}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 0
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 0
+			}
+		},
+		{
+			item: "draconicevolution:draconium_capacitor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16f71add",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 14s
+				}]
+			}
+		}
+	}]
+}

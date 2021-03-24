@@ -1,0 +1,34 @@
+{
+	title: "{academy.lightwell.title}",
+	x: 1.0d,
+	y: -3.0d,
+	description: "{academy.lightwell.desc}",
+	text: [
+		"{academy.lightwell.text1}",
+		"",
+		"{academy.lightwell.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"71629876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b35f403",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "4a3b4636",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "astralsorcery.liquidstarlight"
+			}
+		},
+		count: 2
+	}]
+}

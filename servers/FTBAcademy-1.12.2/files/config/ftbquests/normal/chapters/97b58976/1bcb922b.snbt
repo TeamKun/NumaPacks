@@ -1,0 +1,25 @@
+{
+	title: "{academy.nocturnalpowder.title}",
+	x: 3.0d,
+	y: -3.0d,
+	description: "{academy.nocturnalpowder.desc}",
+	text: [
+		"{academy.nocturnalpowder.text}"
+	],
+	dependencies: [
+		"4008daee"
+	],
+	tasks: [{
+		uid: "2607ff24",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2db5388e",
+		type: "item",
+		item: "astralsorcery:itemusabledust 1 1",
+		count: 60
+	}]
+}

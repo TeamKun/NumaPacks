@@ -1,0 +1,43 @@
+{
+	title: "{academy.endertank.title}",
+	x: -1.0d,
+	y: -3.5d,
+	description: "{academy.endertank.desc}",
+	text: [
+		"{academy.endertank.text1}",
+		"",
+		"{academy.endertank.text2}",
+		"",
+		"{academy.endertank.text3}",
+		"",
+		"{academy.endertank.text4}"
+	],
+	guide_page: "/modpack/storage/fluid/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "10c2ee93",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d838f64",
+		type: "item",
+		item: {
+			id: "enderstorage:ender_storage",
+			tag: {
+				Frequency: {
+					middle: 0,
+					left: 0,
+					right: 0
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

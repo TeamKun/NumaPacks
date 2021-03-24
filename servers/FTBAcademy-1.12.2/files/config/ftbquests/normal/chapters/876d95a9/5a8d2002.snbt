@@ -1,0 +1,44 @@
+{
+	title: "{academy.redstonefurnace.title}",
+	x: 4.0d,
+	y: 1.0d,
+	description: "{academy.redstonefurnace.desc}",
+	text: [
+		"{academy.redstonefurnace.text1}",
+		"",
+		"{academy.redstonefurnace.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/",
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "197345b6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ec8142db",
+		type: "item",
+		item: "minecraft:beef",
+		count: 8
+	}]
+}

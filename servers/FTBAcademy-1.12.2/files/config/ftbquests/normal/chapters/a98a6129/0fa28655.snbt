@@ -1,0 +1,30 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	description: "{academy.wyvernsword.desc}",
+	text: [
+		"{academy.wyvernsword.text1}",
+		"",
+		"{academy.wyvernsword.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"112b2887",
+		"2e6d4426"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9620142a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eb6ec91",
+		type: "choice",
+		table: 23
+	}]
+}

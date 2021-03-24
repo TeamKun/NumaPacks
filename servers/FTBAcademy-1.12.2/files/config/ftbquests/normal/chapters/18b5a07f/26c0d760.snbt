@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	description: "{academy.signalumupgrade.desc}",
+	text: [
+		"{academy.signalumupgrade.text}"
+	],
+	dependencies: [
+		"fe3841a4",
+		"9ebdf5c4",
+		"10dca046"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d75530c9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "33498483",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 34"
+	}]
+}

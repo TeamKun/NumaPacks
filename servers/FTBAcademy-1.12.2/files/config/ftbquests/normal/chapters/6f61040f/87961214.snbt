@@ -1,0 +1,56 @@
+{
+	title: "{academy.introbotania.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:twigwand",
+		tag: {
+			color1: 13,
+			color2: 13,
+			boundTileZ: 0,
+			boundTileX: 0,
+			boundTileY: -1
+		}
+	},
+	x: -6.0d,
+	y: -2.0d,
+	description: "{academy.introbotania.desc}",
+	text: [
+		"{academy.introbotania.text1}",
+		"",
+		"{academy.introbotania.text2}"
+	],
+	dependencies: [
+		"b3c7841a",
+		"940c713f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b461c51",
+		type: "custom",
+		title: "{academy.introbotania.task}",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}
+	}],
+	rewards: [{
+		uid: "cf9f98c5",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b_items"
+	},
+	{
+		uid: "26fd37c8",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "as_done",
+		remove: true
+	}]
+}

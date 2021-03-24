@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 6.0d,
+	description: "{academy.ifenergy2.desc}",
+	text: [
+		"{academy.ifenergy2.text1}",
+		"",
+		"{academy.ifenergy2.text2}"
+	],
+	dependencies: [
+		"4ad84501"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6d59f50",
+		type: "item",
+		items: [{
+			item: "teslacorelib:energy_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "01b09888",
+		type: "item",
+		item: "teslacorelib:energy_tier2"
+	}]
+}

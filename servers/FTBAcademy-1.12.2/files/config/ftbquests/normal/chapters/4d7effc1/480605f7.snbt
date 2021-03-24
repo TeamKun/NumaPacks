@@ -1,0 +1,32 @@
+{
+	title: "{academy.buildinggadget.title}",
+	x: 2.0d,
+	y: -7.0d,
+	description: "{academy.buildinggadget.desc}",
+	text: [
+		"{academy.buildinggadget.text}"
+	],
+	guide_page: "/modpack/gear/building_gadgets/building/",
+	dependencies: [
+		"112b2887"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89677e3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				mode: "BuildToMe",
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

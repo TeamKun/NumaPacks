@@ -1,0 +1,14 @@
+1.4.0 UPDATE
+
+Mods Updated:
+FTBAcademyMod-1.1.0.65.jar -LatvianModder
+MineTogether-1.12.2-2.3.9.jar -Sunekaer
+
+Mods Added:
+
+Mods Removed:
+
+Changes:
+Clean up KubeJS Scripts -LatvianModder
+Restored some lost scripts -LatvianModder
+Fixed astral sorcery wand quest -LatvianModder

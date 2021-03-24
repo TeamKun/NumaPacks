@@ -1,0 +1,47 @@
+{
+	title: "{academy.ritualpedestal.title}",
+	x: 3.0d,
+	y: 7.0d,
+	description: "{academy.ritualpedestal.desc}",
+	text: [
+		"{academy.ritualpedestal.text1}",
+		"",
+		"{academy.ritualpedestal.text2}",
+		"",
+		"{academy.ritualpedestal.text3}"
+	],
+	dependencies: [
+		"e3663cc0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5f047d69",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "93f3f251",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 3",
+		count: 20
+	},
+	{
+		uid: "1c14d2e9",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 1",
+		count: 24
+	},
+	{
+		uid: "13c5d788",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 4"
+	},
+	{
+		uid: "2ba77e88",
+		type: "item",
+		item: "astralsorcery:blockmarble",
+		count: 12
+	}]
+}

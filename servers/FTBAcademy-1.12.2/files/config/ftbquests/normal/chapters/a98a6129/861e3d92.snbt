@@ -1,0 +1,47 @@
+{
+	title: "{academy.aadrill.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "actuallyadditions:item_drill",
+		tag: {
+			Energy: 0
+		},
+		Damage: 9s
+	},
+	x: 4.0d,
+	y: 2.0d,
+	description: "{academy.aadrill.desc}",
+	text: [
+		"{academy.aadrill.text1}",
+		"",
+		"{academy.aadrill.text2}"
+	],
+	dependencies: [
+		"112b2887",
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5cd7faa1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_drill",
+			tag: {
+				Energy: 250000
+			},
+			Damage: 3s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be5ee813",
+		type: "choice",
+		table: 41
+	}]
+}

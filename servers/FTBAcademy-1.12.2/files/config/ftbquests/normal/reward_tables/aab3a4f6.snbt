@@ -1,0 +1,60 @@
+{
+	title: "{academy.faintconstellations.rewards}",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.alcara.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.alcara"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.gelu.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.gelu"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.ulteria.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.ulteria"
+				}
+			}
+		}
+	},
+	{
+		title: "{academy.vorux.reward}",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.vorux"
+				}
+			}
+		}
+	}]
+}

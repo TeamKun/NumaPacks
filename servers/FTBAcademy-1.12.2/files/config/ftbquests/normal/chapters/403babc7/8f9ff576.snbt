@@ -1,0 +1,45 @@
+{
+	title: "{academy.lens.title}",
+	x: -2.0d,
+	y: -4.0d,
+	shape: "pentagon",
+	description: "{academy.lens.desc}",
+	text: [
+		"{academy.lens.text}"
+	],
+	dependencies: [
+		"b0b303d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ad2ea41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lens",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0106149",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lens",
+			tag: {
+				compositeLens: {
+					id: "botania:lens",
+					Count: 1b,
+					tag: {},
+					Damage: 2s
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

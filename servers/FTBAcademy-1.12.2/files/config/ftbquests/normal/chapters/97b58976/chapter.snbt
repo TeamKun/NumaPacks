@@ -1,0 +1,12 @@
+{
+	title: "{academy.astralsorcery.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemjournal"
+	},
+	always_invisible: false,
+	group: -2116377050,
+	default_quest_shape: ""
+}

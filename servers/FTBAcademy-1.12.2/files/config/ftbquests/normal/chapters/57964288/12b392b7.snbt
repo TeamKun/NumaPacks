@@ -1,0 +1,23 @@
+{
+	title: "{academy.rsdetector.title}",
+	x: 6.0d,
+	y: -2.0d,
+	description: "{academy.rsdetector.desc}",
+	text: [
+		"{academy.rsdetector.text1}",
+		"",
+		"{academy.rsdetector.text2}",
+		"",
+		"{academy.rsdetector.text3}"
+	],
+	dependencies: [
+		"5ef69d97"
+	],
+	tasks: [{
+		uid: "408918d8",
+		type: "item",
+		items: [{
+			item: "refinedstorage:detector"
+		}]
+	}]
+}

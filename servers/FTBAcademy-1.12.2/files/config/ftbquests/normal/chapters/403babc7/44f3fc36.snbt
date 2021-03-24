@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	shape: "pentagon",
+	description: "{academy.globetrotter.desc}",
+	text: [
+		"{academy.globetrotter.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62740ed0",
+		"d4ec97c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2bf934bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:supertravelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82c8ebd1",
+		type: "item",
+		item: "botania:worldseed"
+	}]
+}

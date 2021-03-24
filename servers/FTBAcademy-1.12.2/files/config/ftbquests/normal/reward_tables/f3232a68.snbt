@@ -1,0 +1,15 @@
+{
+	title: "{academy.mobmasher.rewards}",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.mobgrindingutils.reward1}",
+		item: "mob_grinding_utils:saw_upgrade 1 1",
+		count: 2
+	},
+	{
+		title: "{academy.mobgrindingutils.reward2}",
+		item: "mob_grinding_utils:saw_upgrade",
+		count: 2
+	}]
+}

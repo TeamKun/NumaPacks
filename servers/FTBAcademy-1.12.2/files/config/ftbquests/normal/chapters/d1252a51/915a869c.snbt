@@ -1,0 +1,26 @@
+{
+	title: "{academy.blackholecontroller.title}",
+	x: 3.0d,
+	y: -1.0d,
+	description: "{academy.blackholecontroller.desc}",
+	text: [
+		"{academy.blackholecontroller.text1}",
+		"",
+		"{academy.blackholecontroller.text2}"
+	],
+	guide_page: "/modpack/storage/other/",
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"8d78d188",
+		"2ca90374"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c3f02f2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}]
+}

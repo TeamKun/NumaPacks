@@ -1,0 +1,28 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	description: "{academy.mobduplicator.desc}",
+	text: [
+		"{academy.mobduplicator.text}"
+	],
+	dependencies: [
+		"5475cc88"
+	],
+	tasks: [{
+		uid: "6b8b2917",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "53d2f68a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:mob_imprisonment_tool"
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{academy.empowerer.title}",
+	icon: "actuallyadditions:block_empowerer",
+	x: 6.0d,
+	y: 0.0d,
+	description: "{academy.empowerer.desc}",
+	text: [
+		"{academy.empowerer.text1}",
+		"",
+		"{academy.empowerer.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/creation/empowerer/",
+	min_required_dependencies: 1,
+	dependencies: [
+		"082e9e66",
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3cc14d8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a7a3d31",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}]
+}

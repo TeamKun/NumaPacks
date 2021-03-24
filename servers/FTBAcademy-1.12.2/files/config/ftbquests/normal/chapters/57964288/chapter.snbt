@@ -1,0 +1,16 @@
+{
+	title: "{academy.refinedstorage1.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:controller",
+		tag: {
+			Energy: 32000
+		},
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 134102092,
+	default_quest_shape: ""
+}

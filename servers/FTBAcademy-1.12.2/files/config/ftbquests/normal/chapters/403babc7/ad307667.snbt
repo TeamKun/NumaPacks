@@ -1,0 +1,29 @@
+{
+	title: "{academy.luminizer.title}",
+	x: 5.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	description: "{academy.luminizer.desc}",
+	text: [
+		"{academy.luminizer.text1}",
+		"",
+		"{academy.luminizer.text2}"
+	],
+	dependencies: [
+		"62a3b41c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6710f09a",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "f1c9db99",
+		type: "item",
+		item: "botania:lightrelay",
+		count: 3
+	}]
+}

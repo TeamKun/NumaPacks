@@ -1,0 +1,20 @@
+{
+	title: "{academy.hopper.title}",
+	x: 6.0d,
+	y: -7.0d,
+	description: "{academy.hopper.desc}",
+	text: [
+		"{academy.hopper.text1}"
+	],
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82ff6820",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}]
+}

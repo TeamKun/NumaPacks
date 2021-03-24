@@ -1,0 +1,67 @@
+{
+	title: "{academy.smeltery.title}",
+	icon: "tconstruct:smeltery_controller",
+	x: 2.0d,
+	y: -4.0d,
+	shape: "hexagon",
+	description: "{academy.smeltery.desc}",
+	text: [
+		"{academy.smeltery.text1}",
+		"",
+		"{academy.smeltery.text2}"
+	],
+	guide_page: "/modpack/gear/tinkers_construct/smeltery",
+	dependencies: [
+		"6b815a37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29878202",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "83200745",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "3b984d48",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 18L
+	},
+	{
+		uid: "61c2aaa9",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "2d725181",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "62ad57a4",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}],
+	rewards: [{
+		uid: "7309202b",
+		type: "item",
+		item: "tconstruct:seared_glass",
+		count: 24
+	}]
+}

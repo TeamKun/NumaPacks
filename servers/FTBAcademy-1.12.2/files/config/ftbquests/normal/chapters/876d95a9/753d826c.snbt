@@ -1,0 +1,36 @@
+{
+	title: "{academy.poweredfurnace.title}",
+	x: 8.0d,
+	y: 3.0d,
+	description: "{academy.poweredfurnace.desc}",
+	text: [
+		"{academy.poweredfurnace.text1}",
+		"",
+		"{academy.poweredfurnace.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/ores/",
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3c1c2af",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_furnace_double"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76bb0aef",
+		type: "item",
+		item: "thermalfoundation:material",
+		count: 16
+	},
+	{
+		uid: "72698959",
+		type: "item",
+		item: "thermalfoundation:material 1 64",
+		count: 16
+	}]
+}

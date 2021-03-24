@@ -1,0 +1,22 @@
+{
+	title: "{academy.mobslaughterfactory.title}",
+	x: 8.0d,
+	y: 1.0d,
+	description: "{academy.mobslaughterfactory.desc}",
+	text: [
+		"{academy.mobslaughterfactory.text1}",
+		"",
+		"{academy.mobslaughterfactory.text2}"
+	],
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d7a61eac",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}]
+}

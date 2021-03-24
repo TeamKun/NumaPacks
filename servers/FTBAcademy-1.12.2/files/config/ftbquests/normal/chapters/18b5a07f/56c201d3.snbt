@@ -1,0 +1,29 @@
+{
+	title: "{academy.draconicboots.title}",
+	x: 1.0d,
+	y: 6.0d,
+	description: "{academy.draconicboots.desc}",
+	text: [
+		"{academy.draconicboots.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e4162f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "44c82b39",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92fa582b",
+		type: "choice",
+		title: "{academy.bootenchants.rewards}",
+		table: 34
+	}]
+}

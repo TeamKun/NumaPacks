@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.wirelessfluidgrid.desc}",
+	text: [
+		"{academy.wirelessfluidgrid.text1}",
+		"{academy.wirelessfluidgrid.text2}"
+	],
+	guide_page: "/modpack/storage/refined_storage/misc/",
+	dependencies: [
+		"d5b9330c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b116ed41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:wireless_fluid_grid"
+		}],
+		ignore_nbt: 1b
+	}]
+}

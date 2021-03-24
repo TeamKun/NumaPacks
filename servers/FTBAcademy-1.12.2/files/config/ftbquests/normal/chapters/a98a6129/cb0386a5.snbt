@@ -1,0 +1,52 @@
+{
+	title: "{academy.itemrepairer.title}",
+	x: 6.0d,
+	y: 3.0d,
+	description: "{academy.itemrepairer.desc}",
+	text: [
+		"{academy.itemrepairer.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"481ecef4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c8bd033",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_item_repairer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a49cf277",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 35s
+				},
+				{
+					lvl: 3s,
+					id: 32s
+				},
+				{
+					lvl: 4s,
+					id: 34s
+				},
+				{
+					lvl: 2s,
+					id: 70s
+				}],
+				RepairCost: 1
+			},
+			Damage: 1560s
+		}
+	}]
+}

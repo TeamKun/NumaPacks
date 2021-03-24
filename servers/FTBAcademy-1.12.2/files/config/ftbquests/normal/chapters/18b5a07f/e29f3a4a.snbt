@@ -1,0 +1,41 @@
+{
+	title: "{academy.iflaserdrill.title}",
+	icon: "industrialforegoing:laser_drill",
+	x: -6.0d,
+	y: 0.0d,
+	description: "{academy.iflaserdrill.desc}",
+	text: [
+		"{academy.iflaserdrill.text1}",
+		"",
+		"{academy.iflaserdrill.text2}",
+		"",
+		"{academy.iflaserdrill.text3}",
+		"",
+		"{academy.iflaserdrill.text4}"
+	],
+	guide_page: "/modpack/technology/machines/resource_gathering/ores_fluids/",
+	dependencies: [
+		"341dd99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc135f53",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c8b22024",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "f23a80ef",
+		type: "choice",
+		table: 15
+	}]
+}

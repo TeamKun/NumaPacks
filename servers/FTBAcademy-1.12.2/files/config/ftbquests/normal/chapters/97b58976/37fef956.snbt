@@ -1,0 +1,38 @@
+{
+	title: "{academy.reswand.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{academy.reswand.desc}",
+	text: [
+		"{academy.reswand.text1}",
+		"",
+		"{academy.reswand.text2}",
+		"",
+		"{academy.reswand.text3}"
+	],
+	dependencies: [
+		"70040598"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e1881bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b062056c",
+		type: "item",
+		item: "astralsorcery:blockcustomore",
+		count: 4
+	}]
+}

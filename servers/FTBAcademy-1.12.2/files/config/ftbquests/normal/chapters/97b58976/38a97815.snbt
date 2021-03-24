@@ -1,0 +1,33 @@
+{
+	title: "{academy.shiftingstar.title}",
+	x: 5.0d,
+	y: 7.0d,
+	description: "{academy.shiftingstar.desc}",
+	text: [
+		"{academy.shiftingstar.text}"
+	],
+	dependencies: [
+		"e3663cc0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "124bff23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22ca4ff5",
+		type: "choice",
+		table: 38
+	}]
+}

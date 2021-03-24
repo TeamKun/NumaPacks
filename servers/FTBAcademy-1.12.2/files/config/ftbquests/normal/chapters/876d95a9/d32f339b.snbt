@@ -1,0 +1,25 @@
+{
+	title: "{academy.AAbook.title}",
+	x: 7.0d,
+	y: 0.0d,
+	description: "{academy.AAbook.desc}",
+	text: [
+		"{academy.AAbook.text}"
+	],
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d525967",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_booklet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

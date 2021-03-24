@@ -1,0 +1,36 @@
+{
+	title: "{academy.DEgrinder.title}",
+	x: 12.0d,
+	y: 2.0d,
+	description: "{academy.DEgrinder.desc}",
+	text: [
+		"{academy.DEgrinder.text}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d6a735c1",
+		"2e6d4426"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "fbfc6e04",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "1f364d9d",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 21s
+				}]
+			}
+		}
+	}]
+}

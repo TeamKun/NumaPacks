@@ -1,0 +1,54 @@
+{
+	title: "{academy.naga.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{academy.naga.desc}",
+	text: [
+		"{academy.naga.text1}",
+		"",
+		"{academy.naga.text3}"
+	],
+	guide_page: "/modpack/magic/twilight_forest/bosses/starter/",
+	dependencies: [
+		"e10140a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6cf89be5",
+		type: "advancement",
+		title: "{academy.naga.task}",
+		icon: "twilightforest:trophy",
+		advancement: "twilightforest:progress_naga",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "37a37e60",
+		type: "item",
+		item: {
+			id: "twilightforest:miniature_structure",
+			tag: {
+				display: {
+					Lore: [
+						"This doesn't actually do",
+						"anything, but you can",
+						"place it like a trophy"
+					]
+				}
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "049d05d1",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 9
+	},
+	{
+		uid: "18bec8db",
+		type: "advancement",
+		auto: "invisible",
+		advancement: "twilightforest:progress_naga",
+		criterion: ""
+	}]
+}

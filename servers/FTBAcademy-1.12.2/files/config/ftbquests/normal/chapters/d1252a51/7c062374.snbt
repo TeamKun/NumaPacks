@@ -1,0 +1,40 @@
+{
+	title: "{academy.enderchest.title}",
+	x: -1.0d,
+	y: -2.0d,
+	description: "{academy.enderchest.desc}",
+	text: [
+		"{academy.enderchest.text1}",
+		"",
+		"{academy.enderchest.text2}",
+		"",
+		"{academy.enderchest.text3}"
+	],
+	guide_page: "/modpack/storage/other/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d875b61",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "743a7f2c",
+		type: "item",
+		item: {
+			id: "enderstorage:ender_storage",
+			tag: {
+				Frequency: {
+					middle: 0,
+					left: 0,
+					right: 0
+				}
+			}
+		}
+	}]
+}

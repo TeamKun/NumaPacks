@@ -1,0 +1,88 @@
+{
+	title: "{academy.otherjetpacks.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 12s
+	},
+	x: 2.5d,
+	y: 6.5d,
+	description: "{academy.otherjetpacks.desc}",
+	text: [
+		"{academy.otherjetpacks.text1}",
+		"",
+		"{academy.otherjetpacks.text2}"
+	],
+	dependencies: [
+		"f2d232de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "210099fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0675e9d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4621e53c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12079d42",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 7s
+		}
+	}]
+}

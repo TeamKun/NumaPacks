@@ -1,0 +1,40 @@
+{
+	title: "{academy.twilightportal.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{academy.twilightportal.desc}",
+	text: [
+		"{academy.twilightportal.text1}",
+		"{academy.twilightportal.text2}",
+		"",
+		"{academy.twilightportal.text3}"
+	],
+	guide_page: "/modpack/magic/twilight_forest/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	size: 1.25d,
+	tasks: [{
+		uid: "d031d220",
+		type: "dimension",
+		title: "{academy.twilightportal.task}",
+		icon: "twilightforest:miniature_structure",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "19e12bd1",
+		type: "item",
+		item: {
+			id: "twilightforest:transformation_powder",
+			tag: {
+				display: {
+					Lore: [
+						"Used to transform mobs between their Overworld and Twilight Forest versions"
+					]
+				}
+			}
+		},
+		count: 8
+	}]
+}

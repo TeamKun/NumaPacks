@@ -1,0 +1,29 @@
+{
+	title: "{academy.draconicleggings.title}",
+	x: 1.0d,
+	y: 5.0d,
+	description: "{academy.draconicleggings.desc}",
+	text: [
+		"{academy.draconicleggings.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e4162f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "731df055",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ddc31cbb",
+		type: "choice",
+		title: "{academy.legenchants.rewards}",
+		table: 33
+	}]
+}

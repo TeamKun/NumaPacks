@@ -1,0 +1,44 @@
+{
+	title: "{academy.servo.title}",
+	icon: "thermaldynamics:servo",
+	x: -1.0d,
+	y: -7.0d,
+	description: "{academy.servo.desc}",
+	text: [
+		"{academy.servo.text1}",
+		"",
+		"{academy.servo.text2}",
+		"",
+		"{academy.servo.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b54d0da3",
+		type: "item",
+		title: "{academy.servo.task}",
+		items: [{
+			item: "thermaldynamics:servo"
+		},
+		{
+			item: "thermaldynamics:servo 1 1"
+		},
+		{
+			item: "thermaldynamics:servo 1 2"
+		},
+		{
+			item: "thermaldynamics:servo 1 3"
+		},
+		{
+			item: "thermaldynamics:servo 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0e183edc",
+		type: "item",
+		item: "thermaldynamics:retriever 1 2"
+	}]
+}

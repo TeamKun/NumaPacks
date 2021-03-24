@@ -1,0 +1,52 @@
+{
+	title: "auto_1",
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"0f9fe446"
+	],
+	tasks: [{
+		uid: "f2407324",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	},
+	{
+		uid: "4778180d",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	},
+	{
+		uid: "220153ba",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "f5b240d8",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "f00a9871",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "auto_2"
+	},
+	{
+		uid: "556fa41d",
+		type: "gamestage",
+		title: "Remove auto_1",
+		team_reward: true,
+		auto: "invisible",
+		stage: "auto_1",
+		remove: true
+	}]
+}

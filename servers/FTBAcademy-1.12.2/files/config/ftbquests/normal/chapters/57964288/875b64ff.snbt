@@ -1,0 +1,22 @@
+{
+	title: "{academy.extstorage.title}",
+	x: 6.0d,
+	y: 2.0d,
+	description: "{academy.extstorage.desc}",
+	text: [
+		"{academy.extstorage.text1}",
+		"{academy.extstorage.text2}"
+	],
+	guide_page: "/modpack/storage/refined_storage/cables/",
+	dependencies: [
+		"5ef69d97"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9f6c2e5",
+		type: "item",
+		items: [{
+			item: "refinedstorage:external_storage"
+		}]
+	}]
+}

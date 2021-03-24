@@ -1,0 +1,48 @@
+{
+	title: "{academy.fluidtransposer.title}",
+	x: 0.5d,
+	y: 1.0d,
+	description: "{academy.fluidtransposer.desc}",
+	text: [
+		"{academy.fluidtransposer.text}"
+	],
+	guide_page: "/modpack/technology/machines/processing/creation/complex/",
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e06c178",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "5539527a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 1s
+		}
+	}]
+}

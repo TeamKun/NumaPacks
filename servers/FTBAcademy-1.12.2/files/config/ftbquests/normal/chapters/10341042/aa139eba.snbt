@@ -1,0 +1,44 @@
+{
+	title: "{academy.hydra.title}",
+	icon: "twilightforest:trophy 1 2",
+	x: 8.0d,
+	y: -2.0d,
+	description: "{academy.hydra.desc}",
+	text: [
+		"{academy.hydra.text1}",
+		"{academy.hydra.text2}",
+		"",
+		"{academy.hydra.text3}"
+	],
+	guide_page: "/modpack/magic/twilight_forest/bosses/swamp/",
+	dependencies: [
+		"0fdd32ab"
+	],
+	tasks: [{
+		uid: "ea80e9f7",
+		type: "advancement",
+		title: "{academy.hydra.task}",
+		icon: "twilightforest:trophy 1 2",
+		advancement: "twilightforest:progress_hydra",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "3bc13c92",
+		type: "item",
+		item: "twilightforest:fiery_ingot",
+		count: 9
+	},
+	{
+		uid: "145764c4",
+		type: "item",
+		item: "twilightforest:hydra_chop",
+		count: 5
+	},
+	{
+		uid: "3060c5cc",
+		type: "advancement",
+		auto: "invisible",
+		advancement: "twilightforest:progress_hydra",
+		criterion: ""
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{academy.domicresonator.title}",
+	x: 3.0d,
+	y: 8.0d,
+	description: "{academy.domicresonator.desc}",
+	text: [
+		"{academy.domicresonator.text1}",
+		"",
+		"{academy.domicresonator.text2}"
+	],
+	dependencies: [
+		"306dd943"
+	],
+	tasks: [{
+		uid: "55a139e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					selected_upgrade: 2,
+					upgrades: [
+						0,
+						2
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

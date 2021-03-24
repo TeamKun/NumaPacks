@@ -1,0 +1,100 @@
+{
+	title: "{academy.bootenchants.rewards} 1",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.prot1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.fireprot1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 1s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.blastprot1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 3s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.projprot1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.thorns1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 7s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.depthstr1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 8s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.feathfall1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.frostwalk1.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 9s
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,92 @@
+{
+	title: "{academy.attunedreswands.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemwand",
+		tag: {
+			astralsorcery: {
+				AugmentName: "astralsorcery.constellation.aevitas"
+			}
+		}
+	},
+	x: 8.0d,
+	y: 3.0d,
+	description: "{academy.attunedreswands.desc}",
+	text: [
+		"{academy.attunedreswands.text1}",
+		"",
+		"{academy.attunedreswands.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2f962c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a4d5630",
+		type: "item",
+		title: "{academy.attunedreswands.task}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.aevitas"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.discidia"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.vicio"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.armara"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {
+					AugmentName: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1e916be4",
+		type: "choice",
+		table: 39
+	}]
+}

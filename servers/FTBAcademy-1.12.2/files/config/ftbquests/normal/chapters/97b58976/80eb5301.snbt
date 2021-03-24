@@ -1,0 +1,61 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	description: "{academy.evershiftingfountain.desc}",
+	text: [
+		"{academy.evershiftingfountain.text1}",
+		"",
+		"{academy.evershiftingfountain.text2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2d44ce25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "01a3dcf8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockbore"
+		}]
+	}],
+	rewards: [{
+		uid: "8d12df82",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				RepairCost: 0,
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0b,
+						id: "astralsorcery:blockblackmarble",
+						Count: 4b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "astralsorcery:blockmarble",
+						Count: 16b,
+						Damage: 2s
+					},
+					{
+						Slot: 2b,
+						id: "astralsorcery:blockmarble",
+						Count: 20b,
+						Damage: 6s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "Evershifting Fountain construction blocks"
+				}
+			}
+		}
+	}]
+}

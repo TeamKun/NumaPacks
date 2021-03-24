@@ -1,0 +1,37 @@
+{
+	title: "{academy.plasticmaking.title}",
+	icon: "industrialforegoing:latex_processing_unit",
+	x: 10.0d,
+	y: 2.0d,
+	description: "{academy.plasticmaking.desc}",
+	text: [
+		"{academy.plasticmaking.text1}",
+		"",
+		"{academy.plasticmaking.text2}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"f62412c8",
+		"d6a735c1"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d071bf9b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "8bf94f6d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "ae7d0ae3",
+		type: "item",
+		item: "actuallyadditions:block_placer"
+	}]
+}

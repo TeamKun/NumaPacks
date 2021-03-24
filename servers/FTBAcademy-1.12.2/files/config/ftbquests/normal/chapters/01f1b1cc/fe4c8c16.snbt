@@ -1,0 +1,35 @@
+{
+	title: "{academy.laminar.title}",
+	icon: "thermaldynamics:duct_16 1 6",
+	x: -2.0d,
+	y: -1.0d,
+	description: "{academy.laminar.desc}",
+	text: [
+		"{academy.laminar.text1}",
+		"",
+		"{academy.laminar.text2}",
+		"",
+		"{academy.laminar.text3}"
+	],
+	guide_page: "/modpack/technology/transportation/fluid/fluiducts/",
+	dependencies: [
+		"64bfe9fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0efeb804",
+		type: "item",
+		title: "{academy.laminar.task}",
+		items: [{
+			item: "thermaldynamics:duct_16 1 6"
+		},
+		{
+			item: "thermaldynamics:duct_16 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "0bc7bccb",
+		type: "choice",
+		table: 22
+	}]
+}

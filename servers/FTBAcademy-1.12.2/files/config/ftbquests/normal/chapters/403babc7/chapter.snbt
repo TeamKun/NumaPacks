@@ -1,0 +1,7 @@
+{
+	title: "{academy.botania.title}",
+	icon: "botania:flower 1 1",
+	always_invisible: false,
+	group: -2116377050,
+	default_quest_shape: "pentagon"
+}

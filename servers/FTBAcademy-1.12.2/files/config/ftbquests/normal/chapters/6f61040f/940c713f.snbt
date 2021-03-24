@@ -1,0 +1,49 @@
+{
+	title: "{academy.introJEI.title}",
+	x: -10.0d,
+	y: -6.0d,
+	description: "{academy.introJEI.desc}",
+	text: [
+		"{academy.introJEI.text1}",
+		"",
+		"{academy.introJEI.text2}",
+		"",
+		"{academy.introJEI.text3}",
+		"",
+		"{academy.introJEI.text4}"
+	],
+	guide_page: "/modpack/your_interface/jei/",
+	dependencies: [
+		"6ad64394"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72daa5ed",
+		type: "checkmark",
+		title: "{academy.clickthis.task}"
+	}],
+	rewards: [{
+		uid: "1c330c41",
+		type: "command",
+		title: "{academy.introJEI.reward}",
+		icon: "minecraft:crafting_table",
+		team_reward: true,
+		auto: "enabled",
+		command: "/open_tutorial ftbacademy:jei @p"
+	},
+	{
+		uid: "30b7ebb0",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "first_room_done"
+	},
+	{
+		uid: "56407a9e",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "in_first_room",
+		remove: true
+	}]
+}

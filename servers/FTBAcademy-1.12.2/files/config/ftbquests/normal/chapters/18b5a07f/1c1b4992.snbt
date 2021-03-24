@@ -1,0 +1,29 @@
+{
+	title: "{academy.draconichelm.title}",
+	x: 1.0d,
+	y: 3.0d,
+	description: "{academy.draconichelm.desc}",
+	text: [
+		"{academy.draconichelm.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e4162f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0bcf91dc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fa2dbb4",
+		type: "choice",
+		title: "{academy.helmenchants.rewards}",
+		table: 31
+	}]
+}

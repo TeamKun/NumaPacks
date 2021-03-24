@@ -1,0 +1,12 @@
+{
+	title: "{academy.signalumimpulse.rewards}",
+	loot_size: 27,
+	rewards: [{
+		item: "thermaldynamics:duct_32 1 6",
+		count: 16
+	},
+	{
+		item: "thermaldynamics:duct_32 1 7",
+		count: 16
+	}]
+}

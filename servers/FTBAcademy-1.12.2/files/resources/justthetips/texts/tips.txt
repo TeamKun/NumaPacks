@@ -1,0 +1,39 @@
+Follow the quests! They'll guide you through pretty much the entire modpack, no matter the path you choose.
+Quests often reward with you items that will help you out!
+Remember to actually READ quest text. Quests often describe how you're supposed to do certain things.
+You can open the quests with the G key, or a button at the top left of the inventory!
+Academy has a very in-depth Guide you can read, which explains how pretty much everything in the modpack works!
+A Longsword in tandem with Slime Boots allows you to launch yourself while bouncing to jump even farther.
+Cleavers have an increased chance of dropping mob skulls!
+If your Tinkers' Construct pickaxe has Knightslime, it can also dig through non-stone blocks like Dirt and Wood.
+You can melt Cobblestone into Seared Stone in the Smeltery.
+You can automate the Smeltery by giving the Seared Faucet a Redstone signal.
+You can make Obsidian in the Smeltery by using Buckets of Water and Lava on the Smeltery Drain and allowing them to alloy.
+An Obsidian Pickaxe Head or Sharpening Kit will allow a Tinkers' Construct pick to mine the hardest blocks.
+You should try to maximize Luck on your Tinkers' Construct tools with Lapis Lazuli as fast as you can, so you get more out of ores.
+A Tinkers' Construct tool with Reinforced V will have infinite durability.
+You can hold ` (to the left of the 1 key) while breaking a block to also break all the connected blocks.
+You can double click the text box in JEI to highlight that item in open inventories.
+In JEI you can search "@Botania" to search for all items from Botania.
+You can type A while hovering over an item to pin it to the left of the inventory. Hit A while hovering over the pinned item to remove it.
+You can hit K to lock the rotation of placed blocks.
+Soul Powder can be used like Eyes of Ender, except they find Nether Fortresses.
+Torch Arrows will place a Torch where they land.
+Combine an Ancient Tome with an Enchanted Book of the same level and enchantment to get an Enchanted Book one level higher than the usual maximum.
+Villagers follow you if you're holding a Block of Emerald.
+Animals will eat dropped items, so you can automate breeding with only a Dropper.
+You can place Blaze Rods, Gunpowder, and Glowstone Dust.
+Fluid Laser Relays can move an infinite amount of fluids instantly.
+Standing in Liquid Meat will fill your Saturation.
+The Coal Generator is a very good early source of power.
+Steam Dynamos using an external source of Steam is great for mid-game.
+You can find loot under one of the pillars in Astral Sorcery fountains.
+Astral Sorcery has a really cool perk system!
+You can get rid of aesthetic sounds by muting Biome Sounds.
+You can change the font by pressing the Home key.
+You can repair Mom's Spaghetti like a Tinkers' tool using Wheat.
+You can fly using Wings of the Bat or the Flügel Tiara.
+You can press P on a block to place up to 4 unique items on it.
+Also visit /r/feedthebeast!
+Also visit the Feed The Beast Discord!
+Also visit the Modded Minecraft Discord!

@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	description: "{academy.resonantupgrade.desc}",
+	text: [
+		"{academy.resonantupgrade.text}"
+	],
+	dependencies: [
+		"26c0d760"
+	],
+	hide: true,
+	tasks: [{
+		uid: "64ef3b0d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "e21743ac",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 35"
+	}]
+}

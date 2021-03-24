@@ -1,0 +1,22 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	description: "{academy.wyverninjectors.desc}",
+	text: [
+		"{academy.wyverninjectors.text1}",
+		"",
+		"{academy.wyverninjectors.text2}"
+	],
+	guide_page: "/modpack/technology/machines/crafting/de/",
+	dependencies: [
+		"48e8328b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae89f7d9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}]
+	}]
+}

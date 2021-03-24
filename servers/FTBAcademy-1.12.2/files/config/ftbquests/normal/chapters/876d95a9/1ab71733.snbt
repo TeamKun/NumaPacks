@@ -1,0 +1,30 @@
+{
+	title: "{academy.crusher.title}",
+	x: 6.0d,
+	y: 6.0d,
+	description: "{academy.crusher.desc}",
+	text: [
+		"{academy.crusher.text1}",
+		"",
+		"{academy.crusher.text2}"
+	],
+	guide_page: "/modpack/technology/machines/processing/ores/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"082e9e66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "534ac1b0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_grinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb181eb4",
+		type: "random",
+		table: 1
+	}]
+}

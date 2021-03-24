@@ -1,0 +1,62 @@
+{
+	title: "{academy.introgenstorage.title}",
+	icon: "minecraft:chest",
+	x: -4.0d,
+	y: -10.0d,
+	description: "{academy.introgenstorage.desc}",
+	text: [
+		"{academy.introgenstorage.text1}",
+		"",
+		"{academy.introgenstorage.text2}"
+	],
+	dependencies: [
+		"b3fc7bec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "033f75df",
+		type: "interaction",
+		title: "{academy.introgenstorage.task1}",
+		icon: "minecraft:chest",
+		disable_toast: true,
+		match_type: "block_entity_id",
+		match: "minecraft:chest"
+	},
+	{
+		uid: "f9859abc",
+		type: "interaction",
+		title: "{academy.introgenstorage.task2}",
+		icon: "ironchest:iron_chest 1 2",
+		disable_toast: true,
+		match_type: "block_entity_id",
+		match: "minecraft:ironchest.diamond"
+	},
+	{
+		uid: "e0b308f5",
+		type: "interaction",
+		title: "{academy.introgenstorage.task3}",
+		icon: "actuallyadditions:block_giant_chest",
+		disable_toast: true,
+		match_type: "block_entity_id",
+		match: "actuallyadditions:giantchest"
+	}],
+	rewards: [{
+		uid: "9eb7151e",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_2",
+		remove: true
+	},
+	{
+		uid: "128abbce",
+		type: "item",
+		auto: "invisible",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}
+	}]
+}

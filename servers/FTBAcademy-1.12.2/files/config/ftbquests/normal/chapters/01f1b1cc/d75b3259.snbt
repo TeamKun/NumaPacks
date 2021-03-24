@@ -1,0 +1,29 @@
+{
+	title: "{academy.disped.title}",
+	x: -6.0d,
+	y: -3.0d,
+	description: "{academy.disped.desc}",
+	text: [
+		"{academy.disped.text1}",
+		"",
+		"{academy.disped.text2}",
+		"",
+		"{academy.disped.text3}"
+	],
+	dependencies: [
+		"ae709363"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e3d2b8a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "15084f6d",
+		type: "item",
+		item: "draconicevolution:dislocator_bound 1 1"
+	}]
+}

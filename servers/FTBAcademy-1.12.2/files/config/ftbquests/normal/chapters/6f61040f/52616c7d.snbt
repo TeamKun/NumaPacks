@@ -1,0 +1,38 @@
+{
+	title: "{academy.intromanasteel.title}",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{academy.intromanasteel.desc}",
+	text: [
+		"{academy.intromanasteel.text1}",
+		"",
+		"{academy.intromanasteel.text2}"
+	],
+	dependencies: [
+		"61695f7e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86926760",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "412f2d60",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b3",
+		remove: true
+	},
+	{
+		uid: "d4a9b97a",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "b4"
+	}]
+}

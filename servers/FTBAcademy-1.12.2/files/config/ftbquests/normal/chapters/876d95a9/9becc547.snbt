@@ -1,0 +1,28 @@
+{
+	title: "{academy.disenchanter.title}",
+	x: 12.0d,
+	y: 6.0d,
+	description: "{academy.disenchanter.desc}",
+	text: [
+		"{academy.disenchanter.text}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"d6a735c1",
+		"2e6d4426"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e7e3388",
+		type: "item",
+		items: [{
+			item: "draconicevolution:diss_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "0f44d69e",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	}]
+}

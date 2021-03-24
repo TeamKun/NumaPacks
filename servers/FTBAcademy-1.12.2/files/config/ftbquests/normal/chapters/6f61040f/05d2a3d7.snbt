@@ -1,0 +1,61 @@
+{
+	title: "{academy.introupgradechest.title}",
+	x: -1.0d,
+	y: -10.0d,
+	description: "{academy.introupgradechest.desc}",
+	text: [
+		"{academy.introupgradechest.text}"
+	],
+	dependencies: [
+		"22162400"
+	],
+	tasks: [{
+		uid: "f126973c",
+		type: "custom",
+		title: "{academy.introupgradechest.desc}",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		},
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "0b1b77bc",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_1",
+		remove: true
+	},
+	{
+		uid: "ad616f51",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "storage_7",
+		remove: true
+	},
+	{
+		uid: "e9d7d8fd",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "bulk_cobble"
+	},
+	{
+		uid: "eb237134",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "bulk_wood"
+	},
+	{
+		uid: "445fe9f5",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "hulk_banner"
+	}]
+}

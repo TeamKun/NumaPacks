@@ -1,0 +1,22 @@
+{
+	title: "64k Storage Disks",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:storage_disk",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk"
+		}
+	}]
+}

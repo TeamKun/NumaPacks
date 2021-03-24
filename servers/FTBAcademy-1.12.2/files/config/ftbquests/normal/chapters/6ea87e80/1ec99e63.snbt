@@ -1,0 +1,35 @@
+{
+	title: "{academy.storagecrate1.title}",
+	x: 1.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "{academy.storagecrate1.desc}",
+	text: [
+		"{academy.storagecrate1.text1}",
+		"",
+		"{academy.storagecrate1.text2}"
+	],
+	guide_page: "/modpack/storage/other/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90b13483",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "64843cc3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_crate_keeper"
+		}
+	}]
+}

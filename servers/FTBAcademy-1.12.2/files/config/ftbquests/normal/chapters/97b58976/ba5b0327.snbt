@@ -1,0 +1,86 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 1s
+	},
+	x: 4.0d,
+	y: 0.0d,
+	description: "{academy.starlightcraftingaltar.desc}",
+	text: [
+		"{academy.starlightcraftingaltar.text1}",
+		"",
+		"{academy.starlightcraftingaltar.text2}",
+		"",
+		"{academy.starlightcraftingaltar.text3}"
+	],
+	dependencies: [
+		"71629876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c1c7d4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82e820c3",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				RepairCost: 0,
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0b,
+						id: "astralsorcery:blockmarble",
+						Count: 8b,
+						Damage: 4s
+					},
+					{
+						Slot: 1b,
+						id: "astralsorcery:blockmarble",
+						Count: 28b,
+						Damage: 3s
+					},
+					{
+						Slot: 2b,
+						id: "astralsorcery:blockmarble",
+						Count: 24b,
+						Damage: 1s
+					},
+					{
+						Slot: 3b,
+						id: "astralsorcery:blockblackmarble",
+						Count: 21b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "astralsorcery:blockmarble",
+						Count: 8b,
+						Damage: 2s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "Starlight Crafting Altar construction blocks"
+				}
+			}
+		}
+	}]
+}

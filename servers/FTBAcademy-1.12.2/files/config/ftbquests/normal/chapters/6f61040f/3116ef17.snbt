@@ -1,0 +1,44 @@
+{
+	title: "{academy.introastralsorcery.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemshiftingstar",
+		tag: {
+			astralsorcery: {}
+		}
+	},
+	x: -6.0d,
+	y: -4.0d,
+	description: "{academy.introastralsorcery.desc}",
+	text: [
+		"{academy.introastralsorcery.text}"
+	],
+	dependencies: [
+		"e6547f71",
+		"940c713f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73169fcb",
+		type: "custom",
+		title: "{academy.introastralsorcery.task}",
+		icon: "astralsorcery:itemcraftingcomponent 1 1"
+	}],
+	rewards: [{
+		uid: "a8656c73",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "a_items"
+	},
+	{
+		uid: "ac734571",
+		type: "gamestage",
+		team_reward: true,
+		auto: "invisible",
+		stage: "technology_room_done",
+		remove: true
+	}]
+}

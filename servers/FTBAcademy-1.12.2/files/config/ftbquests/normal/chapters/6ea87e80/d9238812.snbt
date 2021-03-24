@@ -1,0 +1,54 @@
+{
+	title: "{academy.simplybackpacks.title}",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Filter: [],
+				Inventory: []
+			},
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "simplybackpacks:commonbackpack",
+		tag: {
+			inv: {
+				Size: 18,
+				Items: []
+			},
+			filter: {
+				Size: 16,
+				Items: []
+			}
+		}
+	},
+	x: 3.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "{academy.simplybackpacks.desc}",
+	text: [
+		"{academy.simplybackpacks.text1}",
+		"",
+		"{academy.simplybackpacks.text2}",
+		"",
+		"{academy.simplybackpacks.text3}"
+	],
+	guide_page: "/modpack/storage/other/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bef44a7f",
+		type: "item",
+		title: "{academy.simplybackpacks.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "simplybackpacks",
+					id: "mod"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

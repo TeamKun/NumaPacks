@@ -1,0 +1,21 @@
+{
+	title: "{academy.treebeacon.title}",
+	x: 5.0d,
+	y: -4.0d,
+	description: "{academy.treebeacon.desc}",
+	text: [
+		"{academy.treebeacon.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c88c78d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0601cd63",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{academy.ores.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:gold_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:ore",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:ore 1 1",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:ore 1 2",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:ore 1 3",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:ore 1 4",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:ore 1 5",
+		count: 16
+	}]
+}

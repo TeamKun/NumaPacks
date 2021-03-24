@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	description: "{academy.wirelesscraftinggrid.desc}",
+	text: [
+		"{academy.wirelesscraftinggrid.text1}",
+		"{academy.wirelesscraftinggrid.text2}"
+	],
+	guide_page: "/modpack/storage/refined_storage/misc/",
+	dependencies: [
+		"d5b9330c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cbe00001",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorageaddons:wireless_crafting_grid"
+		}],
+		ignore_nbt: 1b
+	}]
+}

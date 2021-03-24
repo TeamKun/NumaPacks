@@ -1,0 +1,37 @@
+{
+	title: "{academy.linkingtool.title}",
+	x: 4.0d,
+	y: 2.0d,
+	description: "{academy.linkingtool.desc}",
+	text: [
+		"{academy.linkingtool.text1}",
+		"",
+		"{academy.linkingtool.text2}"
+	],
+	dependencies: [
+		"ba5b0327"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c399c40b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dba15a27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	}]
+}

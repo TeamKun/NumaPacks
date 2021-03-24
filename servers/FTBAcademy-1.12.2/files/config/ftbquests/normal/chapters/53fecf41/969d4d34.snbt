@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"0f9fe446"
+	],
+	tasks: [{
+		uid: "1e4c9ee7",
+		type: "custom",
+		title: "exit storage",
+		icon: "minecraft:wooden_door",
+		tags: [
+			"clear"
+		]
+	}]
+}

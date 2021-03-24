@@ -1,0 +1,29 @@
+{
+	title: "{academy.spawnerchanger.title}",
+	x: 6.0d,
+	y: 4.0d,
+	description: "{academy.spawnerchanger.desc}",
+	text: [
+		"{academy.spawnerchanger.text1}",
+		"",
+		"{academy.spawnerchanger.text2}"
+	],
+	guide_page: "/modpack/technology/machines/resource_gathering/mob_grinding/spawning/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"481ecef4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9de7ef5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_spawner_changer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

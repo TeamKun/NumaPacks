@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	description: "{academy.draconicstaff.desc}",
+	text: [
+		"{academy.draconicstaff.text}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7160f3e0",
+		"93f31916",
+		"adc7e022"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63215412",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{academy.starlightinfuser.title}",
+	x: 6.0d,
+	y: -2.0d,
+	description: "{academy.starlightinfuser.desc}",
+	text: [
+		"{academy.starlightinfuser.text1}",
+		"",
+		"{academy.starlightinfuser.text2}",
+		"",
+		"{academy.starlightinfuser.text3}"
+	],
+	dependencies: [
+		"d38d8ad2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bbf615c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}]
+}

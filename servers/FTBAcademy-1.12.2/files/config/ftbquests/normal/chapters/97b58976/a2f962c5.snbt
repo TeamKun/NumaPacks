@@ -1,0 +1,88 @@
+{
+	title: "{academy.iridescentaltar.title}",
+	x: 8.0d,
+	y: 0.0d,
+	description: "{academy.iridescentaltar.desc}",
+	text: [
+		"{academy.iridescentaltar.text1}",
+		"",
+		"{academy.iridescentaltar.text2}",
+		"",
+		"{academy.iridescentaltar.text3}",
+		"",
+		"{academy.iridescentaltar.text4}"
+	],
+	dependencies: [
+		"d38d8ad2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69e7f064",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68786d61",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				RepairCost: 0,
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0b,
+						id: "astralsorcery:blockmarble",
+						Count: 4b,
+						Damage: 6s
+					},
+					{
+						Slot: 1b,
+						id: "astralsorcery:blockmarble",
+						Count: 64b,
+						Damage: 1s
+					},
+					{
+						Slot: 2b,
+						id: "astralsorcery:blockmarble",
+						Count: 4b,
+						Damage: 1s
+					},
+					{
+						Slot: 3b,
+						id: "astralsorcery:blockmarble",
+						Count: 12b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "astralsorcery:blockmarble",
+						Count: 8b,
+						Damage: 2s
+					},
+					{
+						Slot: 5b,
+						id: "astralsorcery:blockmarble",
+						Count: 4b,
+						Damage: 4s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "Iridescent Altar construction blocks"
+				}
+			}
+		}
+	}]
+}

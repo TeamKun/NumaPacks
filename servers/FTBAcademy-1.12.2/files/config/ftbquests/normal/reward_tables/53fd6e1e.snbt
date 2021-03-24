@@ -1,0 +1,64 @@
+{
+	title: "{academy.chestenchants.rewards} 2",
+	loot_size: 27,
+	rewards: [{
+		title: "{academy.prot2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 0s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.fireprot2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 1s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.blastprot2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 3s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.projprot2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		title: "{academy.thorns2.reward}",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 7s
+				}]
+			}
+		}
+	}]
+}

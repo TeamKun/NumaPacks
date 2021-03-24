@@ -1,0 +1,108 @@
+{
+	title: "{academy.stabilizedspawner.title}",
+	icon: {
+		id: "draconicevolution:draconic_spawner",
+		tag: {
+			BCTileData: {
+				BCManagedData: {
+					spawnerTier: 2b,
+					mobSoul: {
+						id: "minecraft:air",
+						Count: 2b,
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	x: 12.0d,
+	y: 4.0d,
+	description: "{academy.stabilizedspawner.desc}",
+	text: [
+		"{academy.stabilizedspawner.text1}",
+		"",
+		"{academy.stabilizedspawner.text2}",
+		"",
+		"{academy.stabilizedspawner.text3}"
+	],
+	guide_page: "/modpack/technology/machines/resource_gathering/mob_grinding/spawning/",
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"d6a735c1",
+		"2e6d4426"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b80b6d65",
+		type: "item",
+		title: "{academy.stabilizedspawner.task}",
+		items: [{
+			id: "draconicevolution:draconic_spawner",
+			tag: {
+				BCTileData: {
+					BCManagedData: {
+						spawnerTier: 0b,
+						mobSoul: {
+							id: "minecraft:air",
+							Count: 2b,
+							Damage: 0s
+						}
+					}
+				}
+			}
+		},
+		{
+			id: "draconicevolution:draconic_spawner",
+			tag: {
+				BCTileData: {
+					BCManagedData: {
+						spawnerTier: 1b,
+						mobSoul: {
+							id: "minecraft:air",
+							Count: 2b,
+							Damage: 0s
+						}
+					}
+				}
+			}
+		},
+		{
+			id: "draconicevolution:draconic_spawner",
+			tag: {
+				BCTileData: {
+					BCManagedData: {
+						spawnerTier: 2b,
+						mobSoul: {
+							id: "minecraft:air",
+							Count: 2b,
+							Damage: 0s
+						}
+					}
+				}
+			}
+		},
+		{
+			id: "draconicevolution:draconic_spawner",
+			tag: {
+				BCTileData: {
+					BCManagedData: {
+						spawnerTier: 3b,
+						mobSoul: {
+							id: "minecraft:air",
+							Count: 2b,
+							Damage: 0s
+						}
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5dbf31ab",
+		type: "item",
+		item: "draconicevolution:awakened_core"
+	}]
+}

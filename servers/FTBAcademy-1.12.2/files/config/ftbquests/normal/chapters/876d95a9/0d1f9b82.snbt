@@ -1,0 +1,45 @@
+{
+	title: "{academy.pulverizer.title}",
+	x: 4.0d,
+	y: 0.0d,
+	description: "{academy.pulverizer.desc}",
+	text: [
+		"{academy.pulverizer.text1}",
+		"",
+		"{academy.pulverizer.text2}",
+		"",
+		"{academy.pulverizer.text3}"
+	],
+	guide_page: "/modpack/technology/machines/processing/",
+	dependencies: [
+		"d6a735c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff6b17e9",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "8e70e17c",
+		type: "choice",
+		table: 1
+	}]
+}

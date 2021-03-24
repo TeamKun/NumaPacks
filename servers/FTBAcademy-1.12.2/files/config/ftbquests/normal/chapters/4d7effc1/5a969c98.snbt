@@ -1,0 +1,36 @@
+{
+	title: "{academy.slimechannel.title}",
+	x: -2.0d,
+	y: -7.0d,
+	description: "{academy.slimechannel.desc}",
+	text: [
+		"{academy.slimechannel.text1}",
+		"",
+		"{academy.slimechannel.text2}"
+	],
+	guide_page: "/modpack/tinkers_construct/misc/",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bcad800a",
+		type: "item",
+		title: "{academy.slimechannel.task}",
+		items: [{
+			item: "tconstruct:slime_channel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "743b9db7",
+		type: "item",
+		item: "tconstruct:slime_grass"
+	},
+	{
+		uid: "f32a3b3a",
+		type: "item",
+		item: "tconstruct:slime_sapling"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{academy.fosicresonator.title}",
+	x: 1.0d,
+	y: -4.0d,
+	description: "{academy.fosicresonator.desc}",
+	text: [
+		"{academy.fosicresonator.text1}",
+		"",
+		"{academy.fosicresonator.text2}"
+	],
+	dependencies: [
+		"3f3aa3b2"
+	],
+	tasks: [{
+		uid: "32cc77a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "353e4571",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 8
+	}]
+}

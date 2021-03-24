@@ -1,0 +1,35 @@
+{
+	title: "{academy.forestwand.title}",
+	x: -5.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "{academy.forestwand.desc}",
+	text: [
+		"{academy.forestwand.text}"
+	],
+	dependencies: [
+		"5631e0ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "793b3896",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "147c7062",
+		type: "item",
+		item: "botania:tinypotato"
+	}]
+}

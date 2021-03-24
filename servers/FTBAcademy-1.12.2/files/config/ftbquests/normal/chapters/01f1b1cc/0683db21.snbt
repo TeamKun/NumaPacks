@@ -1,0 +1,45 @@
+{
+	title: "{academy.fluidlaser.title}",
+	icon: "actuallyadditions:block_laser_relay_fluids",
+	x: 4.0d,
+	y: -5.0d,
+	description: "{academy.fluidlaser.desc}",
+	text: [
+		"{academy.fluidlaser.text1}",
+		"",
+		"{academy.fluidlaser.text2}",
+		"",
+		"{academy.fluidlaser.text3}",
+		"",
+		"{academy.fluidlaser.text4}"
+	],
+	guide_page: "/modpack/technology/transportation/fluid/aa/",
+	dependencies: [
+		"4b7deb44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b89d926",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_fluids"
+		}]
+	},
+	{
+		uid: "1810f00e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_laser_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "855b386f",
+		type: "item",
+		item: "actuallyadditions:block_laser_relay_fluids"
+	}]
+}

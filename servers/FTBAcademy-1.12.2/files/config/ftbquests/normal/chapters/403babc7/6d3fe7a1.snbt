@@ -1,0 +1,34 @@
+{
+	title: "{academy.apothecary.title}",
+	x: -7.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "{academy.apothecary.desc}",
+	text: [
+		"{academy.apothecary.text1}",
+		"",
+		"{academy.apothecary.text2}"
+	],
+	dependencies: [
+		"671371ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ccddbd9",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "86a213e0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cacophonium",
+			tag: {}
+		}
+	}]
+}

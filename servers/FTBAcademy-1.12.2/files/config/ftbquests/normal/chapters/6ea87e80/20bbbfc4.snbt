@@ -1,0 +1,58 @@
+{
+	title: "{academy.chisel.title}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "chisel:chisel_iron"
+	},
+	x: 3.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "{academy.chisel.desc}",
+	text: [
+		"{academy.chisel.text1}",
+		"{academy.chisel.text2}",
+		"",
+		"{academy.chisel.text3}",
+		"",
+		"{academy.chisel.text4}"
+	],
+	guide_page: "/modpack/gear/chisel/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a35e831a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37ffc234",
+		type: "item",
+		title: "{academy.chisel.task}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_iron"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

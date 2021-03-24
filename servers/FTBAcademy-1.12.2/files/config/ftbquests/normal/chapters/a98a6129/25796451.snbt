@@ -1,0 +1,40 @@
+{
+	title: "{academy.ifbioreactor.title}",
+	icon: "industrialforegoing:biofuel_generator",
+	x: 8.0d,
+	y: -2.0d,
+	description: "{academy.ifbioreactor.desc}",
+	text: [
+		"{academy.ifbioreactor.text1}",
+		"",
+		"{academy.ifbioreactor.text2}"
+	],
+	dependencies: [
+		"341dd99d"
+	],
+	tasks: [{
+		uid: "c38f8c22",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:bioreactor"
+		}]
+	},
+	{
+		uid: "c57ca283",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:biofuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "578da0de",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "biofuel"
+			}
+		},
+		count: 6
+	}]
+}

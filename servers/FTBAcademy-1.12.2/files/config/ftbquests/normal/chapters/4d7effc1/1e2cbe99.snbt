@@ -1,0 +1,22 @@
+{
+	title: "{academy.fontunfucker.title}",
+	icon: "minecraft:sign",
+	x: -8.0d,
+	y: -7.0d,
+	description: "{academy.fontunfucker.desc}",
+	text: [
+		"{academy.fontunfucker.text1}",
+		"",
+		"{academy.fontunfucker.text2}"
+	],
+	guide_page: "/modpack/misc/font",
+	dependencies: [
+		"6f61040f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "28381634",
+		type: "checkmark",
+		title: "{academy.clickthis.task}"
+	}]
+}
