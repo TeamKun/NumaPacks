@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "TNTクラフト (Minecraft 1.12.2)",
-    "description": "TNTクラフト (単発)",
+    "name": "エベレストクラフト (Minecraft 1.12.2)",
+    "description": "エベレストクラフト (単発)",
     "address": "",
     "discord": {
-      "shortId": "TNTクラフト",
-      "largeImageText": "TNTクラフト",
-      "largeImageKey": "pack_tnt"
+      "shortId": "エベレストクラフト",
+      "largeImageText": "エベレストクラフト",
+      "largeImageKey": "pack_1"
     },
     "mainServer": false,
     "autoconnect": false
