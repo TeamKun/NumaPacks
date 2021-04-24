@@ -2,19 +2,19 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Twitterフォロワー数クラフト(Minecraft 1.15.2)",
-    "description": "フォロワー数でチャットのサイズが変わるクラフト(単発)",
+    "name": "音叉クラフト(Minecraft 1.15.2)",
+    "description": "音叉を使って真っ暗な世界を生き抜く(単発)",
     "address": "",
     "discord": {
-      "shortId": "Twitterフォロワー数クラフト",
-      "largeImageText": "Twitterフォロワー数クラフト",
+      "shortId": "音叉クラフト",
+      "largeImageText": "音叉クラフト",
       "largeImageKey": "pack_5"
     },
     "mainServer": false,
     "autoconnect": false
   },
   "forge": {
-    "version": "31.2.9"
+    "version": "31.2.46"
   },
   "untrackedFiles": []
 }
