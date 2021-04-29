@@ -2,19 +2,19 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "変身クラフト (Minecraft Fabric 1.16.4)",
+    "name": "ランダムに変身クラフト (Minecraft Fabric 1.16.5)",
     "description": "Morph Modの単発企画",
     "address": "",
     "discord": {
-      "shortId": "変身クラフト",
-      "largeImageText": "変身クラフト",
+      "shortId": "ランダムに変身クラフト",
+      "largeImageText": "ランダムに変身クラフト",
       "largeImageKey": "pack_morph"
     },
     "mainServer": false,
     "autoconnect": false
   },
   "forge": {
-    "version": "35.1.29"
+    "version": "36.1.0"
   },
   "untrackedFiles": []
 }
