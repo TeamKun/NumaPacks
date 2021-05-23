@@ -2,12 +2,12 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ランダムに変身クラフト (Minecraft Fabric 1.16.5)",
-    "description": "Morph Modの単発企画",
+    "name": "おっぱいクラフト (Minecraft Fabric 1.16.5)",
+    "description": "おっぱいの単発企画",
     "address": "",
     "discord": {
-      "shortId": "ランダムに変身クラフト",
-      "largeImageText": "ランダムに変身クラフト",
+      "shortId": "おっぱいクラフト",
+      "largeImageText": "おっぱいクラフト",
       "largeImageKey": "pack_morph"
     },
     "mainServer": false,
