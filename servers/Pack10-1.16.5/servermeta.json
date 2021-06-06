@@ -2,12 +2,12 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "最新ドラゴンクラフト (Minecraft 1.16.5)",
-    "description": "最新ドラゴンMod",
+    "name": "ニコニコクラフト (Minecraft 1.16.5)",
+    "description": "ニコニコ動画風チャットMod",
     "address": "",
     "discord": {
-      "shortId": "最新ドラゴンクラフト",
-      "largeImageText": "最新ドラゴンクラフト",
+      "shortId": "ニコニコクラフト",
+      "largeImageText": "ニコニコクラフト",
       "largeImageKey": "pack_2"
     },
     "mainServer": false,
