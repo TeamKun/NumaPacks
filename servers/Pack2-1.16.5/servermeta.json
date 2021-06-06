@@ -2,13 +2,13 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ちびクラ！ (Minecraft 1.16.5)",
-    "description": "ちびクラ！",
+    "name": "物理クラフト (Minecraft 1.16.5)",
+    "description": "物理クラフト",
     "address": "",
     "discord": {
-      "shortId": "ちびクラ！",
-      "largeImageText": "ちびクラ！",
-      "largeImageKey": "pack_chibi"
+      "shortId": "物理クラフト",
+      "largeImageText": "物理クラフト",
+      "largeImageKey": "pack_2"
     },
     "mainServer": false,
     "autoconnect": false
