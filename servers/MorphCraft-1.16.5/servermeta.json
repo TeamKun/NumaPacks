@@ -2,12 +2,12 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "おっぱいクラフト (Minecraft Fabric 1.16.5)",
-    "description": "おっぱいの単発企画",
+    "name": "ラッキーブロック (Minecraft 1.16.5)",
+    "description": "ラッキーブロックの単発企画",
     "address": "",
     "discord": {
-      "shortId": "おっぱいクラフト",
-      "largeImageText": "おっぱいクラフト",
+      "shortId": "ラッキーブロック",
+      "largeImageText": "ラッキーブロック",
       "largeImageKey": "pack_morph"
     },
     "mainServer": false,
