@@ -1,7 +1,0 @@
-{
-	title: "{academy.refinedstorage2.title}",
-	icon: "refinedstorage:crafter",
-	always_invisible: false,
-	group: 134102092,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-{
-	title: "{academy.twilightforest.title}",
-	icon: "twilightforest:miniature_structure",
-	always_invisible: false,
-	group: -2116377050,
-	default_quest_shape: "circle"
-}

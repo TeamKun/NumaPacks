@@ -1,7 +1,0 @@
-{
-	title: "{academy.basics.title}",
-	icon: "minecraft:sign",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

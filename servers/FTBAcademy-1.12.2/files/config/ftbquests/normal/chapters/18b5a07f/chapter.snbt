@@ -1,7 +1,0 @@
-{
-	title: "{academy.technology3.title}",
-	icon: "draconicevolution:reactor_core",
-	always_invisible: false,
-	group: -1801471787,
-	default_quest_shape: ""
-}

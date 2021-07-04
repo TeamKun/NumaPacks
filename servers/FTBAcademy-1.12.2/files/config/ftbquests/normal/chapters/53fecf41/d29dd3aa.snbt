@@ -1,8 +1,0 @@
-{
-	title: "Backend Fluid Storage",
-	x: 1.0d,
-	y: 6.0d,
-	dependencies: [
-		"0f9fe446"
-	]
-}
