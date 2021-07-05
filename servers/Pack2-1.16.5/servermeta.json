@@ -2,12 +2,12 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "物理クラフト (Minecraft 1.16.5)",
-    "description": "物理クラフト",
+    "name": "無重力クラフト (Minecraft 1.16.5)",
+    "description": "無重力クラフト",
     "address": "",
     "discord": {
-      "shortId": "物理クラフト",
-      "largeImageText": "物理クラフト",
+      "shortId": "無重力クラフト",
+      "largeImageText": "無重力クラフト",
       "largeImageKey": "pack_2"
     },
     "mainServer": false,
