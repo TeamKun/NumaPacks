@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.1",
+    "name": "バニラ1.17.1 (Minecraft 1.17.1)",
+    "description": "1.17.1 + 便利なModが導入されたおすすめのパックです。",
+    "address": "",
+    "discord": {
+      "shortId": "バニラ1.17.1",
+      "largeImageText": "バニラ1.17.1",
+      "largeImageKey": "pack_17"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "untrackedFiles": []
+}
